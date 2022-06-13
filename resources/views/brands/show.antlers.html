@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="col-sm-12">
+        <h1>{{title}}</h1>
+        <img src="{{logo}}" alt="{{title}}">
+        <p>{{blurb}}</p>
+        <h3>Products</h3>
+        {{collection:products :brands:contains="last_segment"}}
+            {{if no_results}}
+                <p>No products added yet!</p>
+            {{else}}
+                <ul>
+                    <li><a href="{{url}}">{{title}}</a></li>
+                </ul>
+            {{/if}}
+        {{/collection:products}}
+    </div>
+
+</div>
+
+
+
