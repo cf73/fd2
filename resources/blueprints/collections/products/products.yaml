@@ -36,6 +36,17 @@ sections:
           instructions_position: above
           read_only: false
       -
+        handle: retail_pricing
+        field:
+          input_type: text
+          antlers: false
+          display: 'Retail pricing'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
         handle: brochure
         field:
           mode: list
@@ -51,13 +62,44 @@ sections:
           instructions_position: above
           read_only: false
       -
-        handle: retail_pricing
+        handle: images
         field:
-          input_type: text
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: Images
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: description
+        field:
+          always_show_set_button: false
+          buttons:
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - anchor
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
           antlers: false
-          display: 'Retail pricing'
-          type: text
-          icon: text
+          display: Description
+          type: bard
+          icon: bard
           listable: hidden
           instructions_position: above
           read_only: false
@@ -86,6 +128,41 @@ sections:
           display: Features/specs
           type: bard
           icon: bard
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: reviews
+        field:
+          collapse: false
+          sets:
+            review:
+              display: Review
+              fields:
+                -
+                  handle: review_text
+                  field:
+                    antlers: false
+                    display: 'Review text'
+                    type: textarea
+                    icon: textarea
+                    listable: hidden
+                    instructions_position: above
+                    read_only: false
+                -
+                  handle: review_attribution
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Review Attribution'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    read_only: false
+          display: Reviews
+          type: replicator
+          icon: replicator
           listable: hidden
           instructions_position: above
           read_only: false
