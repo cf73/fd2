@@ -18,6 +18,46 @@ description:
         type: text
         text: 'Description here...'
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1655688358
+updated_at: 1655788592
 brands: einstein
+features_specs:
+  -
+    type: bullet_list
+    content:
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'spec one'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'spec two'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'spec three'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: etc.
 ---
