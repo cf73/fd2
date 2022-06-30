@@ -1,7 +1,11 @@
 title: Dealers
+template: default
+layout: layout
 taxonomies:
   - brands
+  - dealer_region
 revisions: false
+sort_dir: asc
 date_behavior:
   past: public
   future: private

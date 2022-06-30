@@ -1,4 +1,32 @@
-# admin:
-#   title: Administrator
-#   permissions:
-#     - super
+editor:
+  title: Editor
+  permissions:
+    - 'access cp'
+    - 'view dealers entries'
+    - 'edit dealers entries'
+    - 'create dealers entries'
+    - 'delete dealers entries'
+    - 'publish dealers entries'
+    - 'reorder dealers entries'
+    - 'edit other authors dealers entries'
+    - 'publish other authors dealers entries'
+    - 'delete other authors dealers entries'
+    - 'view products entries'
+    - 'edit products entries'
+    - 'create products entries'
+    - 'delete products entries'
+    - 'publish products entries'
+    - 'reorder products entries'
+    - 'edit other authors products entries'
+    - 'publish other authors products entries'
+    - 'delete other authors products entries'
+    - 'view brands terms'
+    - 'edit brands terms'
+    - 'create brands terms'
+    - 'delete brands terms'
+    - 'view assets assets'
+    - 'upload assets assets'
+    - 'edit assets assets'
+    - 'move assets assets'
+    - 'rename assets assets'
+    - 'delete assets assets'

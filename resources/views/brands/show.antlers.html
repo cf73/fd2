@@ -36,16 +36,20 @@
             <h3 style="margin-top: 96px;">Dealers who carry <strong>{{title}}</strong></h3>
             <div class="accordion" role="tablist" id="accordion-1">
                 <div class="accordion-item">
-                    <h2 class="accordion-header" role="tab"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="true" aria-controls="accordion-1 .item-1">Northeast</button></h2>
+                    <h2 class="accordion-header" role="tab"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="true" aria-controls="accordion-1 .item-1">East Coast</button></h2>
                     <div class="accordion-collapse collapse show item-1" role="tabpanel" data-bs-parent="#accordion-1" style="color: rgb(61,61,61);">
                         <div class="accordion-body">
-                            <h4>Dealer Name</h4>
-                            <p class="mb-0">Address Line 1</p>
-                            <p class="mb-0">Address Line 2</p>
-                            <p class="mb-0">Address Line 3</p>
-                            <p class="mb-0">State, ZIP</p>
-                            <p class="mb-0">P: 123 456 7890</p>
-                            <p class="mb-0">E: info@dealer.com</p>
+                            {{collection:dealers brands:contains="{page:title}" dealer_region:is="east-coast"}}
+                                <h4>{{dealer_address:name}}</h4>
+                                <p>{{dealer_address:street}} <br>
+                                {{dealer_address:street2}} <br>
+                                {{dealer_address:city}}, {{dealer_address:state}} <br>
+                                {{dealer_address:postCode}}</p>
+                                <p>Phone: {{phone}} <br>
+                                Email: {{email}} <br>
+                                Website: {{website}}</p>
+                                <hr>
+                            {{/collection:dealers}}
                         </div>
                     </div>
                 </div>
@@ -53,15 +57,35 @@
                     <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-2" aria-expanded="false" aria-controls="accordion-1 .item-2">Central</button></h2>
                     <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-1">
                         <div class="accordion-body">
-                            <p class="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            {{collection:dealers brands:contains="{page:title}" dealer_region:is="central"}}
+                                <h4>{{dealer_address:name}}</h4>
+                                <p>{{dealer_address:street}} <br>
+                                {{dealer_address:street2}} <br>
+                                {{dealer_address:city}}, {{dealer_address:state}} <br>
+                                {{dealer_address:postCode}}</p>
+                                <p>Phone: {{phone}} <br>
+                                Email: {{email}} <br>
+                                Website: {{website}}</p>
+                                <hr>
+                            {{/collection:dealers}}
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="false" aria-controls="accordion-1 .item-3">Northwest</button></h2>
+                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="false" aria-controls="accordion-1 .item-3">West Coast</button></h2>
                     <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
                         <div class="accordion-body">
-                            <p class="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            {{collection:dealers brands:contains="{page:title}" dealer_region:is="west-coast"}}
+                                <h4>{{dealer_address:name}}</h4>
+                                <p>{{dealer_address:street}} <br>
+                                {{dealer_address:street2}} <br>
+                                {{dealer_address:city}}, {{dealer_address:state}} <br>
+                                {{dealer_address:postCode}}</p>
+                                <p>Phone: {{phone}} <br>
+                                Email: {{email}} <br>
+                                Website: {{website}}</p>
+                                <hr>
+                            {{/collection:dealers}}
                         </div>
                     </div>
                 </div>
