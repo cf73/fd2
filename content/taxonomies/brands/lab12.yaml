@@ -1,0 +1,68 @@
+title: Lab12
+hero_image: lab12-suara-side-frozen-silver.webp
+byline: Music
+blurb:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Music recreation'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Handcrafted electronic audio devices designed to approach the original music. Natural sound reproduction rich of emotions and vividness. Did you ever try a really good Hi End audio system?'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Performance and elegance'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Anyone of us prefer devices that not only perform but offer a valuable, prestige aroma in our listening room. Minimal approach with symmetry and practical design, engineered to the final detail. Most of our devices are available in two exceptional finishes.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Performance and elegance'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Anyone of us prefer devices that not only perform but offer a valuable, prestige aroma in our listening room. Minimal approach with symmetry and practical design, engineered to the final detail. Most of our devices are available in two exceptional finishes.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Emotional Impact'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'We believe that the emotional impact and an engaging performance are the most important factors when we listen to a piece of music. We are making designing choices striving for the most natural, realistic and pure sound reproduction.'
+logo: logo-new-2020_300.webp
+updated_by: bf123438-d04c-4a45-b0fa-3e0cea9cbedd
+updated_at: 1657396857
+blueprint: brands
