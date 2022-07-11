@@ -1,7 +1,7 @@
 ---
 id: 9feb2599-43e0-4376-b4a8-932758a7be41
 blueprint: products
-title: 'HArbeth Compact 7 ES-3'
+title: 'Harbeth Compact 7 ES-3'
 blurb:
   -
     type: paragraph
@@ -290,5 +290,5 @@ reviews:
     type: review
     enabled: true
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1657575848
+updated_at: 1657575860
 ---
