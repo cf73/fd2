@@ -1,7 +1,7 @@
 ---
 id: 69caf823-bdfd-449e-a06d-21fa956f933a
 blueprint: products
-title: 'Super Hl5+ XD'
+title: 'Super HL5 XD'
 blurb:
   -
     type: paragraph
@@ -302,6 +302,6 @@ reviews:
     review_attribution: 'Craig Chase Home Theatre HiFi'
     type: review
     enabled: true
-updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1657573215
+updated_by: bf123438-d04c-4a45-b0fa-3e0cea9cbedd
+updated_at: 1657654005
 ---
