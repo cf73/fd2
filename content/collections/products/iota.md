@@ -131,5 +131,6 @@ reviews:
     type: review
     enabled: true
 updated_by: bf123438-d04c-4a45-b0fa-3e0cea9cbedd
-updated_at: 1657655218
+updated_at: 1657655310
+brands: neat-acoustics
 ---
