@@ -1,7 +1,7 @@
 ---
 id: 30b8dbe7-f624-4086-a453-9803111454f3
 blueprint: products
-title: 'Harbeth P3-esr XD'
+title: 'Harbeth P3ESR XD'
 blurb:
   -
     type: paragraph
@@ -309,6 +309,6 @@ reviews:
     review_attribution: Audiophilia
     type: review
     enabled: true
-updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1657640819
+updated_by: bf123438-d04c-4a45-b0fa-3e0cea9cbedd
+updated_at: 1657653896
 ---
