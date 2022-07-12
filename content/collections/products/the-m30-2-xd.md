@@ -1,7 +1,7 @@
 ---
 id: 3d3f7fd8-5d19-4678-a5f8-2911e259bc5d
 blueprint: products
-title: 'The M30.2 XD'
+title: 'Monitor 30.2 XD'
 blurb:
   -
     type: paragraph
@@ -283,6 +283,6 @@ reviews:
     review_attribution: Audiophilia
     type: review
     enabled: true
-updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1657574505
+updated_by: bf123438-d04c-4a45-b0fa-3e0cea9cbedd
+updated_at: 1657654061
 ---
