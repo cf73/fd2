@@ -1,7 +1,7 @@
 ---
 id: 9feb2599-43e0-4376-b4a8-932758a7be41
 blueprint: products
-title: 'Harbeth Compact 7 ES-3 XD'
+title: 'Harbeth Compact 7ESR XD'
 blurb:
   -
     type: paragraph
@@ -289,6 +289,6 @@ reviews:
     review_attribution: 'What HiFi'
     type: review
     enabled: true
-updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1657650334
+updated_by: bf123438-d04c-4a45-b0fa-3e0cea9cbedd
+updated_at: 1657653861
 ---
