@@ -4,20 +4,19 @@ blueprint: dealers
 title: 'Gene Rubin Audio'
 dealer_address:
   name: 'Gene Rubin Audio'
-  street: '245 S Mills Rd'
+  street: '3975 Paloma Dr'
   street2: null
   postCode: '93003'
   city: Ventura
   state: CA
   country: US
-  latitude: '34.2698337'
-  longitude: '-119.24903969351021'
+  latitude: '34.27663493939394'
+  longitude: '-119.24321324242425'
 brands:
   - harbeth
 dealer_region: west-coast
-updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1656562791
-phone: 1234567890
-email: gene@generubinaudio.com
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1657641281
+email: generubinaudio@earthlink.net
 website: 'https://generubinaudio.com/'
 ---
