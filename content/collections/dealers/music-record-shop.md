@@ -1,21 +1,22 @@
 ---
 id: e9217ee0-fbcd-47ff-8c08-b9a646420e26
 blueprint: dealers
-title: 'Music Record Shop'
+title: 'Adirondak Audio'
 dealer_address:
-  name: 'Music Record Shop'
-  street: '3116 Locust Street'
+  name: 'Jason Tavaras'
+  street: '1048 State Route 9,'
   street2: null
-  postCode: '63103'
-  city: 'Saint Louis'
-  state: MO
+  postCode: '12804'
+  city: Queensbury
+  state: NY
   country: US
-  latitude: '38.636126061224495'
-  longitude: '-90.2238557755102'
+  latitude: '43.3442858'
+  longitude: '-73.6849138'
 brands:
   - harbeth
-  - einstein
-dealer_region: central
-updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1656562401
+dealer_region: east-coast
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1657643117
+email: jtavares@adkav.com
+website: 'https://adkav.com'
 ---
