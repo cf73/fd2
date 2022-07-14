@@ -14,7 +14,9 @@
         </div>
         <div class="col-lg-4 offset-lg-1">
             <h3>Products</h3>
-            <p>Harbeth speakers offer the most natural sound, yet are still able to rock hard and move you emotionally as called for etc.</p>
+            
+                <p>{{blurb_above_products}}</p>
+
             <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-2">
                 {{collection:products :brands:contains="last_segment"}}
                     {{if no_results}}
