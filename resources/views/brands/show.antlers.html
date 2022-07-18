@@ -1,15 +1,17 @@
-<div data-bss-parallax-bg="true" style="height: 55vh;background: url({{hero_image}}) center / cover;margin-top: 73px;margin-bottom: 96px;"></div>
-<div class="container">
+<!-- <div data-bss-parallax-bg="true" style="height: 55vh;background: url({{hero_image}}) center / cover;margin-top: 73px;margin-bottom: 96px;"></div> -->
+<div class="container-fluid" style="background-color: #CBCBCB; margin-top: 222px;">
     <div class="row">
         <div class="col">
-            <h1 class="text-center">{{title}}</h1>
-            <h1 style="font-size: 103px;text-align: center;font-weight: bold;">{{byline}}</h1>
+            <h3 style="z-index: 99; position: relative">{{title}}</h3>
+            <h1 style="z-index: 99; position: relative">{{byline}}</h1>
+            <div class="hero-image" style="background-image: url({{hero_image}}); background-size: cover; background-repeat: no-repeat; background-position: center; width: 926px; height: 595px; position: absolute; top: 12px; right: 15px; opacity: .3;"></div>
+            
         </div>
     </div>
 </div>
 <div class="container-fluid" style="padding-top: 84px;">
     <div class="row">
-        <div class="col-lg-4 offset-lg-2">
+        <div class="col-lg-6">
             <p>{{blurb}}</p>
         </div>
         <div class="col-lg-4 offset-lg-1">
@@ -24,7 +26,7 @@
                     {{else}}
                     <div class="col-6">
                         <a href="{{url}}">
-                            <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="{{hero_image}}">
+                            <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="{{images:0:url}}">
                                 <div class="card-body p-4">
                                     <h4 class="card-title">{{title}}</h4>
                                     <p class="card-text"><span style="color: var( --e-global-color-primary );">{{byline}}</span></p>
@@ -38,7 +40,7 @@
             <h3 style="margin-top: 96px;">Dealers who carry <strong>{{title}}</strong></h3>
             <div class="accordion" role="tablist" id="accordion-1">
                 <div class="accordion-item">
-                    <h2 class="accordion-header" role="tab"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="true" aria-controls="accordion-1 .item-1">East Coast</button></h2>
+                    <h2 class="accordion-header" role="tab"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="false" aria-controls="accordion-1 .item-1">East</button></h2>
                     <div class="accordion-collapse collapse show item-1" role="tabpanel" data-bs-parent="#accordion-1" style="color: rgb(61,61,61);">
                         <div class="accordion-body">
                             {{collection:dealers brands:contains="{page:title}" dealer_region:is="east-coast"}}
@@ -74,7 +76,7 @@
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="false" aria-controls="accordion-1 .item-3">West Coast</button></h2>
+                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="false" aria-controls="accordion-1 .item-3">West</button></h2>
                     <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
                         <div class="accordion-body">
                             {{collection:dealers brands:contains="{page:title}" dealer_region:is="west-coast"}}
