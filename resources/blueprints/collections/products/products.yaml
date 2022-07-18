@@ -34,18 +34,15 @@ sections:
           icon: bard
           listable: hidden
           instructions_position: above
-          read_only: false
       -
-        handle: retail_pricing
+        handle: pricing
         field:
-          input_type: text
-          antlers: false
-          display: 'Retail pricing'
-          type: text
-          icon: text
+          display: Pricing
+          type: integer
+          icon: integer
           listable: hidden
           instructions_position: above
-          read_only: false
+          visibility: visible
       -
         handle: brochure
         field:
@@ -60,7 +57,6 @@ sections:
           icon: assets
           listable: hidden
           instructions_position: above
-          read_only: false
       -
         handle: images
         field:
@@ -74,7 +70,6 @@ sections:
           icon: assets
           listable: hidden
           instructions_position: above
-          read_only: false
       -
         handle: description
         field:
@@ -102,7 +97,6 @@ sections:
           icon: bard
           listable: hidden
           instructions_position: above
-          read_only: false
       -
         handle: features_specs
         field:
@@ -130,7 +124,6 @@ sections:
           icon: bard
           listable: hidden
           instructions_position: above
-          read_only: false
       -
         handle: reviews
         field:
@@ -165,7 +158,6 @@ sections:
           icon: replicator
           listable: hidden
           instructions_position: above
-          read_only: false
   sidebar:
     display: Sidebar
     fields:
@@ -184,7 +176,6 @@ sections:
           mode: select
           instructions_position: above
           listable: hidden
-          read_only: false
           max_items: 1
           create: true
 title: Products
