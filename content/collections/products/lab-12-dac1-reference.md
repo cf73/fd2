@@ -147,5 +147,6 @@ reviews:
     type: review
     enabled: true
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1658170635
+updated_at: 1658170684
+brands: lab12
 ---
