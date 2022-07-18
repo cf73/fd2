@@ -148,5 +148,12 @@ features_specs:
         text: '• Five Years Guarantee'
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1658174658
+updated_at: 1658174762
+reviews:
+  -
+    review_text: |-
+      Video
+      https://www.youtube.com/watch?v=yyM0QK97ojY
+    type: review
+    enabled: true
 ---
