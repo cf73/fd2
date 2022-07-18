@@ -9,6 +9,12 @@ blurb:
       -
         type: text
         text: 'Audiophile Integrated Amplifier'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'I can attest to the absolute silent running of the integre4 during the audition process, no tube rush, no hum, no crackles or other tube idiosyncrasies'
 retail_pricing: $4990
 description:
   -
@@ -81,5 +87,18 @@ features_specs:
         text: '• Weight: 20Kg'
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1657825976
+updated_at: 1658162753
+images:
+  - lab12-integre4-face-matt-black.jpg
+  - lab12-integre4-connections.jpg
+  - lab12-integre4-face-frozen-silver.jpg
+reviews:
+  -
+    review_text: |-
+      The best reason to fall in love with the Lab12 Integre4, that sound. For the few months I had the Integre4, I was happy with my reference system. Incredibly so. These were days of memorable listening sessions, rather than time spent at work figuring out how to make things sound better. I can’t think of anything else to say about this sublime little amplifier. Highly recommended, as well as desired.
+
+      https://parttimeaudiophile.com/2022/06/17/lab12-integre4-integrated-amplifier-review/
+    review_attribution: 'Marc Phillips Part Time Audiophile'
+    type: review
+    enabled: true
 ---
