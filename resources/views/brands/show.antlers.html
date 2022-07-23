@@ -40,8 +40,8 @@
             <h3 style="margin-top: 96px;">Dealers who carry <strong>{{title}}</strong></h3>
             <div class="accordion" role="tablist" id="accordion-1">
                 <div class="accordion-item">
-                    <h2 class="accordion-header" role="tab"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="false" aria-controls="accordion-1 .item-1">East</button></h2>
-                    <div class="accordion-collapse collapse show item-1" role="tabpanel" data-bs-parent="#accordion-1" style="color: rgb(61,61,61);">
+                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="false" aria-controls="accordion-1 .item-1">East</button></h2>
+                    <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-1" style="color: rgb(61,61,61);">
                         <div class="accordion-body">
                             {{collection:dealers brands:contains="{page:title}" dealer_region:is="east-coast"}}
                                 <h4>{{dealer_address:name}}</h4>
