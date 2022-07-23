@@ -1,7 +1,7 @@
 ---
 id: 30b8dbe7-f624-4086-a453-9803111454f3
 blueprint: products
-title: 'Harbeth P3ESR XD!'
+title: 'Harbeth P3ESR XD'
 blurb:
   -
     type: paragraph
@@ -310,7 +310,7 @@ reviews:
     type: review
     enabled: true
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1658600434
+updated_at: 1658600479
 brands: harbeth
 published: true
 ---
