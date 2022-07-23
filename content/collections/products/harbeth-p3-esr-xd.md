@@ -8,12 +8,6 @@ blurb:
     content:
       -
         type: text
-        text: 'Amazing space-saving sound'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         text: "THE BEST ITERATION OF THE 'BBC MINI-MONITOR', BY FAR"
   -
     type: paragraph
@@ -310,7 +304,8 @@ reviews:
     type: review
     enabled: true
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1658600479
+updated_at: 1658601823
 brands: harbeth
+product_tagline: 'Amazing space-saving sound'
 published: true
 ---

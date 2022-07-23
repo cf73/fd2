@@ -1,14 +1,14 @@
 /*
 Error: Undefined variable: "$bodybackground".
-        on line 2 of C:\Sites\fd2\resources\sass\layout.scss
+        on line 2 of C:\Sites\FD2\resources\sass\layout.scss
 
 1: body {
 2:     background-color: $bodybackground;
-3:     color: azure;
+3:     color: $black;
 4: }
 
 Backtrace:
-C:\Sites\fd2\resources\sass\layout.scss:2
+C:\Sites\FD2\resources\sass\layout.scss:2
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -55,4 +55,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$bodybackground\".\A         on line 2 of C:\Sites\fd2\resources\sass\layout.scss\A \A 1: body {\A 2:     background-color: $bodybackground;\A 3:     color: azure;\A 4: }"; }
+  content: "Error: Undefined variable: \"$bodybackground\".\A         on line 2 of C:\Sites\FD2\resources\sass\layout.scss\A \A 1: body {\A 2:     background-color: $bodybackground;\A 3:     color: $black;\A 4: }"; }

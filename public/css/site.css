@@ -26,6 +26,9 @@ p {
   text-align: left;
   color: #505050; }
 
+.halflineheight {
+  line-height: 21px; }
+
 body {
   background-color: #D9D9D9;
   color: #505050; }

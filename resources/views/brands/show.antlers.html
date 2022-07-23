@@ -25,11 +25,12 @@
                         <p>No products added yet!</p>
                     {{else}}
                     <div class="col-6">
-                        <a href="{{url}}">
+                        <a href="{{url}}" style="text-decoration: none;">
                             <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="{{images:0:url}}">
                                 <div class="card-body p-4">
                                     <h4 class="card-title">{{title}}</h4>
-                                    <p class="card-text"><span style="color: var( --e-global-color-primary );">{{byline}}</span></p>
+                                    <p>${{pricing format_number="2|.|,"}}</p>
+                                    <p class="card-text halflineheight">{{product_tagline}}</p>
                                 </div>
                             </div>
                         </a>

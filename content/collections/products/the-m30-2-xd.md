@@ -8,12 +8,6 @@ blurb:
     content:
       -
         type: text
-        text: 'A speaker for the critical listener'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         text: 'A REFINEMENT OF THE BBC LS5/9 SPEAKER'
   -
     type: paragraph
@@ -283,7 +277,9 @@ reviews:
     review_attribution: Audiophilia
     type: review
     enabled: true
-updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1657820373
+updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
+updated_at: 1658601835
 brands: harbeth
+product_tagline: 'A speaker for the critical listener'
+published: true
 ---

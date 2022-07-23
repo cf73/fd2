@@ -10,6 +10,19 @@ sections:
           validate:
             - required
       -
+        handle: product_tagline
+        field:
+          input_type: text
+          antlers: false
+          display: 'Product tagline'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          validate:
+            - required
+      -
         handle: blurb
         field:
           always_show_set_button: false

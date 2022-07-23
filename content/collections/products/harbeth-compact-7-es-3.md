@@ -8,12 +8,6 @@ blurb:
     content:
       -
         type: text
-        text: 'The icon of clarity and detail'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         text: 'ESSENTIAL NEUTRALITY AND NATURAL TONAL BALANCE'
   -
     type: paragraph
@@ -289,7 +283,9 @@ reviews:
     review_attribution: 'What HiFi'
     type: review
     enabled: true
-updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1657820333
+updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
+updated_at: 1658601810
 brands: harbeth
+product_tagline: 'The icon of clarity and detail'
+published: true
 ---

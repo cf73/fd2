@@ -1,13 +1,17 @@
 /*
 Error: Undefined variable: "$black".
-        on line 2 of C:\Sites\fd2\resources\sass\typography.scss
+        on line 2 of C:\Sites\FD2\resources\sass\typography.scss
 
 1: .card {
 2:     color: $black;
 3: }
+4: 
+5: h1 {
+6:     font-family: Poppins;
+7:     font-size: 72px;
 
 Backtrace:
-C:\Sites\fd2\resources\sass\typography.scss:2
+C:\Sites\FD2\resources\sass\typography.scss:2
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -54,4 +58,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$black\".\A         on line 2 of C:\Sites\fd2\resources\sass\typography.scss\A \A 1: .card {\A 2:     color: $black;\A 3: }"; }
+  content: "Error: Undefined variable: \"$black\".\A         on line 2 of C:\Sites\FD2\resources\sass\typography.scss\A \A 1: .card {\A 2:     color: $black;\A 3: }\A 4: \A 5: h1 {\A 6:     font-family: Poppins;\A 7:     font-size: 72px;"; }

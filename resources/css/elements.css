@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$light".
-        on line 11 of C:\Sites\fd2\resources\sass\elements.scss
+        on line 11 of C:\Sites\FD2\resources\sass\elements.scss
 
 6:         display: inline-block;
 7:         text-transform: uppercase;
@@ -15,7 +15,7 @@ Error: Undefined variable: "$light".
 16:         }
 
 Backtrace:
-C:\Sites\fd2\resources\sass\elements.scss:11
+C:\Sites\FD2\resources\sass\elements.scss:11
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -84,4 +84,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$light\".\A         on line 11 of C:\Sites\fd2\resources\sass\elements.scss\A \A 6:         display: inline-block;\A 7:         text-transform: uppercase;\A 8:         padding: 6px 12px;\A 9:         & a {\A 10:             text-decoration: none;\A 11:             color: $light;\A 12:         }\A 13:         & .current {\A 14:             color: $black !important;\A 15:             text-decoration: underline;\A 16:         }"; }
+  content: "Error: Undefined variable: \"$light\".\A         on line 11 of C:\Sites\FD2\resources\sass\elements.scss\A \A 6:         display: inline-block;\A 7:         text-transform: uppercase;\A 8:         padding: 6px 12px;\A 9:         & a {\A 10:             text-decoration: none;\A 11:             color: $light;\A 12:         }\A 13:         & .current {\A 14:             color: $black !important;\A 15:             text-decoration: underline;\A 16:         }"; }
