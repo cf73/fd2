@@ -5,10 +5,6 @@ title: 'LAB 12 Integre 4 Integrated Amplifier'
 blurb:
   -
     type: paragraph
-    content:
-      -
-        type: text
-        text: 'Audiophile Integrated Amplifier'
   -
     type: paragraph
     content:
@@ -87,7 +83,7 @@ features_specs:
         text: '• Weight: 20Kg'
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1658164545
+updated_at: 1659991933
 images:
   - lab12-integre4-face-matt-black.jpg
   - lab12-integre4-connections.jpg
@@ -101,4 +97,7 @@ reviews:
     review_attribution: 'Marc Phillips Part Time Audiophile'
     type: review
     enabled: true
+product_tagline: 'Audiophile Integrated Amplifier'
+pricing: 4990
+published: true
 ---
