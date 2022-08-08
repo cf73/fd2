@@ -159,5 +159,8 @@ reviews:
     enabled: true
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1658164519
+updated_at: 1659992310
+product_tagline: 'Class A Tube Preamplifier'
+pricing: 2190
+published: true
 ---
