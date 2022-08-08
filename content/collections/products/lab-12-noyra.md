@@ -1,7 +1,7 @@
 ---
 id: d3ac7ebf-1702-4ec3-99b2-f02a609fb459
 blueprint: products
-title: 'Lab 12 Noyra'
+title: 'Lab 12 Noyra Power Source'
 product_tagline: 'Power Distribution Device'
 blurb:
   -
@@ -123,8 +123,8 @@ features_specs:
     type: paragraph
   -
     type: paragraph
-published: true
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1659993666
+updated_at: 1659993709
+published: true
 ---
