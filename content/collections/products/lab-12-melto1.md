@@ -1,7 +1,7 @@
 ---
 id: dfbdf11f-6e01-4ab4-90ba-bba4eca58ab7
 blueprint: products
-title: 'Lab 12 Melto1'
+title: 'Lab 12 Melto 1 Phono Preamplifier'
 product_tagline: 'Tube MC/MM Phono Preamplifier'
 blurb:
   -
@@ -257,8 +257,8 @@ reviews:
     review_attribution: 'Mono & Stereo'
     type: review
     enabled: true
-published: true
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1659993188
+updated_at: 1659993351
+published: true
 ---
