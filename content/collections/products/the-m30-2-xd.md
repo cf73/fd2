@@ -278,7 +278,7 @@ reviews:
     type: review
     enabled: true
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1659989428
+updated_at: 1659992140
 brands: harbeth
 product_tagline: 'A speaker for the critical listener'
 published: true
