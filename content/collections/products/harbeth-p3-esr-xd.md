@@ -303,9 +303,9 @@ reviews:
     review_attribution: Audiophilia
     type: review
     enabled: true
-updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1658601823
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1659989558
 brands: harbeth
-product_tagline: 'Amazing space-saving sound'
+product_tagline: 'Amazing sound from the LS35A gold standard'
 published: true
 ---
