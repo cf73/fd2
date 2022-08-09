@@ -1,7 +1,7 @@
 ---
 id: 30b8dbe7-f624-4086-a453-9803111454f3
 blueprint: products
-title: 'Harbeth P3ESR XD'
+title: 'P3ESR XD'
 blurb:
   -
     type: paragraph
@@ -304,7 +304,7 @@ reviews:
     type: review
     enabled: true
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1659989558
+updated_at: 1660059396
 brands: harbeth
 product_tagline: 'Amazing sound from the LS35A gold standard'
 published: true
