@@ -1,7 +1,7 @@
 ---
 id: 69caf823-bdfd-449e-a06d-21fa956f933a
 blueprint: products
-title: 'Harbeth Super HL5+ XD'
+title: 'Super HL5+ XD'
 blurb:
   -
     type: paragraph
@@ -303,7 +303,7 @@ reviews:
     type: review
     enabled: true
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1659989627
+updated_at: 1660059410
 product_tagline: 'A definitive statement in loudspeaker design - Musical'
 published: true
 ---
