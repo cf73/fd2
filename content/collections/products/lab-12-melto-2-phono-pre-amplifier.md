@@ -1,7 +1,7 @@
 ---
 id: ccfde07f-aeda-43f6-9d1f-fc49a7dff449
 blueprint: products
-title: 'Lab 12 Melto 2 Phono Pre Amplifier'
+title: 'Melto 2 Phono Pre Amplifier'
 blurb:
   -
     type: paragraph
@@ -187,7 +187,7 @@ reviews:
     enabled: true
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1659992201
+updated_at: 1660059190
 product_tagline: 'Fully adjustable Phono Preamplifier'
 pricing: 4490
 published: true
