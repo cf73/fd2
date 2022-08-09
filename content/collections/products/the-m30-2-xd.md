@@ -1,7 +1,7 @@
 ---
 id: 3d3f7fd8-5d19-4678-a5f8-2911e259bc5d
 blueprint: products
-title: 'Harbeth Monitor 30.2 XD'
+title: 'Monitor 30.2 XD'
 blurb:
   -
     type: paragraph
@@ -278,7 +278,7 @@ reviews:
     type: review
     enabled: true
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1659992140
+updated_at: 1660059341
 brands: harbeth
 product_tagline: 'A speaker for the critical listener'
 published: true
