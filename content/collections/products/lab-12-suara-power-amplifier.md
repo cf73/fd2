@@ -1,7 +1,7 @@
 ---
 id: 6cfab0d9-8a93-4186-b5ed-20dea5501f5a
 blueprint: products
-title: 'Lab 12 Suara Power Amplifier'
+title: 'Suara Power Amplifier'
 blurb:
   -
     type: paragraph
@@ -30,7 +30,7 @@ blurb:
         type: text
         text: 'Like all of the Lab12 products, Suara also comes with two colour choices of glass blasting anodizing finish.'
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1659992333
+updated_at: 1660059243
 retail_pricing: $4490
 images:
   - lab12-suara-face-matt-black.jpg
