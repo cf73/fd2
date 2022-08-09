@@ -1,7 +1,7 @@
 ---
 id: 08a67170-4dda-4040-83f8-089c4f83ac61
 blueprint: products
-title: 'LAB 12 Integre 4 Integrated Amplifier'
+title: 'Integre 4 Integrated Amplifier'
 blurb:
   -
     type: paragraph
@@ -83,7 +83,7 @@ features_specs:
         text: '• Weight: 20Kg'
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1659991933
+updated_at: 1660059155
 images:
   - lab12-integre4-face-matt-black.jpg
   - lab12-integre4-connections.jpg
