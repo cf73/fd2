@@ -1,7 +1,7 @@
 ---
 id: 922d543f-e8bc-45ba-9f53-79ba89fc8f5e
 blueprint: products
-title: 'Lab 12 Gordian'
+title: Gordian
 product_tagline: 'Multifunctional Power Distributor / Conditioner'
 blurb:
   -
@@ -156,7 +156,7 @@ reviews:
     enabled: true
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1659991781
+updated_at: 1660059138
 pricing: 2390
 published: true
 ---
