@@ -1,7 +1,7 @@
 ---
 id: 4707330a-45c0-4377-80c0-9705c2281a8b
 blueprint: products
-title: 'LAB 12 Pre 1 Preamplifier'
+title: 'Pre 1 Preamplifier'
 blurb:
   -
     type: paragraph
@@ -159,7 +159,7 @@ reviews:
     enabled: true
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1659992310
+updated_at: 1660059227
 product_tagline: 'Class A Tube Preamplifier'
 pricing: 2190
 published: true
