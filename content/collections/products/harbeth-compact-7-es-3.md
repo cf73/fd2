@@ -284,8 +284,9 @@ reviews:
     type: review
     enabled: true
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1660059322
+updated_at: 1660059577
 brands: harbeth
 product_tagline: 'The icon of clarity and detail'
+pricing: 4890
 published: true
 ---
