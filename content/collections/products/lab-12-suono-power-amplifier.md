@@ -1,7 +1,7 @@
 ---
 id: 132d7dba-c6dd-45d2-a019-2d81eeed4ee3
 blueprint: products
-title: 'Lab 12 Suono Power Amplifier'
+title: 'Suono Power Amplifier'
 blurb:
   -
     type: paragraph
@@ -148,7 +148,7 @@ features_specs:
         text: '• Five Years Guarantee'
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1659992414
+updated_at: 1660059261
 reviews:
   -
     review_text: |-
