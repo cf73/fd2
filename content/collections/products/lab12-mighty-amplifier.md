@@ -1,7 +1,7 @@
 ---
 id: 2cc3131f-bd9e-4cbc-9c2c-2cc302c272e8
 blueprint: products
-title: 'Lab12 Mighty Amplifier'
+title: 'Mighty Amplifier'
 product_tagline: 'Class A, Single Ended Power Amplifier'
 blurb:
   -
@@ -168,7 +168,7 @@ reviews:
     enabled: false
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1659991740
+updated_at: 1660059299
 pricing: 2190
 published: true
 ---
