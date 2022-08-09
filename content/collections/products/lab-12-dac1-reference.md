@@ -1,7 +1,7 @@
 ---
 id: 6b461bad-240e-4c99-886d-f1c37bc19eef
 blueprint: products
-title: 'Lab 12 DAC1 Reference'
+title: 'DAC1 Reference'
 blurb:
   -
     type: paragraph
@@ -147,7 +147,7 @@ reviews:
     type: review
     enabled: true
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1659992124
+updated_at: 1660059095
 brands: lab12
 pricing: 3290
 product_tagline: 'Non Oversampling DAC with Tube Output'
