@@ -130,7 +130,10 @@ reviews:
     review_attribution: 'Absolute Sound'
     type: review
     enabled: true
-updated_by: bf123438-d04c-4a45-b0fa-3e0cea9cbedd
-updated_at: 1657655310
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1660674249
 brands: neat-acoustics
+product_tagline: 'The IOTA delivers a spectacular audio performance from an impossibly small cabinet.'
+pricing: 1395
+published: true
 ---
