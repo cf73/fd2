@@ -1,5 +1,6 @@
 ---
 id: 381e2ba4-53c7-4281-ac28-b0caaa623350
+published: false
 blueprint: products
 title: 'The Amp'
 blurb:
