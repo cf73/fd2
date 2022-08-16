@@ -303,7 +303,7 @@ reviews:
     type: review
     enabled: true
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1660059551
+updated_at: 1660679891
 product_tagline: 'A definitive statement in loudspeaker design - Musical'
 pricing: 7990
 published: true
