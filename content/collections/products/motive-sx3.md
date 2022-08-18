@@ -140,8 +140,19 @@ features_specs:
       -
         type: text
         text: "\_45Hz – 30kHz"
-published: true
 brands: neat-acoustics
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1660839461
+updated_at: 1660840749
+reviews:
+  -
+    review_text: |-
+      The Neat Motive SX3s may be small, but they aren’t without attitude.
+
+      If you’re tight on space, or don’t need a particularly overpowering sound, these articulate, fun-loving speakers should be a certain shoo-in for your shortlist.
+
+      https://www.whathifi.com/us/neat/motive-sx3/review
+    review_attribution: 'What Hi-Fi'
+    type: review
+    enabled: true
+published: true
 ---
