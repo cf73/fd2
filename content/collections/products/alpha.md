@@ -107,8 +107,10 @@ reviews:
     review_attribution: 'The EAR HiFi Music'
     type: review
     enabled: true
-published: true
 brands: neat-acoustics
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1660675088
+updated_at: 1660838269
+images:
+  - 5278_111018_0016.jpg
+published: true
 ---
