@@ -14,7 +14,7 @@ blurb:
     type: paragraph
 pricing: 2395
 images:
-  - motivesx3-3736v2.jpg
+  - motivesx3-3736v2-1660842900.jpg
 description:
   -
     type: paragraph
@@ -142,7 +142,7 @@ features_specs:
         text: "\_45Hz – 30kHz"
 brands: neat-acoustics
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1660840749
+updated_at: 1660842927
 reviews:
   -
     review_text: |-
