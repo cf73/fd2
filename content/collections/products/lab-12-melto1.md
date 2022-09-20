@@ -18,8 +18,8 @@ blurb:
         text: 'An outstanding performance for more than a fair price. In other words…the real deal!'
 pricing: 2690
 images:
-  - lab12-melto1-back.jpg
   - lab12-melto1-side-matt-black.jpg
+  - lab12-melto1-back.jpg
 description:
   -
     type: paragraph
@@ -259,6 +259,6 @@ reviews:
     enabled: true
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1660059169
+updated_at: 1663710324
 published: true
 ---
