@@ -1,7 +1,7 @@
 ---
 id: 69928cca-e25d-4399-b56f-c19cffec23f0
 blueprint: products
-title: 'True  Passive Attenuator / Input Selector'
+title: 'True  Passive Attenuator/Input Selector'
 product_tagline: 'Some like it, the pure way'
 blurb:
   -
@@ -74,6 +74,6 @@ features_specs:
         text: '• Weight: 3,5 Kg'
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1663707268
+updated_at: 1663707307
 published: true
 ---
