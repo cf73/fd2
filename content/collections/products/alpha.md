@@ -109,8 +109,8 @@ reviews:
     enabled: true
 brands: neat-acoustics
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1660838269
+updated_at: 1663710154
 images:
-  - 5278_111018_0016.jpg
+  - iota_alpha-group1-1663710143.jpg
 published: true
 ---
