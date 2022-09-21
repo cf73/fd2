@@ -14,7 +14,10 @@ dealer_address:
   longitude: '-77.30068812835454'
 email: analogshoplietz@gmail.com
 website: 'https://www.analogshop.com'
-published: true
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1663771676
+updated_at: 1663772683
+published: true
+brands:
+  - harbeth
+dealer_region: east-coast
 ---
