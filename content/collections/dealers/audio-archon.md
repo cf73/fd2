@@ -18,6 +18,6 @@ brands:
   - harbeth
 dealer_region: central
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1663771727
+updated_at: 1663772642
 published: true
 ---
