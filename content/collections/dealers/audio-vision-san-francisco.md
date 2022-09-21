@@ -19,5 +19,6 @@ brands:
   - lab12
 dealer_region: west-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1657645910
+updated_at: 1663772667
+published: true
 ---
