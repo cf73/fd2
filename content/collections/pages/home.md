@@ -4,7 +4,8 @@ blueprint: pages
 title: Home
 template: home
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1664736911
+updated_at: 1664737192
+hero_image: coltrane.jpg
 published: true
 ---
 ## Welcome to your new brand Statamic site!
