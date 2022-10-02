@@ -1,30 +1,18 @@
 <section>
-    <section style="height: 73vh;">
-        <div data-bss-parallax-bg="true" style="height: 100%;background: url({{hero_image}}) center / cover;">
-            <div class="container h-100">
-                <div class="row h-100">
-                    <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
-                        <div style="max-width: 462px;">
-                            <div class="title pop">You can’t expect great music without great equipment.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="title pop" style="max-width: 462px; position: absolute; z-index: 999; left: 150px; top: 45vh;">You can’t expect great music without great equipment.</div>
+    <div style="height: 88vh; background: url({{hero_image}}); background-position: top; background-size: cover; mix-blend-mode: multiply;"></div>
 </section>
+
+<section id="news">
+
+</section>
+
 {{taxonomy:brands}}
-<div data-bss-parallax-bg="true" style="height: 66vh;background: url({{hero_image}}) center / cover;"></div>
-<section class="py-4 py-xl-5" style="padding-bottom: 96px;">
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
-                <div>
-                    <h2 class="text-uppercase fw-bold text-light mb-3">{{title}}</h2>
-                    <p class="text-light mb-4">{{byline}}</p><a href="{{url}}"><button class="btn btn-primary fs-5 me-2 py-2 px-4" type="button">Explore</button></a><button class="btn btn-outline-primary fs-5 py-2 px-4" type="button">Find a Dealer</button>
-                </div>
-            </div>
+    <div data-bss-parallax-bg="true" style="height: 78vh; background: url({{hero_image}}) center / cover;">
+        <div class="box">
+            <h2>{{title}}</h2>
+            <p>{{byline}}</p><a href="{{url}}">
+            <a href="{{url}}" style="font-weight: 700;">Explore</a>
         </div>
     </div>
-</section>
 {{/taxonomy:brands}}

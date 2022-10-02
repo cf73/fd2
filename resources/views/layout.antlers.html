@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="/css/site.css">
     </head>
     <body>
-      <a href="/"><img src="/assets/FDlogo.svg" style="height: 163px; position:absolute; left: 50px; top: 18px;" alt="Fidelis Distribution Home"></a>
+      <a href="/"><img src="/assets/FDlogo.svg" style="height: 163px; position:absolute; left: 50px; top: 18px; z-index: 9999;" alt="Fidelis Distribution Home"></a>
       <!-- <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark py-3">
         <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-6"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse flex-grow-0 order-md-first" id="navcol-6" style="margin-left: 316px;">
@@ -36,13 +36,9 @@
         </div>
     </nav> -->
        
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12">
+    
                 {{ template_content }}
-            </div>
-        </div>
-    </div>
+
     <script src="{{ mix src='/js/site.js' }}"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/bs-init.js"></script>
