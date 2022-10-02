@@ -45,15 +45,27 @@
                     <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-1" style="color: rgb(61,61,61);">
                         <div class="accordion-body">
                             {{collection:dealers brands:contains="{page:title}" dealer_region:is="east-coast"}}
-                                <h4>{{dealer_address:name}}</h4>
-                                <p>{{dealer_address:street}} <br>
-                                {{dealer_address:street2}} <br>
-                                {{dealer_address:city}}, {{dealer_address:state}} <br>
-                                {{dealer_address:postCode}}</p>
-                                <p>Phone: {{phone}} <br>
-                                Email: {{email}} <br>
-                                Website: {{website}}</p>
-                                <hr>
+                                <div style="padding-bottom:50px;">
+                                    <h4>{{title}}</h4>
+                                    <p>{{dealer_address:name}}</p>
+                                    <p>{{dealer_address:street}} <br>
+                                    {{ if dealer_address:street2 }}
+                                        {{dealer_address:street2}} <br>
+                                    {{ /if }}
+                                    {{dealer_address:city}}, {{dealer_address:state}} <br>
+                                    {{dealer_address:postCode}}</p>
+                                    <p>
+                                    {{ if phone }}
+                                        Phone: {{phone}}<br>
+                                    {{/if}}
+                                    {{ if email }}
+                                        Email: {{email}}<br>
+                                    {{/if}}
+                                    {{ if website }}
+                                        Website: {{website}}</p>
+                                    {{/if}}
+                                </div>
+                                
                             {{/collection:dealers}}
                         </div>
                     </div>
