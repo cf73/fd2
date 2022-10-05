@@ -8,6 +8,13 @@
   font-size: 54px;
   line-height: 66px; }
 
+.super-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 108px; }
+
 h1 {
   font-family: 'Inter';
   font-style: normal;
@@ -44,7 +51,7 @@ a {
   text-decoration: none; }
 
 body {
-  background-color: #3E4D64;
+  background-color: #0B1934;
   color: #505050; }
 
 #nav {
