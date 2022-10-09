@@ -52,7 +52,7 @@ a {
 
 body {
   background-color: #0B1934;
-  color: #505050; }
+  color: #EEF0F3; }
 
 #nav {
   position: fixed;
@@ -86,5 +86,16 @@ body {
   left: 150px;
   bottom: 30%;
   border-radius: 3px; }
+
+.fadeout {
+  background: linear-gradient(180deg, rgba(11, 25, 52, 0) 0%, #0B1934 100%);
+  height: 330px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; }
+
+.page-spacer {
+  margin-bottom: 144px; }
 
 /*# sourceMappingURL=site.css.map */
