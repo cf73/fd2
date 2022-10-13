@@ -108,9 +108,9 @@ reviews:
     type: review
     enabled: true
 brands: neat-acoustics
-updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1663710154
+updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
+updated_at: 1665427338
 images:
   - iota_alpha-group1-1663710143.jpg
-published: true
+product_type: speakers
 ---

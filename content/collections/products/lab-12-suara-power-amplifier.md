@@ -29,8 +29,8 @@ blurb:
       -
         type: text
         text: 'Like all of the Lab12 products, Suara also comes with two colour choices of glass blasting anodizing finish.'
-updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1663699216
+updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
+updated_at: 1665503944
 retail_pricing: $4490
 images:
   - lab12-suara-face-matt-black.jpg
@@ -172,5 +172,5 @@ reviews:
 brands: lab12
 product_tagline: '2 x 50 Watt Class A Power Amplifier'
 pricing: 4490
-published: true
+product_type: power-amplifiers
 ---

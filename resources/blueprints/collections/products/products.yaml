@@ -191,4 +191,20 @@ sections:
           listable: hidden
           max_items: 1
           create: true
+      -
+        handle: product_type
+        field:
+          type: terms
+          taxonomies:
+            - product_type
+          display: 'Product type'
+          mode: select
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          always_save: false
+          create: true
+          validate:
+            - required
+          max_items: 1
 title: Products
