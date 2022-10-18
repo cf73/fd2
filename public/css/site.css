@@ -11,9 +11,11 @@
 .super-title {
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 400;
-  font-size: 96px;
-  line-height: 108px; }
+  font-weight: 600;
+  font-size: 84px;
+  letter-spacing: -0.04em;
+  line-height: 108px;
+  color: #e7d1ac; }
 
 h1 {
   font-family: 'Inter';
@@ -41,7 +43,7 @@ p {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 24px; }
+  line-height: 26px; }
 
 .halflineheight {
   line-height: 21px; }
@@ -52,7 +54,7 @@ a {
 
 body {
   background-color: #fdfeff;
-  color: #EEF0F3; }
+  color: #505050; }
 
 #nav {
   position: fixed;
@@ -70,7 +72,7 @@ body {
       text-decoration: underline; }
 
 .pop {
-  color: #FFF1DB; }
+  color: #e7d1ac; }
 
 #news {
   background-color: rgba(1, 4, 9, 0.81);
@@ -80,7 +82,7 @@ body {
 .box {
   background-color: rgba(1, 4, 9, 0.81);
   padding: 60px 50px;
-  color: #FFF1DB;
+  color: #e7d1ac;
   width: 541px;
   position: absolute;
   left: 150px;

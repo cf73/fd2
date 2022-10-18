@@ -11,9 +11,11 @@
 .super-title {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
-    font-size: 96px;
+    font-weight: 600;
+    font-size: 84px;
+    letter-spacing: -0.04em;
     line-height: 108px;
+    color: $wheatgold;
 }
 h1 {
     font-family: 'Inter';
@@ -44,7 +46,7 @@ p {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 26px;
 }
 .halflineheight {
     line-height: 21px;
