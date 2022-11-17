@@ -15,41 +15,36 @@ body {
     color: $black;
 }
 .title {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
+    font-family: $sans-black;
+    font-weight: normal;
+    text-transform: uppercase;
     font-size: 54px;
     line-height: 66px;
+    color: $cactus;
 }
 .super-title {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
+    font-family: $sans-black;
+    font-weight: normal;
     font-size: 84px;
     letter-spacing: -0.04em;
     line-height: 108px;
     color: $wheatgold;
 }
 h1 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
+    font-family: $sans-black;
+    font-weight: normal;
     font-size: 48px;
     line-height: 58px;
 }
 
 h2 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
+    
     font-size: 30px;
     line-height: 36px;
 }
 
 h3 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
+    
     font-size: 24px;
     line-height: 30px;
 }

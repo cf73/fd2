@@ -42,16 +42,24 @@
     <section id="products" class="page-spacer" style="padding: 0 0 0 50px;">
         <div class="row">
             <div class="col-sm-12" style="color: black;">
-                <!-- <div id="product-type-filters" style="margin: 20px 30px;">
-                    <h2>Products</h2>
+                <div id="product-type-filters" style="margin: 20px 30px;">
                     <p>{{blurb_above_products}}</p>
                         {{makers_of}}
-                        <a href="?product_type={{slug}}">
-                            <h3>{{title}}</h3>
-                        </a>
+                            <h1>{{title}}</h1>
+                            {{collection:products :brands:contains="last_segment" :taxonomy:product_type="slug" sort="{pricing}"}}
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <div style="height: 60vh; width:100%; background-image: url('{{images:0:url}}'); background-size: contain; background-position: center; background-repeat: no-repeat;"></div>
+                                </div>
+                                    <div class="col-lg-5">
+                                        <a href="{{url}}">{{title}}</a>${{pricing}}
+                                        <p>{{blurb}}</p>
+                                    </div>
+                            </div>
+                            {{/collection:products}}
                         {{/makers_of}}
-                </div> -->
-                    <div class="swiper mySwiper">
+                </div>
+                    <!-- <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             {{collection:products :brands:contains="last_segment" :taxonomy:product_type="get:product_type"}}
                             {{if no_results}}
@@ -78,7 +86,7 @@
                             {{/collection:products}}
                         </div>
                         <div class="swiper-pagination"></div>
-                    </div>
+                    </div> -->
                 </div>    
             </div>
         </div>
