@@ -6,16 +6,10 @@
         </li>
         {{ /nav:breadcrumbs }}
     </ul>
+    {{partial:_productherolockup}}
     <div class="row">
-        <div class="col-md-6">
-            <div style="background: url({{images:0:url}}) center / contain no-repeat;width: 100%;height: 600px;"></div>
-        </div>
-        <div class="col-md-6">
-            <h2>{{brands:title}}</h2>
-            <h1 style="font-size: 103px;font-weight: bold;">{{title}}</h1>
-            <h3>Retail Pricing:</h3>
-            <h2>${{pricing format_number="2|.|,"}}</h2>
-            <p>{{blurb}}</p>
+        <div class="col-md-6 offset-lg-3">
+            
             <div>
                 <ul class="nav nav-tabs" role="tablist">
                     <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1">Description</a></li>
