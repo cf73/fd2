@@ -1,57 +1,52 @@
-$sans: 'Protipo W05 Light', sans-serif;
-$sans-italic: 'Protipo W05 Light Italic';
-$sans-semibold: 'Protipo W05 Semibold';
-$sans-semibolditalic: 'Protipo W05 Semibold Italic';
-$sans-black: 'Protipo Wide W05 Black';
-$sans-blackitalic: 'Protipo Wide W05 Black Italic';
+$sans: aktiv-grotesk, sans-serif;
+// $sans-italic: 'Protipo W05 Light Italic';
+// $sans-semibold: 'Protipo W05 Semibold';
+// $sans-semibolditalic: 'Protipo W05 Semibold Italic';
+// $sans-black: 'Protipo Wide W05 Black';
+// $sans-blackitalic: 'Protipo Wide W05 Black Italic';
 
 body {
     font-family: $sans;
-    font-size: 16px;
-    line-height: 21px;
-    font-weight: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    letter-spacing: 0.01em;
+    color: $darkcactus;
 }
 .card {
     color: $black;
 }
 .title {
-    font-family: $sans-black;
-    font-weight: normal;
-    text-transform: uppercase;
-    font-size: 54px;
-    line-height: 66px;
-    color: $cactus;
-}
-.super-title {
-    font-family: $sans-black;
-    font-weight: normal;
+    font-weight: 800;
     font-size: 84px;
-    letter-spacing: -0.04em;
-    line-height: 108px;
-    color: $wheatgold;
+    line-height: 84px;
 }
+// .super-title {
+//     font-weight: normal;
+//     font-size: 84px;
+//     letter-spacing: -0.04em;
+//     line-height: 108px;
+//     color: $wheatgold;
+// }
 h1 {
-    font-family: $sans-black;
-    font-weight: normal;
     font-size: 48px;
-    line-height: 58px;
+    line-height: 60px;
     color: $cactus;
+    font-weight: 400;
 }
-
 h2 {
-    
+    font-weight: 400;
     font-size: 30px;
     line-height: 36px;
 }
-
 h3 {
-    
+    font-weight: 700;
     font-size: 24px;
     line-height: 30px;
-}
-
-p {
-   
+    /* identical to box height, or 125% */
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
 }
 .halflineheight {
     line-height: 21px;
