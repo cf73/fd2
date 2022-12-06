@@ -28,24 +28,23 @@
 
     </head>
     <body>
-      <a href="/"><img src="/assets/FDlogo.svg" style="height: 163px; position:absolute; left: 50px; top: 18px; z-index: 9999;" alt="Fidelis Distribution Home"></a>
-      <!-- <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark py-3">
-        <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-6"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse flex-grow-0 order-md-first" id="navcol-6" style="margin-left: 316px;">
-                <ul id="nav" class="navbar-nav me-auto">
-                    {{ nav include_home="true" }}
-                      <li class="nav-item">
-                        <a lass="nav-link href="{{ url }}"{{ if is_current || is_parent }} class="active"{{ /if }}>
-                          {{ title }}
-                        </a>
-                      </li>
-                    {{ /nav }}
-                </ul>
-                <div class="d-md-none my-2"><button class="btn btn-light me-2" type="button">Button</button><button class="btn btn-primary" type="button">Button</button></div>
-            </div>
-            <div class="d-none d-md-block"><a class="btn btn-light me-2" role="button" href="#">Find a Dealer</a><a class="btn btn-primary" role="button" href="#">Contact Us</a></div>
+      <a href="/"><img src="/assets/img/logo.svg" style="height: 135px; mix-blend-mode: luminosity; position:fixed; left: 21px; top: 18px; z-index: 9999;" alt="Fidelis Distribution Home"></a>
+      <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container">
+          <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-6"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse flex-grow-0 order-md-first" id="navcol-6" style="margin-left: 316px;">
+            <ul id="nav" class="navbar-nav me-auto">
+              {{ nav include_home="false" }}
+                <li class="nav-item">
+                  <a class="nav-link {{ if is_current || is_parent }} active {{ /if }}" href="{{url}}">
+                    <h3 class="meta">{{ title }}</h3>
+                  </a>
+                </li>
+              {{ /nav }}
+            </ul>
+          </div>            
         </div>
-    </nav> -->
+    </nav>
        
     
                 {{ template_content }}
@@ -53,16 +52,8 @@
     <script src="{{ mix src='/js/site.js' }}"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/bs-init.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
-    <script src="/js/Lightbox-Gallery-No-Gutters.js"></script>
-    <script src="/js/slick.min.js"></script>
-    <script type="text/javascript">
-        $(document).on('ready', function() {
-          $(".lazy").slick({
-            lazyLoad: 'ondemand', // ondemand progressive anticipated
-            infinite: true
-          });
-        });
-    </script>
+
+
+
     </body>
 </html>

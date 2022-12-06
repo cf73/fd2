@@ -1,25 +1,37 @@
 #nav {
     position: fixed;
     height: 60px;
+    top: 0;
+    right: 0;
+    padding-bottom: 60px;
+    background-color: $whitesand;
     list-style-type: none;
     & li {
         display: inline-block;
         text-transform: uppercase;
-        padding: 6px 12px;
+        padding: 0px 12px;
         & a {
             text-decoration: none;
-            color: $light;
+            
         }
-        & .current {
-            color: $black !important;
-            text-decoration: underline;
+        & .active {
+            border-bottom: solid thick $darkcactus;
         }
     }
 }
 .pop {
     color: $pop;
 }
-
+.dimmer {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: .3;
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 #news {
     background-color: $blackglass;
     height: 50vh;
@@ -43,9 +55,24 @@
     left: 0;
     width: 100%;
 }
+.spacer {
+    margin-bottom: 60px;
+}
 .page-spacer {
     margin-bottom: 144px;
 }
 .card {
     height: auto;
+}
+.brandcard {
+    background-color: white;
+    padding: 18px 20px 60px 20px;
+    margin-bottom: 30px;
+}
+.tape {
+    background-color: rgba(255, 255, 255, 0.86);
+    padding: 18px 15px;
+    z-index: 9999;
+    display: inline-block;
+    margin-bottom: 18px;
 }

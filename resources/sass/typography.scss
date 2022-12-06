@@ -1,4 +1,5 @@
 $sans: aktiv-grotesk, sans-serif;
+$mono: interstate-mono, monospace;
 // $sans-italic: 'Protipo W05 Light Italic';
 // $sans-semibold: 'Protipo W05 Semibold';
 // $sans-semibolditalic: 'Protipo W05 Semibold Italic';
@@ -41,12 +42,19 @@ h2 {
     line-height: 36px;
 }
 h3 {
+    font-family: $mono;
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
     /* identical to box height, or 125% */
     letter-spacing: 0.12em;
     text-transform: uppercase;
+    color: $earth;
+    margin-bottom: 0;
+}
+.meta {
+    font-size: 16px;
+    color: $darkcactus;
 }
 .halflineheight {
     line-height: 21px;
