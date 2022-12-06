@@ -284,11 +284,11 @@ reviews:
     type: review
     enabled: true
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1665427347
+updated_at: 1670362698
 brands: harbeth
 product_tagline: 'The icon of clarity and detail'
 pricing: 4890
 images:
-  - 7es-3__front.jpg
+  - c7es-3-xd-cherry-loudspeaker.jpg
 product_type: speakers
 ---

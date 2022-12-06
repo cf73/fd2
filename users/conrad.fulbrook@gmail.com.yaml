@@ -2,3 +2,10 @@ name: Conrad
 super: true
 id: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
 password_hash: $2y$10$O3oMyMiktCAFk6KZRGhFb.aj1.vJEZkhPAhmJyKZzC2h0morHGu5u
+preferences:
+  collections:
+    products:
+      columns:
+        - title
+        - slug
+        - brands

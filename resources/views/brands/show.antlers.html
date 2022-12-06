@@ -1,61 +1,41 @@
-{{partial:_brandherolockup}}
+<div style="height: 70vh; width: 100%; margin-bottom: -23vh; z-index: -999; position: relative; background: url({{hero_image}}) center / cover;"></div>
 <div class="container" style="margin-top: 160px;">
     <section id="intro" class="page-spacer">
         <div class="row">
             <div class="col-md-12">
                 <div class="row">
-                    <div class="col-md-7" style="max-height: 300px; overflow:hidden;">
-                        <h2 style="z-index: 99; position: relative; margin-bottom: 54px;">{{byline}}</h2>
+                    <div class="col-md-8 offset-md-1">
+                        {{partial:tape line="{title}"}}
+                        <div class="title" style="z-index: 99; position: relative; margin-bottom: 54px;">{{byline}}</div>
                         <p>{{blurb}}</p>
-                    </div>
-                    <div class="col-md-4 offset-md-1">
-                        <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: baseline;">
-                            <h3>Founded</h3>
-                            <p>1077</p>
-                        </div>
-                        <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: baseline;">
-                            <h3>Made in</h3>
-                            <p>England</p>
-                        </div>
-                        <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: baseline;">
-                            <h3>Distributed since</h3>
-                            <p>2018</p>
-                        </div>
-                        <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: baseline;">
-                            <h3>Makers of</h3>
-                            <p>Speakers</p>
-                        </div>
-                        <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: baseline;">
-                            <h3>Website</h3>
-                            <p>harbeth.co.uk</p>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 </div>
-<div class="container-fluid">
-    <section id="products" class="page-spacer" style="padding: 0 0 0 50px;">
+<div class="container">
+    <section id="products" class="page-spacer">
         <div class="row">
-            <div class="col-sm-12" style="color: black;">
-                <div id="product-type-filters" style="margin: 20px 30px;">
-                    <p>{{blurb_above_products}}</p>
-                        {{makers_of}}
-                            <h1>{{title}}</h1>
-                            {{collection:products :brands:contains="last_segment" :taxonomy:product_type="slug" sort="{pricing}"}}
-                            <div class="row">
-                                <div class="col-lg-7">
-                                    <div style="height: 60vh; width:100%; background-image: url('{{images:0:url}}'); background-size: contain; background-position: center; background-repeat: no-repeat;"></div>
-                                </div>
-                                    <div class="col-lg-4">
-                                        <a href="{{url}}"><h2>{{title}}</h2></a>${{pricing}}
-                                        <p>{{blurb}}</p>
-                                    </div>
+            <div class="col-sm-11 offset-md-1">
+                {{makers_of}}
+                    {{partial:tape line="{title}"}}
+                    <div class="swiper mySwiper" style="padding-top: 78px; margin-top: -78px;">
+                        <div class="swiper-wrapper">
+                        {{collection:products :brands:contains="last_segment" :taxonomy:product_type="slug" sort="{pricing}"}}
+                            <div class="swiper-slide">
+                                {{partial:_brandherolockup hero_image="{images:0:url}"}}
+                                <p class="meta">${{pricing}}</p>
+                                <p style="height: 2em;">{{product_tagline}}</p>
+                                {{/partial:_brandherolockup}}
                             </div>
-                            {{/collection:products}}
-                        {{/makers_of}}
-                </div>
+                        {{/collection:products}}
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                {{/makers_of}}
                     <!-- <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             {{collection:products :brands:contains="last_segment" :taxonomy:product_type="get:product_type"}}
@@ -197,13 +177,15 @@
  <!-- Initialize Swiper -->
  <script>
     var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3.5,
-        centeredSlides: true,
-        spaceBetween: 30,
-        grabCursor: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
+      slidesPerView: 2.5,
+      spaceBetween: 30,
+      navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
     });
   </script>

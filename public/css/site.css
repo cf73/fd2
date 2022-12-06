@@ -46,6 +46,11 @@ h3 {
 .meta {
   font-size: 16px;
   color: #404B48;
+  font-weight: 400;
+  font-family: interstate-mono, monospace;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 .halflineheight {
@@ -67,6 +72,7 @@ body {
   height: 60px;
   top: 0;
   right: 0;
+  padding-top: 12px;
   padding-bottom: 60px;
   background-color: #EFEFEF;
   list-style-type: none;
@@ -148,4 +154,28 @@ body {
   z-index: 9999;
   display: inline-block;
   margin-bottom: 18px;
+}
+
+.swiper-button-next {
+  right: 0;
+  top: 30px;
+  left: auto;
+  color: #404B48;
+}
+.swiper-button-next:after {
+  font-size: 24px;
+}
+
+.swiper-button-prev {
+  right: 30px;
+  top: 30px;
+  left: auto;
+  color: #404B48;
+}
+.swiper-button-prev:after {
+  font-size: 24px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: -10px;
 }

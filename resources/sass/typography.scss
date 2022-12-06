@@ -55,6 +55,11 @@ h3 {
 .meta {
     font-size: 16px;
     color: $darkcactus;
+    font-weight: 400;
+    font-family: $mono;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 0;
 }
 .halflineheight {
     line-height: 21px;
