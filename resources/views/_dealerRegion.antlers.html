@@ -1,0 +1,28 @@
+<div class="swiper dealerSwiper" style="padding-top: 78px; margin-top: -78px; margin-bottom: 60px;">
+    <div class="swiper-wrapper">
+        {{collection:dealers brands:contains="{page:title}" dealer_region:is="{DR}"}}
+            <div class="swiper-slide">
+                <h2>{{title}}</h2>
+                <p><span style="font-weight: 800;">{{dealer_address:name}}</span><br>
+                {{dealer_address:street}} <br>
+                {{ if dealer_address:street2 }}
+                    {{dealer_address:street2}} <br>
+                {{ /if }}
+                {{dealer_address:city}}, {{dealer_address:state}} <br>
+                {{dealer_address:postCode}}<br>
+                {{ if phone }}
+                    Phone: {{phone}}<br>
+                {{/if}}
+                {{ if email }}
+                    E: {{email}}<br>
+                {{/if}}
+                {{ if website }}
+                    W: {{website}}</p>
+                {{/if}}
+            </div>
+        {{/collection:dealers}}
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+</div>
