@@ -69,7 +69,7 @@
         </div>
     </section>
 </div>
-    {{partial:_dealers}}
+    {{partial:_dealers sell="{title}"}}
 </div>
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
@@ -89,7 +89,7 @@
       },
     });
     var swiper = new Swiper(".dealerSwiper", {
-      slidesPerView: 3.5,
+      slidesPerView: 2.5,
       spaceBetween: 30,
       navigation: {
           nextEl: ".swiper-button-next",
