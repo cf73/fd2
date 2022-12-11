@@ -1,10 +1,10 @@
 #nav {
     position: fixed;
     height: 60px;
-    top: 0;
-    right: 0;
-    padding-top: 12px;
-    padding-bottom: 60px;
+    top: 18px;
+    right: 30px;
+    border-radius: 30px;
+    padding-top: 8px;
     background-color: $whitesand;
     list-style-type: none;
     & li {
@@ -16,7 +16,7 @@
             
         }
         & .active {
-            border-bottom: solid thick $darkcactus;
+            color: $cactus;
         }
     }
 }
