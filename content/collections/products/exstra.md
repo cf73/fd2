@@ -1,7 +1,7 @@
 ---
 id: 2efa66d4-dd88-4c8e-ba2a-13936262c0f4
 blueprint: products
-title: Exstra
+title: Ekstra
 product_tagline: 'THINKING INSIDE THE BOX'
 blurb:
   -
@@ -163,7 +163,7 @@ reviews:
     type: review
     enabled: true
 brands: neat-acoustics
-updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1665427368
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1671122965
 product_type: speakers
 ---
