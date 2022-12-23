@@ -2,10 +2,7 @@
     position: fixed;
     height: 60px;
     top: 18px;
-    right: 30px;
-    border-radius: 30px;
-    padding-top: 8px;
-    background-color: $whitesand;
+    left: 30px;
     list-style-type: none;
     & li {
         display: inline-block;
@@ -13,12 +10,27 @@
         padding: 0px 12px;
         & a {
             text-decoration: none;
-            
+            margin-bottom: 18px;
         }
         & .active {
             color: $cactus;
         }
     }
+}
+.navbar-expand-md .navbar-nav {
+    flex-direction: column;
+}
+.leftcol {
+    width: 388px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.rightcol {
+    width: calc(100vw - 418px);
+    position: absolute;
+    top: 0;
+    left: 388px;
 }
 .pop {
     color: $pop;
@@ -41,7 +53,6 @@
 .box {
     background-color: $blackglass;
     padding: 60px 50px;
-    color: $pop;
     width: 541px;
     position: absolute;
     left: 150px;
@@ -69,6 +80,9 @@
     background-color: white;
     padding: 18px 20px 60px 20px;
     margin-bottom: 30px;
+    & p {
+        color: $darkcactus;
+    }
 }
 .tape {
     background-color: rgba(255, 255, 255, 0.86);
@@ -97,4 +111,7 @@
 }
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
     bottom: -10px;
+}
+.tab-pane {
+    padding-top: 30px;
 }

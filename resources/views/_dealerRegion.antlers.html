@@ -1,4 +1,4 @@
-<div class="swiper dealerSwiper" style="padding-top: 78px; margin-top: -78px; margin-bottom: 120px;">
+<div class="swiper dealerSwiper spacer" style="padding-top: 78px; margin-top: -78px;">
     <div class="swiper-wrapper">
         {{collection:dealers brands:contains="{brands:title}" dealer_region:is="{DR}"}}
             <div class="swiper-slide">
@@ -17,7 +17,7 @@
                     E: {{email}}<br>
                 {{/if}}
                 {{ if website }}
-                    W: <a href="{{website}}">{{website}}</a></p>
+                    W: <a href="{{website}}" target="_blank">{{website}}</a></p>
                 {{/if}}
             </div>
         {{/collection:dealers}}

@@ -16,7 +16,6 @@ email: asinger@soundbysinger.com
 website: 'https://www.soundbysinger.com/'
 brands:
   - harbeth
-  - einstein
   - lab12
   - neat-acoustics
 dealer_region: east-coast

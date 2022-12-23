@@ -13,7 +13,7 @@ body {
     line-height: 30px;
     /* identical to box height, or 167% */
     letter-spacing: 0.01em;
-    color: $darkcactus;
+    color: $mutedblack;
 }
 .card {
     color: $black;
@@ -33,7 +33,6 @@ body {
 h1 {
     font-size: 48px;
     line-height: 60px;
-    color: $darkcactus;
     font-weight: 400;
 }
 h2 {
@@ -49,12 +48,11 @@ h3 {
     /* identical to box height, or 125% */
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: $earth;
     margin-bottom: 0;
 }
 .meta {
     font-size: 16px;
-    color: $darkcactus;
+    color: $mutedblack;
     font-weight: 400;
     font-family: $mono;
     letter-spacing: 0.12em;
@@ -65,6 +63,6 @@ h3 {
     line-height: 21px;
 }
 a {
-    color: $red;
+    color: $link;
     text-decoration: none;
 }
