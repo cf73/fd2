@@ -14,7 +14,7 @@
                     Phone: {{phone}}<br>
                 {{/if}}
                 {{ if email }}
-                    E: {{email}}<br>
+                    E: <a href="mailto:{{email}}?subject=Inquiry about {{page:title}}">{{email}}</a><br>
                 {{/if}}
                 {{ if website }}
                     W: <a href="{{website}}" target="_blank">{{website}}</a></p>
