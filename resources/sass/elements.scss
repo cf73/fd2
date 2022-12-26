@@ -1,8 +1,14 @@
-#nav {
+#logo {
     position: fixed;
-    height: 60px;
-    top: 18px;
-    left: 30px;
+    top: 32px;
+    left: 0;
+    z-index: 9999;
+}
+#nav {
+    position: absolute;
+    height: 32px;
+    top: 32px;
+    right: 30px;
     list-style-type: none;
     & li {
         display: inline-block;
@@ -20,17 +26,14 @@
 .navbar-expand-md .navbar-nav {
     flex-direction: column;
 }
-.leftcol {
-    width: 388px;
-    position: fixed;
-    top: 0;
-    left: 0;
+.nav-link {
+    color: $link;
 }
-.rightcol {
-    width: calc(100vw - 418px);
-    position: absolute;
-    top: 0;
-    left: 388px;
+.breadcrumbs {
+    position: fixed;
+    right: -150px;
+    transform: rotate(-90deg);
+    top: 285px;
 }
 .pop {
     color: $pop;
@@ -77,20 +80,21 @@
     height: auto;
 }
 .brandcard {
-    background-color: white;
+    // background-color: white;
     padding: 18px 20px 60px 20px;
     margin-bottom: 30px;
     & p {
-        color: $darkcactus;
+        color: $dimsand;
     }
 }
 .tape {
     background-color: rgba(255, 255, 255, 0.86);
+    background-color: $neoncactus;
     padding: 18px 15px;
     z-index: 9999;
     display: inline-block;
     margin-bottom: 18px;
-    color: $mutedblack;
+    color: $background;
 }
 .swiper-button-next {
     right: 0;

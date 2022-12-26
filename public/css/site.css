@@ -5,7 +5,7 @@ body {
   line-height: 30px;
   /* identical to box height, or 167% */
   letter-spacing: 0.01em;
-  color: #F8F8EC;
+  color: #DDDACE;
 }
 
 .card {
@@ -16,6 +16,7 @@ body {
   font-weight: 800;
   font-size: 84px;
   line-height: 84px;
+  color: #40E7B5;
 }
 
 h1 {
@@ -55,25 +56,32 @@ h3 {
 }
 
 a {
-  color: #356d9d;
+  color: #19ad89;
   text-decoration: none;
+  color: #40E7B5;
 }
 
 body {
-  background-color: #EFEFEF;
+  background-color: #020921;
   overflow-x: hidden;
-  background-image: url("/assets/img/background.svg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-#nav {
+#logo {
   position: fixed;
-  height: 60px;
-  top: 18px;
-  left: 30px;
+  top: 32px;
+  left: 0;
+  z-index: 9999;
+}
+
+#nav {
+  position: absolute;
+  height: 32px;
+  top: 32px;
+  right: 30px;
   list-style-type: none;
 }
 #nav li {
@@ -93,18 +101,15 @@ body {
   flex-direction: column;
 }
 
-.leftcol {
-  width: 388px;
-  position: fixed;
-  top: 0;
-  left: 0;
+.nav-link {
+  color: #19ad89;
 }
 
-.rightcol {
-  width: calc(100vw - 418px);
-  position: absolute;
-  top: 0;
-  left: 388px;
+.breadcrumbs {
+  position: fixed;
+  right: -150px;
+  transform: rotate(-90deg);
+  top: 285px;
 }
 
 .pop {
@@ -160,21 +165,21 @@ body {
 }
 
 .brandcard {
-  background-color: white;
   padding: 18px 20px 60px 20px;
   margin-bottom: 30px;
 }
 .brandcard p {
-  color: #404B48;
+  color: #DDDACE;
 }
 
 .tape {
   background-color: rgba(255, 255, 255, 0.86);
+  background-color: #40E7B5;
   padding: 18px 15px;
   z-index: 9999;
   display: inline-block;
   margin-bottom: 18px;
-  color: #363a42;
+  color: #020921;
 }
 
 .swiper-button-next {
