@@ -155,6 +155,7 @@ features_specs:
         text: "\_1x 134mm LF/Midrange unit; 1x Ribbon HF unit; 2x 134mm LF units"
 reviews:
   -
+    id: x3PC5Vyk
     review_text: |-
       Neat Acoustics Ekstra’s tagline is ‘Thinking Inside The Box’ and while that is absolutely correct, it’s so much more than that. Ekstra is a loudspeaker that does manage to squeeze a quart into a pint pot and does it perfectly. You need to be fairly well in lockstep with the sound of Neat (put another way, the sound Bob from Neat likes), but if that is the case, the Ekstra will melt your heart, extra fast.
 
@@ -163,7 +164,8 @@ reviews:
     type: review
     enabled: true
 brands: neat-acoustics
-updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1671122982
+updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
+updated_at: 1672599511
 product_type: speakers
+featured: true
 ---

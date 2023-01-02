@@ -125,14 +125,16 @@ features_specs:
         text: "\_35Hz – 30kHz"
 reviews:
   -
+    id: rKsN7xEF
     review_text: |-
       They are hugely entertaining: these speakers won’t blow the roof off, but they will bring a smile to your face.
       https://www.whathifi.com/us/neat/motive-sx2/review
     review_attribution: 'What HiFi'
     type: review
     enabled: true
-published: true
 brands: neat-acoustics
-updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1660842874
+updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
+updated_at: 1672599547
+product_type: speakers
+featured: true
 ---

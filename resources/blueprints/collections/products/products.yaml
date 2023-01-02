@@ -207,4 +207,16 @@ sections:
           validate:
             - required
           max_items: 1
+      -
+        handle: featured
+        field:
+          default: false
+          display: Featured
+          type: toggle
+          icon: toggle
+          instructions: "Turn on to include this product in the 'Featured Products' section"
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
 title: Products

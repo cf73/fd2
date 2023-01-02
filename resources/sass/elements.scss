@@ -1,5 +1,13 @@
+#homehero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: red;
+    height: 45%;
+}
 #logo {
-    position: fixed;
+    position: absolute;
     top: 32px;
     left: 0;
     z-index: 9999;
@@ -49,7 +57,7 @@
     left: 0;
 }
 #news {
-    background-color: $blackglass;
+    // background-color: $blackglass;
     height: 50vh;
     width: 100%;
 }

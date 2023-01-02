@@ -13,9 +13,9 @@ body {
 }
 
 .title {
-  font-weight: 800;
-  font-size: 84px;
-  line-height: 84px;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 72px;
   color: #40E7B5;
 }
 
@@ -64,14 +64,24 @@ a {
 body {
   background-color: #020921;
   overflow-x: hidden;
+  background-image: url("/assets/img/background.svg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
+#homehero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: red;
+  height: 45%;
+}
+
 #logo {
-  position: fixed;
+  position: absolute;
   top: 32px;
   left: 0;
   z-index: 9999;
@@ -128,7 +138,6 @@ body {
 }
 
 #news {
-  background-color: hsla(220deg, 82%, 2%, 0.81);
   height: 50vh;
   width: 100%;
 }

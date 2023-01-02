@@ -147,6 +147,7 @@ features_specs:
     type: paragraph
 reviews:
   -
+    id: riqN3qta
     review_text: |-
       There’s not really a lot to say about the unit in all honesty other than this reduction in the overall “noise” on the line and the sense of you being able to hear more detail and more of what is going on in the track with a “cleaner” sound overall. I could warble on about a whole host of tracks that I listened to but the effect of gordian in the system remained constantly positive and consistent and so I see little point in doing this.
 
@@ -155,8 +156,9 @@ reviews:
     type: review
     enabled: true
 brands: lab12
-updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1660059138
+updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
+updated_at: 1672599261
 pricing: 2390
-published: true
+product_type: power-treatment
+featured: true
 ---

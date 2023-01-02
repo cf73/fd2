@@ -73,7 +73,8 @@ features_specs:
         type: text
         text: '• Weight: 3,5 Kg'
 brands: lab12
-updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1663707307
-published: true
+updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
+updated_at: 1672599709
+product_type: source-accessories
+featured: true
 ---

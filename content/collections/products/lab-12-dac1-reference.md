@@ -136,6 +136,7 @@ features_specs:
         text: '• Five Years Guarantee'
 reviews:
   -
+    id: 4ne8hBMf
     review_text: |-
       If you are going to get hung up on the limited 24bit/192KHz specs of the dac1 then move along, there is nothing for you to see here and you will need to find yourself a machine with better on-paper specifications. If you care about connecting with the music you love then you need to get the dac1 auditioned, it’s a truly fabulous bit of kit that allows the music to just play, and for the listener to listen to the music and not the equipment  – that’s what I took from it anyway.
       Analogue sounding? I don’t care if it sounds analogue or not, what is analogue sounding, anyway? What I do know is that it has transformed this little, and relatively modest, system into something that I would genuinely pit against anything under 15K for sheer musical enjoyment and the dac1 plays no small part in this.
@@ -147,9 +148,10 @@ reviews:
     type: review
     enabled: true
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1665427357
+updated_at: 1672599611
 brands: lab12
 pricing: 3290
 product_tagline: 'Non Oversampling DAC with Tube Output'
 product_type: dacs
+featured: true
 ---

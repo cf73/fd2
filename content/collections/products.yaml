@@ -4,6 +4,7 @@ layout: layout
 taxonomies:
   - brands
   - product_type
+  - featured
 revisions: false
 route: 'brands/{brands}/{title}'
 sort_dir: asc

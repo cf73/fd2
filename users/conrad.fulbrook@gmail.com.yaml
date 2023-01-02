@@ -9,3 +9,6 @@ preferences:
         - title
         - slug
         - brands
+  assets:
+    assets:
+      mode: grid
