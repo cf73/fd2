@@ -56,10 +56,30 @@
     top: 0;
     left: 0;
 }
+#brand-partners {
+    background-color: white;
+    color: $grey;
+    padding: 30px 60px;
+    border-radius: 30px;
+    & .meta {
+        color: $darkcactus;
+    }
+}
+.brandlogo {
+    height: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+    &:hover {
+        translate: 0 -3px;
+        transition: all .5s;
+    }
+}
 #news {
-    // background-color: $blackglass;
-    height: 50vh;
-    width: 100%;
+    background-color: $blackglass;
+    padding: 60px 0;
 }
 .box {
     background-color: $blackglass;
@@ -80,6 +100,9 @@
 }
 .spacer {
     margin-bottom: 60px;
+}
+.spacer_large {
+    margin-bottom: 120px;
 }
 .page-spacer {
     margin-bottom: 144px;
@@ -127,4 +150,8 @@
 }
 .tab-pane {
     padding-top: 30px;
+}
+footer {
+    background-color: $blackglass;
+    padding: 60px 0;
 }

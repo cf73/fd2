@@ -1,0 +1,65 @@
+---
+id: 9eab295f-f468-4ccb-ad9b-24a8233fb5e6
+blueprint: news_and_review
+title: 'Special Winter Promo Pricing on all Harbeth XD Models'
+image: harbeth-1673546874.png
+updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
+updated_at: 1673546881
+content:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Special Winter Promo Pricing on all Harbeth XD Models'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'December 1, 2022- January 31, 2023'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "How can we offer these low prices? Well, we are able to offer the amazing savings below to you because we bought\_"
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: smart
+      -
+        type: text
+        text: "\_- as they say on the financial market \"futures\". We bought heavily when the dollar to British Pound exchange rate was 1.08 to the dollar.\_ Now it's back up to 1.22! So as a holiday present to you and your customers, we are passing these savings along for this limited time."
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: "We have reduced the MSRPs\_"
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: italic
+        text: 'for the promo (only) ,'
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: "\_but your margins are still 45 Points!"
+---

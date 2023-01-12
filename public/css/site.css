@@ -137,13 +137,36 @@ body {
   left: 0;
 }
 
+#brand-partners {
+  background-color: white;
+  color: #999999;
+  padding: 30px 60px;
+  border-radius: 30px;
+}
+#brand-partners .meta {
+  color: #404B48;
+}
+
+.brandlogo {
+  height: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+.brandlogo:hover {
+  translate: 0 -3px;
+  transition: all 0.5s;
+}
+
 #news {
-  height: 50vh;
-  width: 100%;
+  background-color: hsla(220deg, 82%, 2%, 0.47);
+  padding: 60px 0;
 }
 
 .box {
-  background-color: hsla(220deg, 82%, 2%, 0.81);
+  background-color: hsla(220deg, 82%, 2%, 0.47);
   padding: 60px 50px;
   width: 541px;
   position: absolute;
@@ -163,6 +186,10 @@ body {
 
 .spacer {
   margin-bottom: 60px;
+}
+
+.spacer_large {
+  margin-bottom: 120px;
 }
 
 .page-spacer {
@@ -217,4 +244,9 @@ body {
 
 .tab-pane {
   padding-top: 30px;
+}
+
+footer {
+  background-color: hsla(220deg, 82%, 2%, 0.47);
+  padding: 60px 0;
 }
