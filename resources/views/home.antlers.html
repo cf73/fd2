@@ -16,7 +16,7 @@
 </section>
 
 <div class="container">
-<section id="brand-partners" class="spacer">
+<section id="brand-partners" class="spacer_large">
         <div class="row">
             <div class="col-sm-12">
                 <p class="meta" style="text-align: center;">Our Brand Partners</p>
@@ -38,27 +38,6 @@
         </div>
 </section>
 </div>
-
-<section id="featured-products" class="spacer_large">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2>Featured Products</h2>
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                {{collection:products featured:is="true" limit="4"}}
-                    <div class="col md 3">
-                        <a href="{{url}}">
-                            <img src="{{images:0:url}}" width="100%" alt="{{title}}">
-                            <h3>{{title}}</h3>
-                        </a>
-                    </div>
-                {{/collection:products}}
-            </div>
-        </div>
-</section>
 
 <section id="news" class="spacer_large">
     <div class="container">
@@ -84,6 +63,27 @@
             </div>
         </div>
     </div>
+</section>
+
+<section id="featured-products" class="spacer_large">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>Featured Products</h3>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                {{collection:products featured:is="true" limit="4"}}
+                    <div class="col md 3">
+                        <a href="{{url}}">
+                            <img src="{{images:0:url}}" width="100%" alt="{{title}}">
+                            <h3>{{title}}</h3>
+                        </a>
+                    </div>
+                {{/collection:products}}
+            </div>
+        </div>
 </section>
 
 <section id="testimonials" class="spacer_large">
