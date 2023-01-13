@@ -4,7 +4,7 @@ blueprint: pages
 title: Home
 template: home
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1673552762
+updated_at: 1673651174
 hero_image: coltrane.jpg
 blurb:
   -
@@ -14,7 +14,7 @@ blurb:
         type: text
         text: 'For over 30 years we have sought out the finest audio equipment in the world to bring the thrill and magic of music home. We are proud to offer these industry-leading brands through our network of dealers.'
 brand_partners_blurb: 'We are proud to offer these industry-leading brands through our network of dealers...'
-brand_slogan: 'Passion deserves to be shared'
+brand_slogan: 'Spread the passion'
 ---
 ## Welcome to your new brand Statamic site!
 
