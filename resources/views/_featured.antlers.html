@@ -1,0 +1,21 @@
+<section id="featured-products" class="spacer_large lightsection">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 style="text-align: center;" class="spacer_small">Featured Products</h1>
+            </div>
+        </div>
+        <div class="row">
+            {{collection:products featured:is="true" limit="4"}}
+                <div class="col md 3">
+                    <a href="{{url}}">
+                        <div style="border-radius: 3px; background-color: white; margin-bottom: 15px; width: 100%; height: 250px; background-image: url({{images:0:url}}); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+                        <p class="meta">{{title}}</p>
+                        <p style="margin-bottom:0;">&mdash;</p>
+                        <p>{{why_featured}}</p>
+                    </a>
+                </div>
+            {{/collection:products}}
+        </div>
+    </div>
+</section>

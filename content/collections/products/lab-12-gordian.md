@@ -157,8 +157,9 @@ reviews:
     enabled: true
 brands: lab12
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1672599261
+updated_at: 1673649604
 pricing: 2390
 product_type: power-treatment
 featured: true
+why_featured: "The basis of any system at any price is good power, and Lab12's Gordion delivers system-wide benefits at a very powerful price."
 ---

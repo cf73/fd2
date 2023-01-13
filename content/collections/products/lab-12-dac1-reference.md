@@ -148,10 +148,11 @@ reviews:
     type: review
     enabled: true
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1672599611
+updated_at: 1673649229
 brands: lab12
 pricing: 3290
 product_tagline: 'Non Oversampling DAC with Tube Output'
 product_type: dacs
 featured: true
+why_featured: "We think this is an excellent entry point to the world of high-end digital. And it pairs beautifully with Lab12's tube amp offerings."
 ---

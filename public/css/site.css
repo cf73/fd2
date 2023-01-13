@@ -169,6 +169,12 @@ body {
   background-color: #EFEFEF;
   padding: 60px 0;
 }
+.lightsection a {
+  color: #999999;
+}
+.lightsection h1, .lightsection .meta {
+  color: #212529;
+}
 
 .box {
   background-color: hsla(220deg, 82%, 2%, 0.47);

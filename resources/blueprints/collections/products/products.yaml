@@ -219,4 +219,16 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
+      -
+        handle: why_featured
+        field:
+          antlers: false
+          display: 'Why featured?'
+          type: textarea
+          icon: textarea
+          instructions: 'Write a short sentence of why Fidelis Distribution likes this product'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
 title: Products

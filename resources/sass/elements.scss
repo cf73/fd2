@@ -84,6 +84,12 @@
 .lightsection{
     background-color: $whitesand;
     padding: 60px 0;
+    & a {
+        color: $grey;
+    }
+    & h1, .meta {
+        color: $blueblack;
+    }
 }
 .box {
     background-color: $blackglass;

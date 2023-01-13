@@ -41,25 +41,7 @@
 
 {{partial:news}}
 
-<section id="featured-products" class="spacer_large lightsection">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h3 style="text-align: center;" class="spacer_small">Featured Products</h3>
-                </div>
-            </div>
-            <div class="row">
-                {{collection:products featured:is="true" limit="4"}}
-                    <div class="col md 3">
-                        <a href="{{url}}">
-                            <div style="background-color: white; margin-bottom: 15px; width: 100%; height: 250px; background-image: url({{images:0:url}}); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
-                            <p>{{title}}</p>
-                        </a>
-                    </div>
-                {{/collection:products}}
-            </div>
-        </div>
-</section>
+{{partial:featured}}
 
 <section id="testimonials" class="spacer_large darksection">
     <div class="container">
