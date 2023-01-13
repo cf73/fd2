@@ -16,7 +16,7 @@ body {
   font-weight: 500;
   font-size: 72px;
   line-height: 72px;
-  color: #40E7B5;
+  color: #40a9e7;
 }
 
 h1 {
@@ -56,9 +56,8 @@ h3 {
 }
 
 a {
-  color: #19ad89;
+  color: #40a9e7;
   text-decoration: none;
-  color: #40E7B5;
 }
 
 body {
@@ -104,7 +103,7 @@ body {
   margin-bottom: 18px;
 }
 #nav li .active {
-  color: #ace7bd;
+  color: #40a9e7;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -112,7 +111,7 @@ body {
 }
 
 .nav-link {
-  color: #19ad89;
+  color: #40a9e7;
 }
 
 .breadcrumbs {
