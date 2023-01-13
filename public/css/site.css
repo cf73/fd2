@@ -160,8 +160,13 @@ body {
   transition: all 0.5s;
 }
 
-#news {
+.darksection {
   background-color: hsla(220deg, 82%, 2%, 0.47);
+  padding: 60px 0;
+}
+
+.lightsection {
+  background-color: #EFEFEF;
   padding: 60px 0;
 }
 
@@ -177,7 +182,7 @@ body {
 
 .fadeout {
   background: linear-gradient(180deg, rgba(11, 25, 52, 0) 0%, #0B1934 100%);
-  height: 330px;
+  height: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -188,12 +193,26 @@ body {
   margin-bottom: 60px;
 }
 
+.spacer_small {
+  margin-bottom: 30px;
+}
+
 .spacer_large {
   margin-bottom: 120px;
 }
 
 .page-spacer {
   margin-bottom: 144px;
+}
+
+.news-item:hover {
+  color: inherit;
+}
+.news-item:hover p {
+  text-decoration: underline;
+}
+.news-item:hover .meta {
+  text-decoration: none;
 }
 
 .card {

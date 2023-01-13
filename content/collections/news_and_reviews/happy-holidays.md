@@ -4,7 +4,8 @@ blueprint: news_and_review
 title: 'Happy Holidays!'
 image: happy-holidays.png
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1673546805
+updated_at: 1673643243
+article_type: news
 content:
   -
     type: paragraph

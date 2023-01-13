@@ -1,0 +1,5 @@
+title: 'Article type'
+preview_targets:
+  -
+    label: Term
+    url: '{permalink}'

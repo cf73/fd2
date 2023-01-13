@@ -1,0 +1,159 @@
+---
+id: e95a0902-5724-45e0-8b53-27877c0ae5d4
+blueprint: news_and_review
+title: 'Two New EXCELLENT Harbeth XD Reviews'
+image: harbeth-reviews.png
+article_type: reviews
+updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
+updated_at: 1673646818
+date_published: '2021-09-10'
+content:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "We all know this from marketing 101 but sometimes we forget: We have very been fortunate to have received some excellent reviews this year so far and a few more are coming. Please, don't just read these and file them away in your brain box. Use them as a selling tool - print them out and give them to your prospective customers or email them the links we send you. There are lots of choices out there, maybe some of these can help you close the sale!"
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '-----'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '"Harbeth continues its tradition of beautiful sound by delivering its SHL5plus XD speakers that are as attractive to the eyes as they are to the ears...What I experienced was something far above my expectations. Alan Shaw’s dedication to making the 200mm RADIAL2™ an edge of the art driver has brought to the lover of music a transducer that makes a variety of instruments come to life. It does so with the delicacy and power that one might expect in a far larger, more expensive loudspeaker."'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Likes:'
+  -
+    type: bullet_list
+    content:
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Detailed midrange'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Extended treble'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Accurate yet musical'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Amazing micro dynamics'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Decorator approved fit and finish'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Surprising power crescendo'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'This is a really fun and informative review that is worth reading.'
+      -
+        type: text
+        text: "\_"
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://fidelisdistribution.us2.list-manage.com/track/click?u=719902bf9b779515dc7755e7e&id=856e386f71&e=cc5be74ec6'
+              rel: null
+              target: _blank
+              title: null
+        text: 'Read the entire review'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '-----'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "The\_"
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Harbeth C7 XD'
+      -
+        type: text
+        text: "\_gets another great review:- this time from \"down under'\":\_"
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: "Australian Hi-Fi Magazine\_"
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '"It’s very appropriate that the Harbeth Compact 7ES-3 XD speakers are distributed in this country [ Australia] by Audio Magic, because these are magic-sounding speakers indeed! The midrange is truly miraculous, the level of bass from such a small cabinet/driver combo is magical, and the way the speakers reveal the highest treble sounds without etching it is also clever. But by far the biggest trick these speakers pull off is making you think you’re listening to the real thing. Amazing!" '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://fidelisdistribution.us2.list-manage.com/track/click?u=719902bf9b779515dc7755e7e&id=fb64401d64&e=cc5be74ec6'
+              rel: null
+              target: _blank
+              title: null
+        text: 'Read the full review'
+---

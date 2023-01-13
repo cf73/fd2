@@ -1,0 +1,182 @@
+---
+id: a68a6388-3246-476c-a9bf-eaf7ab0be2fd
+blueprint: news_and_review
+title: 'Lab 12 Reviews!'
+image: screenshot-2023-01-13-155558-1673643619.png
+article_type: reviews
+updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
+updated_at: 1673646879
+date_published: '2021-10-14'
+content:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "While we have been busy lining up USA reviews for LAB12, the European press also been very busy recently publishing two new excellent reviews on Lab12's\_"
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'dac1 reference!'
+      -
+        type: hard_break
+      -
+        type: text
+        text: "(non oversampling DAC with Tube Output Stage) USA Retail is $3290.\_Now less expensive than a famous competitor."
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '------'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: "From\_Stereo i Kolorowo - Underground in Poland:"
+      -
+        type: hard_break
+      -
+        type: text
+        text: '“…The Greek LAB12 DAC1 Reference is, in my opinion, a true reference digital-to-analog converter. It plays very passionately and vividly, expresses the colors beautifully and is perfectly selective. It is a thoroughly analog sound, warm, smooth and friendly... Nevertheless, it is not a device intended for every audiophile, but rather for a thoroughbred music lover. One who is looking for music in sound, not sound in music. In other words, for the aware listener who knows “where is the honey and where are the bees… The LAB12 DAC1 Reference is an "old-school DAC" - sensational musical, and therefore completely reference."'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://fidelisdistribution.us2.list-manage.com/track/click?u=719902bf9b779515dc7755e7e&id=a561c84481&e=cc5be74ec6'
+              rel: null
+              target: _blank
+              title: null
+        text: 'Read the rest of the review (google translated)'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '------'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'From HiFi-IFAs in Germany:'
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'The LAB12 DAC1 reference knows how to present music from a single source. Its great strength is the homogeneity of what it sorts and places vividly on the loudspeaker stage. It reveals all the details and subtleties that are in the recording without dissecting any connecting virtues on the altar of digital technology. The voices are impressive, and it not only puts them in the right place in an appropriate size, but also emphasizes their individuality. For most digital listeners, the limitation to 24bit and 192kHz is likely to be a minor issue, especially since the renouncement of up sampling is enough for musical enjoyment. The LAB12 DAC1 presents itself for 3,000 euros as a gallant Greek who takes the music by his hand and always lets it be itself.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://fidelisdistribution.us2.list-manage.com/track/click?u=719902bf9b779515dc7755e7e&id=94dc8d387b&e=cc5be74ec6'
+              rel: null
+              target: _blank
+              title: null
+        text: 'Read the rest of the review (google translated)'
+  -
+    type: paragraph
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'The following models are now in stock from Lab12 - our new distribution tube electronics line:'
+  -
+    type: bullet_list
+    content:
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "integre 4\_"
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: pre1
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: suara
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'melto 2'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'dac1 reference'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: gordian
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: hpa
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'knack AC power cables'
+---

@@ -1,5 +1,15 @@
 title: 'News and Reviews'
+template: default
+layout: layout
+taxonomies:
+  - article_type
 revisions: false
+route: '/news-reviews/{slug}'
+sort_dir: asc
 date_behavior:
   past: public
   future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'

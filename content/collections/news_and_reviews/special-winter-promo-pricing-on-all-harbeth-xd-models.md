@@ -4,7 +4,9 @@ blueprint: news_and_review
 title: 'Special Winter Promo Pricing on all Harbeth XD Models'
 image: harbeth-1673546874.png
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1673546881
+updated_at: 1673646933
+article_type: news
+date_published: '2022-12-05'
 content:
   -
     type: paragraph

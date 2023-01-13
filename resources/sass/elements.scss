@@ -77,8 +77,12 @@
         transition: all .5s;
     }
 }
-#news {
+.darksection{
     background-color: $blackglass;
+    padding: 60px 0;
+}
+.lightsection{
+    background-color: $whitesand;
     padding: 60px 0;
 }
 .box {
@@ -92,7 +96,7 @@
 }
 .fadeout {
     background: linear-gradient(180deg, rgba(11, 25, 52, 0) 0%, #0B1934 100%);
-    height:330px;
+    height:100%;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -101,11 +105,25 @@
 .spacer {
     margin-bottom: 60px;
 }
+.spacer_small {
+    margin-bottom: 30px;
+}
 .spacer_large {
     margin-bottom: 120px;
 }
 .page-spacer {
     margin-bottom: 144px;
+}
+.news-item {
+    &:hover {
+        color: inherit;
+        & p {
+            text-decoration: underline;
+        }
+        & .meta {
+            text-decoration: none;
+        }
+    }
 }
 .card {
     height: auto;
