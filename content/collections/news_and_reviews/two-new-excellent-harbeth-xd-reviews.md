@@ -6,7 +6,6 @@ image: harbeth-reviews.png
 article_type: reviews
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
 updated_at: 1673646818
-date_published: '2021-09-10'
 content:
   -
     type: paragraph

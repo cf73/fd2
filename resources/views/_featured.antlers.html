@@ -5,12 +5,12 @@
                 <h1 style="text-align: center;" class="spacer_small">Featured Products</h1>
             </div>
         </div>
-        <div class="swiper featuredSwiper" style="padding-top: 78px; margin-top: -78px;">
+        <div class="swiper featuredSwiper" style="padding-top: 88px; margin-top: -88px;">
             <div class="swiper-wrapper">
             {{collection:products featured:is="true"}}
                 <div class="swiper-slide">
                     <a href="{{url}}">
-                        <div style="border-radius: 3px; background-color: white; margin-bottom: 15px; width: 100%; height: 250px; background-image: url({{images:0:url}}); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+                        <div class="featuredcard" style="background-image: url({{images:0:url}});"></div>
                         <p class="meta">{{brands:title}} / {{title}}</p>
                         <p style="margin-bottom:0;">&mdash;</p>
                         <p>{{why_featured}}</p>

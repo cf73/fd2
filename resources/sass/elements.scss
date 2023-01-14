@@ -136,6 +136,14 @@
 .card {
     height: auto;
 }
+.featuredcard {
+    border-radius: 3px; background-color: white; margin-bottom: 15px; width: 100%; height: 250px; background-size: 100%; background-repeat: no-repeat; background-position: center;
+    transition: all .5s;
+    &:hover {
+        background-size: 110%;
+        transition: all .5s;
+    }
+}
 .brandcard {
     // background-color: white;
     padding: 18px 20px 60px 20px;
@@ -146,7 +154,7 @@
 }
 .tape {
     background-color: rgba(255, 255, 255, 0.86);
-    background-color: $neoncactus;
+    background-color: $chalkblue;
     padding: 18px 15px;
     z-index: 9999;
     display: inline-block;
@@ -178,6 +186,6 @@
     padding-top: 30px;
 }
 footer {
-    background-color: $blackglass;
+    background-color: $chalkblue;
     padding: 60px 0;
 }

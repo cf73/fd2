@@ -6,7 +6,6 @@ image: screenshot-2023-01-13-155558-1673643619.png
 article_type: reviews
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
 updated_at: 1673646879
-date_published: '2021-10-14'
 content:
   -
     type: paragraph

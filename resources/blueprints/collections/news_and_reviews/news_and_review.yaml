@@ -60,23 +60,6 @@ sections:
           always_save: false
           validate:
             - required
-      -
-        handle: date_published
-        field:
-          mode: single
-          time_enabled: false
-          time_seconds_enabled: false
-          full_width: false
-          inline: false
-          columns: 1
-          rows: 1
-          display: 'Date published'
-          type: date
-          icon: date
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
   sidebar:
     display: Sidebar
     fields:
@@ -101,4 +84,21 @@ sections:
           create: false
           validate:
             - required
+      -
+        handle: date_published
+        field:
+          mode: single
+          time_enabled: false
+          time_seconds_enabled: false
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: 'Date published'
+          type: date
+          icon: date
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
 title: 'News and Reviews'

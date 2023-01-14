@@ -2,7 +2,7 @@
     <div style="height: 100%; width: 100%; position: absolute; top: 0; left: 0; z-index: -9999; opacity: .295; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: top; background-size: cover; mix-blend-mode: multiply; z-index: -999;"><div class="fadeout"></div></div>
     <div class="container" style="padding-top: 60vh;">
         <div class="row spacer">
-            <div class="col-md-8 offset-md-2" style="text-align: center;">
+            <div class="col-md-10 offset-md-1" style="text-align: center;">
                 <!-- {{partial:tape line="30 years of excellence"}} -->
                 <div class="title">{{brand_slogan}}</div>
                 <p>{{blurb}}</p>
@@ -39,19 +39,18 @@
 
 {{partial:featured}}
 
-<section id="testimonials" class="spacer_large darksection">
+<section id="testimonials" class="spacer_large">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h3>What folks say</h3>
-                <hr>
+        <!-- <div class="row">
+            <div class="col-sm-12" style="text-align: center;">
+                <h1>What folks say</h1>
             </div>
-        </div>
+        </div> -->
         <div class="row">
             <div class="col-sm-12">
                 {{collection:testimonials limit="1"}}
-                    <h2>{{title}}</h2>
-                    <h1>{{testimonial}}</h1>
+                    <!-- <h2>{{title}}</h2> -->
+                    <h2>{{testimonial}}</h2>
                     <p class="meta">{{attribution}}</p>
                 {{/collection:testimonials}}
             </div>
@@ -59,7 +58,7 @@
     </div>
 </section>
 
-<section id="dealers" class="spacer_large">
+<section id="dealers" class="darksection">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
