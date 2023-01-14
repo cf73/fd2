@@ -13,21 +13,23 @@
     z-index: 9999;
 }
 #nav {
-    position: absolute;
-    height: 32px;
-    top: 32px;
-    right: 30px;
+    height: 45px;
+    background-color: $blueblack;
+    border-radius: 3px;
     list-style-type: none;
+    display: flex; flex-direction: row; text-align: right; z-index: 9999; position: fixed; top: 12px; right: 45px;
     & li {
         display: inline-block;
         text-transform: uppercase;
-        padding: 0px 12px;
+        padding: 0px 15px;
         & a {
             text-decoration: none;
-            margin-bottom: 18px;
+            &:hover {
+                color: $whitesand;
+            }
         }
         & .active {
-            color: $chalkblue;
+            color: $whitesand;
         }
     }
 }

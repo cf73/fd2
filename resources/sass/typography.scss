@@ -66,4 +66,7 @@ h3 {
 a {
     color: $chalkblue;
     text-decoration: none;
+    &:hover {
+        color: $whitesand;
+    }
 }

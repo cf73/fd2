@@ -59,6 +59,9 @@ a {
   color: #40a9e7;
   text-decoration: none;
 }
+a:hover {
+  color: #EFEFEF;
+}
 
 body {
   background-color: #020921;
@@ -87,23 +90,31 @@ body {
 }
 
 #nav {
-  position: absolute;
-  height: 32px;
-  top: 32px;
-  right: 30px;
+  height: 45px;
+  background-color: #212529;
+  border-radius: 3px;
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+  z-index: 9999;
+  position: fixed;
+  top: 12px;
+  right: 45px;
 }
 #nav li {
   display: inline-block;
   text-transform: uppercase;
-  padding: 0px 12px;
+  padding: 0px 15px;
 }
 #nav li a {
   text-decoration: none;
-  margin-bottom: 18px;
+}
+#nav li a:hover {
+  color: #EFEFEF;
 }
 #nav li .active {
-  color: #40a9e7;
+  color: #EFEFEF;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -138,7 +149,7 @@ body {
 
 #brand-partners {
   background-color: white;
-  color: #999999;
+  color: #505559;
   padding: 30px 60px;
   border-radius: 30px;
 }
@@ -169,7 +180,7 @@ body {
   padding: 60px 0;
 }
 .lightsection a {
-  color: #999999;
+  color: #505559;
 }
 .lightsection h1, .lightsection .meta {
   color: #212529;

@@ -146,14 +146,17 @@ features_specs:
         text: "\_4 Ohms."
 reviews:
   -
+    id: XLdUDsM0
     review_text: |-
       While there’s no shortage of great speakers at the two grand mark, if you need something that sounds best close to a wall, you’ll still struggle. That’s where Neat’s Ministras come in. They’re specifically designed to do that job, with a suggested initial placement of just 20cm into the room.
       https://www.whathifi.com/reviews/neat-ministra
     review_attribution: 'What HiFi'
     type: review
     enabled: true
-published: true
 brands: neat-acoustics
-updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1660846022
+updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
+updated_at: 1673664745
+product_type: speakers
+featured: true
+why_featured: 'Description about why Fidelis Distribution wants you to know about this product...'
 ---
