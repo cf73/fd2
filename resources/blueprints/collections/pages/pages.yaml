@@ -72,6 +72,45 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
+      -
+        handle: services_offered
+        field:
+          collapse: false
+          previews: true
+          sets:
+            service:
+              display: Service
+              fields:
+                -
+                  handle: heading
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Heading
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  handle: description
+                  field:
+                    antlers: false
+                    display: Description
+                    type: textarea
+                    icon: textarea
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+          display: 'Services offered'
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
   sidebar:
     display: Sidebar
     fields:

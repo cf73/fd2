@@ -63,6 +63,11 @@ a:hover {
   color: #EFEFEF;
 }
 
+.bold {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
 body {
   background-color: #020921;
   overflow-x: hidden;
