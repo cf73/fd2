@@ -69,4 +69,11 @@ a {
     &:hover {
         color: $whitesand;
     }
+    &.underline {
+        border-bottom: solid 2px $link;
+    }
+}
+.bold {
+    font-weight: 600;
+    font-size: 1.2em;
 }

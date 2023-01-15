@@ -1,0 +1,23 @@
+.news-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+    min-height: 400px;
+}
+.news-item_image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50%;
+    width: 100%;
+}
+.news-item_text {
+    height: 50%;
+    width: 100%;
+    padding: 15px 30px;
+    background-color: $whitesand;
+    color: $grey;
+}
