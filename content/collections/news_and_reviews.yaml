@@ -1,10 +1,12 @@
 title: 'News and Reviews'
-template: default
+template: '@blueprint'
 layout: layout
+mount: 55ffe469-4f3f-4929-9f84-0b4ca94af578
 taxonomies:
   - article_type
 revisions: false
-route: '/news-reviews/{slug}'
+route: '/{mount}/{slug}'
+date: true
 sort_dir: asc
 date_behavior:
   past: public

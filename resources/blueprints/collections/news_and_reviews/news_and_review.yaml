@@ -85,20 +85,10 @@ sections:
           validate:
             - required
       -
-        handle: date_published
+        handle: date
         field:
-          mode: single
-          time_enabled: false
-          time_seconds_enabled: false
-          full_width: false
-          inline: false
-          columns: 1
-          rows: 1
-          display: 'Date published'
           type: date
-          icon: date
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
+          required: true
+          validate:
+            - required
 title: 'News and Reviews'
