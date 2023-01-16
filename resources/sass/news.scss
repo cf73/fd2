@@ -5,7 +5,7 @@
     height: 100%;
     border-radius: 3px;
     overflow: hidden;
-    min-height: 400px;
+    min-height: 500px;
     box-shadow: $blackglass 0 3px 17px 3px;
     transition: all .5s;
     &:hover {
@@ -20,15 +20,31 @@
         }
     }
 }
+.news-item_small {
+    & .news-item_image {
+        height: 100%;
+        border-bottom: none;
+    }
+    &:hover {
+        & p {
+            text-decoration: underline;
+        }
+        & .meta {
+            text-decoration: none;
+        }
+    }
+}
 .news-item_image {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 50%;
+    height: 45%;
     width: 100%;
+    border-radius: 3px;
+    border-bottom: solid 3px $neoncactus;
 }
 .news-item_text {
-    height: 50%;
+    height: 55%;
     width: 100%;
     padding: 15px 30px;
     background-color: $whitesand;

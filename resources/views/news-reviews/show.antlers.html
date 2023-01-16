@@ -7,7 +7,7 @@
         </div>
         <div class="row spacer_small">
             <div class="col-md-8">
-                {{collection:news_and_reviews sort="date:desc" limit="1"}}
+                {{collection:news_and_reviews limit="1" sort="date:desc"}}
                     <div style="border-radius: 3px; position: relative; display: flex; flex-direction: column; justify-content: end; width: 100%; height: 600px; background-image: url({{image}}); background-size: cover; background-repeat: no-repeat; background-position: center;">
                         <div style="padding: 15px 30px; z-index: 99;">
                             <h2>{{title}}</h2>
@@ -36,3 +36,5 @@
         </div>
     </div>
 </section>
+
+{{partial:footer}}

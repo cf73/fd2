@@ -70,7 +70,8 @@ a {
         color: $whitesand;
     }
     &.underline {
-        border-bottom: solid 2px $link;
+        border-bottom: solid 3px $link;
+        padding-bottom: 3px;
     }
 }
 .bold {
