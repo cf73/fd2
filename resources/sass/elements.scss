@@ -142,8 +142,9 @@
 }
 .brandcard {
     // background-color: white;
-    padding: 18px 20px 60px 20px;
-    margin-bottom: 30px;
+    padding: 18px 20px 12px 20px;
+    margin-bottom: 6px;
+    border-top: solid thin lightgrey;
     & p {
         color: $dimsand;
     }

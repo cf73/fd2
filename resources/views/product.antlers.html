@@ -1,14 +1,19 @@
 <div class="container" style="padding-top: 91px; margin-bottom: 120px;">
-    <ul class="breadcrumbs">
+    <!-- <ul class="breadcrumbs">
         {{ nav:breadcrumbs }}
         <li{{ if is_current }} class="current"{{ /if }} style="display: inline-block;">
             <a href="{{ url }}" style="text-decoration: none;">{{ title }} /&nbsp;</a>
         </li>
         {{ /nav:breadcrumbs }}
-    </ul>
-    {{partial:_productherolockup}}
+    </ul> -->
     <div class="row">
-        <div class="col-md-10 offset-lg-1">
+        <div class="col-lg-6">
+            <div style="z-index: -999; height: 60vh; width:100%; background-image: url('{{images:0:url}}'); background-size: contain; background-position: center; background-repeat: no-repeat;"></div>
+        </div>
+        <div class="col-lg-6">
+            <a href="{{url}}">{{partial:tape line="{brands:title}"}}</a>
+            <div class="title">{{title}}</div>
+            <p class="meta">${{pricing}}</p>
             <ul class="nav nav-tabs" role="tablist">
                 <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1"><div class="meta">Description</div></a></li>
                 <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2"><div class="meta">Features/specs</div></a></li>

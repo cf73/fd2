@@ -1,9 +1,14 @@
 <a href="{{url}}" style="color: inherit;">
     <div class="brandcard">
-        <div style="height: 350px; width: 100%; margin-bottom: 48px; position: relative; background: url({{hero_image}}) center / cover;"></div>
-        <div style="padding: 0px;">
-            <h3>{{title}}</h3>
-            <p class="meta">{{slot}}</p>
+        <div class="row">
+            <div class="col-sm-4">
+                <div style="height: 100%; width: 100%; background: url({{hero_image}}) center / cover;"></div>
+            </div>
+            <div class="col-sm-8">
+                <p class="bold">{{title}}</p>
+                <p class="meta">{{slot}}</p>
+
+            </div>
         </div>
     </div>
 </a>
