@@ -111,7 +111,7 @@
     width: 100%;
 }
 .topspacer {
-    margin-top: 200px;
+    margin-top: 160px;
 }
 .spacer {
     margin-bottom: 60px;
@@ -124,17 +124,6 @@
 }
 .page-spacer {
     margin-bottom: 144px;
-}
-.news-item {
-    &:hover {
-        color: inherit;
-        & p {
-            text-decoration: underline;
-        }
-        & .meta {
-            text-decoration: none;
-        }
-    }
 }
 .card {
     height: auto;

@@ -1,13 +1,13 @@
 <section id="news" class="topspacer page-spacer">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 spacer" style="text-align: center;">
-                <h1>News & Reviews that you can use!</h1>
+            <div class="col-sm-12 spacer_small" style="text-align: center;">
+                <h1>News & Reviews</h1>
             </div>
         </div>
         <div class="row spacer_small">
             <div class="col-md-8">
-                {{collection:news_and_reviews limit="1" sort="date:desc"}}
+                {{collection:news_and_reviews sort="date:desc" limit="1"}}
                     <div style="border-radius: 3px; position: relative; display: flex; flex-direction: column; justify-content: end; width: 100%; height: 600px; background-image: url({{image}}); background-size: cover; background-repeat: no-repeat; background-position: center;">
                         <div style="padding: 15px 30px; z-index: 99;">
                             <h2>{{title}}</h2>
@@ -18,7 +18,7 @@
                 {{/collection:news_and_reviews}}
             </div>
             <div class="col-md-4">
-                {{collection:news_and_reviews offset="-1" limit="1"}}
+                {{collection:news_and_reviews sort="date:desc" offset="1" limit="1"}}
                 <a href="{{url}}">
                     {{partial:newsItem}}
                 </a>
@@ -26,8 +26,8 @@
             </div>
         </div>
         <div class="row">
-            {{collection:news_and_reviews offset="2"}}
-                <div class="col-md-4">
+            {{collection:news_and_reviews sort="date:desc" offset="2"}}
+                <div class="col-md-4 spacer_small">
                     <a href="{{url}}">
                         {{partial:newsItem}}
                     </a>

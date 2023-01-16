@@ -6,6 +6,19 @@
     border-radius: 3px;
     overflow: hidden;
     min-height: 400px;
+    box-shadow: $blackglass 0 3px 17px 3px;
+    transition: all .5s;
+    &:hover {
+        color: inherit;
+        translate: 0 -3px;
+        transition: all .5s;
+        & p {
+            text-decoration: underline;
+        }
+        & .meta {
+            text-decoration: none;
+        }
+    }
 }
 .news-item_image {
     background-size: cover;

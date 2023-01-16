@@ -89,6 +89,19 @@ body {
   border-radius: 3px;
   overflow: hidden;
   min-height: 400px;
+  box-shadow: hsla(220deg, 82%, 2%, 0.47) 0 3px 17px 3px;
+  transition: all 0.5s;
+}
+.news-item:hover {
+  color: inherit;
+  translate: 0 -3px;
+  transition: all 0.5s;
+}
+.news-item:hover p {
+  text-decoration: underline;
+}
+.news-item:hover .meta {
+  text-decoration: none;
 }
 
 .news-item_image {
@@ -240,7 +253,7 @@ body {
 }
 
 .topspacer {
-  margin-top: 200px;
+  margin-top: 160px;
 }
 
 .spacer {
@@ -257,16 +270,6 @@ body {
 
 .page-spacer {
   margin-bottom: 144px;
-}
-
-.news-item:hover {
-  color: inherit;
-}
-.news-item:hover p {
-  text-decoration: underline;
-}
-.news-item:hover .meta {
-  text-decoration: none;
 }
 
 .card {
