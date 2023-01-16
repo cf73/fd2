@@ -1,5 +1,5 @@
 title: 'News and Reviews'
-template: '@blueprint'
+template: news-reviews/show
 layout: layout
 mount: 55ffe469-4f3f-4929-9f84-0b4ca94af578
 taxonomies:
