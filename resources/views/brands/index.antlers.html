@@ -1,22 +1,41 @@
+<div style="height: 100%; width: 100%; position: fixed; top: 0; left: 0; z-index: -9999; opacity: .295; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: top; background-size: cover; mix-blend-mode: multiply; z-index: -999;"><div class="fadeout"></div></div>
+
 <div class="container topspacer">
     <div class="row">
         <div class="col-sm-12">
-            <h1>{{title}}</h1>
-            
-            <p>{{blurb}}</p>
+            <div class="title">{{collection:pages :home:brand_slogan}}</div>
+                <p>{{blurb}}</p>
             
             {{taxonomy:brands}}
-                <a href="{{url}}"><h1>{{title}}</h1></a>
-                <div class="row spacer">
-                    <h3>Recent {{title}} news and reviews:</h3>
-                    {{collection:news_and_reviews is_this_news_or_review_brand-related:contains="{title}"}}     
-                        <div class="col-md-3">
-                            <a href="{{url}}">{{partial:newsItem}}</a>
-                        </div>     
-                        
-                    {{/collection:news_and_reviews}}
+                <div class="row spacer darksection" style="border-radius: 3px;">
+                    <div class="col-lg-4" style="background-color: white; border-radius: 3px;">
+                        <div class="brandlogo">
+                            <a href="{{url}}">
+                                <img src="{{logo}}" width="70%" alt="{{title}}">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Products</h3>
+                    </div>
+                    <div class="col-lg-4">
+                            <h3>Recent {{title}} news and reviews:</h3>
+                            {{collection:news_and_reviews is_this_news_or_review_brand-related:contains="{title}"}}
+                            <a href="{{url}}">
+                                <div class="row spacer_small news-item_small">
+                                    <div class="col-md-4">
+                                        <div class="news-item_image" style="background-image: url({{image}});"></div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p class="meta">{{article_type:title}}</p>
+                                        <p style="font-weight: 600; margin-bottom:0;">{{title}}</p>
+                                        {{date}}
+                                    </div>
+                                </div>
+                            </a>
+                            {{/collection:news_and_reviews}}
+                    </div>
                 </div>
-                
             {{/taxonomy:brands}}
         </div>
     </div>
