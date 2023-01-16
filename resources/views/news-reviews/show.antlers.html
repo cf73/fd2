@@ -1,18 +1,32 @@
 <div class="container page-spacer">
     <div class="row topspacer">
-        <div class="col-lg-4">
-            <h1 style="text-align: center;" class="spacer_small">Recent <span style="font-weight: 800;">{{title}}</span> news and reviews</h1>
-            {{collection:news_and_reviews is_this_news_or_review_brand-related:contains="{title}" sort="date:desc"}}
-                <div class="col-md-3">
-                    <a href="{{url}}">{{partial:newsItem}}</a>
-                </div>
+        <div class="col-lg-3 topspacer">
+            <h2 class="spacer_small">Recent <span style="font-weight: 800;">{{is_this_news_or_review_brand-related:0:title}}</span> news and reviews</h2>
+            {{collection:news_and_reviews is_this_news_or_review_brand-related:contains="{is_this_news_or_review_brand-related:0:title}" sort="date:desc" :id:not="id"}}
+                {{if no_results}}
+                    No other news or reviews for this brand currently.
+                {{else}}
+                <a href="{{url}}">
+                    <div class="row spacer_small news-item_small">
+                        <div class="col-md-4">
+                            <div class="news-item_image" style="background-image: url({{image}});"></div>
+                        </div>
+                        <div class="col-md-8">
+                            <p class="meta">{{article_type:title}}</p>
+                            <p style="font-weight: 600; margin-bottom:0;">{{title}}</p>
+                            {{date}}
+                        </div>
+                    </div>
+                </a>
+                {{/if}}
             {{/collection:news_and_reviews}}
+            <p class="meta"><a href="/news-reviews" class="underline">See more</a></p>
         </div>
-        <div class="col-lg-8">
+        <div class="col-lg-8 offset-lg-1 page-spacer">
             <p class="meta">{{article_type:title}}</p>
             <h1 style="font-weight: 600; margin-bottom:0;">{{title}}</h1>
-            {{date}}
-            <img src="{{image}}" width="100%" class="spacer_small" alt="{{title}}">
+            <p>{{date}}</p>
+            <img src="{{image}}" width="100%" class="spacer_small" style="border-radius: 3px;" alt="{{title}}">
             <p>{{content}}</p>
         </div>
     </div>
