@@ -91,4 +91,18 @@ sections:
           required: true
           validate:
             - required
+      -
+        handle: is_this_news_or_review_brand-related
+        field:
+          mode: select
+          create: false
+          taxonomies:
+            - brands
+          display: 'Is this news or review brand-related?'
+          type: terms
+          icon: taxonomy
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
 title: 'News and Reviews'

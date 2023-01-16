@@ -16,9 +16,8 @@
 
     <section id="products" class="page-spacer">
         <div class="row">
-            <div class="col-sm-11 offset-md-1">
-                <h1>Featured <span style="font-weight: 800;">{{title}}</span> products</h1>
-                <hr class="spacer">
+            <div class="col-sm-12">
+                <h1 style="text-align: center;" class="spacer_small">Featured <span style="font-weight: 800;">{{title}}</span> products</h1>
                 {{makers_of}}
                     {{partial:tape line="{title}"}}
                     <div class="swiper mySwiper" style="padding-top: 78px; margin-top: -78px;">
@@ -36,43 +35,28 @@
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-pagination"></div>
                     </div>
-                    <hr>
                 {{/makers_of}}
-                    <!-- <div class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-                            {{collection:products :brands:contains="last_segment" :taxonomy:product_type="get:product_type"}}
-                            {{if no_results}}
-                                <p>No products added yet!</p>
-                            {{else}}
-                            <div class="swiper-slide">
-                                <div>
-                                    <div class="card">
-                                        <div class="imagearea" style="height: 300px; width:100%; background-image: url('{{images:0:url}}'); background-size: contain; background-position: center; background-repeat: no-repeat;">
-
-                                        </div>
-                                   
-                                        <div class="card-body p-4">
-                                            <a href="{{url}}" style="text-decoration: none;">
-                                                <h4 class="card-title">{{title}}</h4>
-                                            </a>
-                                            <p>${{pricing format_number="2|.|,"}}</p>
-                                            <p class="card-text halflineheight">{{product_tagline}}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {{/if}}
-                            {{/collection:products}}
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div> -->
-                </div>    
             </div>
         </div>
     </section>
+
+    <section id="in-the-news" class="page-spacer">
+        <div class="row">
+            <h1 style="text-align: center;" class="spacer_small">Recent <span style="font-weight: 800;">{{title}}</span> news and reviews</h1>
+            {{collection:news_and_reviews is_this_news_or_review_brand-related:contains="{title}" sort="date:desc"}}
+                <div class="col-md-3">
+                    <a href="{{url}}">{{partial:newsItem}}</a>
+                </div>
+            {{/collection:news_and_reviews}}
+        </div>
+    </section>
 </div>
+
+
     {{partial:_dealers sell="{title}"}}
-</div>
+
+    {{partial:footer}}
+
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 

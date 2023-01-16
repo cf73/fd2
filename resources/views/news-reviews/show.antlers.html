@@ -1,10 +1,18 @@
 <div class="container page-spacer">
     <div class="row topspacer">
-        <div class="col-sm-12">
-            <img src="{{image}}" width="100%" class="spacer_small" alt="{{title}}">
+        <div class="col-lg-4">
+            <h1 style="text-align: center;" class="spacer_small">Recent <span style="font-weight: 800;">{{title}}</span> news and reviews</h1>
+            {{collection:news_and_reviews is_this_news_or_review_brand-related:contains="{title}" sort="date:desc"}}
+                <div class="col-md-3">
+                    <a href="{{url}}">{{partial:newsItem}}</a>
+                </div>
+            {{/collection:news_and_reviews}}
+        </div>
+        <div class="col-lg-8">
             <p class="meta">{{article_type:title}}</p>
             <h1 style="font-weight: 600; margin-bottom:0;">{{title}}</h1>
             {{date}}
+            <img src="{{image}}" width="100%" class="spacer_small" alt="{{title}}">
             <p>{{content}}</p>
         </div>
     </div>
