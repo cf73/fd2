@@ -74,7 +74,9 @@
     </div>
 </section>
 
-<section id="dealers" class="darksection">
+{{partial:dealers}}
+
+<!-- <section id="dealers" class="darksection">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -95,7 +97,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 {{partial:footer}}
 
@@ -150,20 +152,6 @@
 
  <!-- Initialize Swiper -->
  <script>
-    var swiper = new Swiper(".coretech", {
-        slidesPerView: 1,
-        centeredSlides: true,
-        spaceBetween: 30,
-        grabCursor: true,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-    });
     var swiper = new Swiper(".dealerSwiper", {
       slidesPerView: 3.5,
       spaceBetween: 30,

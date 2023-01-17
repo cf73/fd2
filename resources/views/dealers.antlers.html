@@ -1,0 +1,34 @@
+<div class="container">
+    <!-- <div class="row topspacer spacer_large">
+        <div class="col-md-8 offset-md-2">
+            <h1 class="title" style="text-align: center;">{{title}}</h1>
+            {{blurb}}
+        </div>
+    </div> -->
+    <div class="row topspacer page-spacer">
+        <div class="col-sm-12">
+            {{partial:dealers}}
+        </div>
+    </div>
+</div>
+
+{{partial:footer}}
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+    var swiper = new Swiper(".dealerSwiper", {
+      slidesPerView: 3.5,
+      spaceBetween: 30,
+      navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
