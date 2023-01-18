@@ -150,6 +150,7 @@ features_specs:
         text: '• Weight: 7 Kg'
 reviews:
   -
+    id: ZdxyJHLe
     review_text: |-
       The pre1 is a wonderful preamp with a sublime volume control. It offers an open window on the music and the beautiful soundstage comes for free. If you can live with the limited features, with the Lab12 pre1 and dac1 reference you have two absolute winners. They are, to use a cliché, highly recommended!
 
@@ -159,8 +160,9 @@ reviews:
     enabled: true
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1660059227
+updated_at: 1674068828
 product_tagline: 'Class A Tube Preamplifier'
-pricing: 2190
-published: true
+pricing: 2295
+product_type: source-accessories
+featured: false
 ---
