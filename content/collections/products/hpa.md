@@ -64,8 +64,8 @@ features_specs:
         text: '• Five Years Guarantee'
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1674072321
-product_type: power-amplifiers
+updated_at: 1674072412
+product_type: head-phone-amplifier
 featured: false
 why_featured: luscious
 ---
