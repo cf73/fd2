@@ -2,7 +2,7 @@
 id: 713a9c26-d619-4d30-9e97-876eed3d76d2
 blueprint: products
 title: 'Integre 4 Integrated Amplifier'
-product_tagline: 'Audiophile Integrated Amplifie'
+product_tagline: 'Audiophile Integrated Amplifier'
 blurb:
   -
     type: paragraph
@@ -117,5 +117,5 @@ product_type: integrated-amplifiers
 featured: false
 why_featured: 'lovers of tube designs will enjoy the emotion the integre4 bestows on the music.'
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1674070822
+updated_at: 1674070848
 ---
