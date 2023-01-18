@@ -10,7 +10,7 @@ blurb:
       -
         type: text
         text: 'Simpler is usually better. The Lab 12 True is proof of that statement. It’s the most pure, unaltered way of signal delivery that adds none of its own signature and keeps the flow of music untouched and unadulterated.'
-pricing: 690
+pricing: 695
 images:
   - lab12-true-side-matt-black-1663706734.jpg
 description:
@@ -73,8 +73,8 @@ features_specs:
         type: text
         text: '• Weight: 3,5 Kg'
 brands: lab12
-updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1672599709
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1674068919
 product_type: source-accessories
 featured: true
 ---
