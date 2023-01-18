@@ -164,11 +164,13 @@ features_specs:
         text: '• Five Years Guarantee'
 reviews:
   -
+    id: n82TFddt
     type: review
     enabled: false
 brands: lab12
-updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1665503933
-pricing: 2190
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1674068740
+pricing: 2295
 product_type: power-amplifiers
+featured: false
 ---
