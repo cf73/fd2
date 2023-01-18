@@ -147,16 +147,18 @@ features_specs:
         type: text
         text: '• Five Years Guarantee'
 brands: lab12
-updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1665503954
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1674068892
 reviews:
   -
+    id: sBWOE5bA
     review_text: |-
       Video
       https://www.youtube.com/watch?v=yyM0QK97ojY
     type: review
     enabled: true
 product_tagline: '25 Watt Class A Power Amplifier'
-pricing: 2990
+pricing: 3295
 product_type: power-amplifiers
+featured: false
 ---
