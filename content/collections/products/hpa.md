@@ -10,7 +10,7 @@ blurb:
       -
         type: text
         text: 'OTL Tube Headphone Amplifier / Preamplifier with USB DAC'
-pricing: 1490
+pricing: 1495
 images:
   - lab12-hpa-face-frozen-silver.jpg
 description:
@@ -62,8 +62,10 @@ features_specs:
       -
         type: text
         text: '• Five Years Guarantee'
-published: true
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1663707713
+updated_at: 1674068307
+product_type: integrated-amplifiers
+featured: false
+why_featured: luscious
 ---
