@@ -150,8 +150,10 @@ features_specs:
       -
         type: text
         text: "\_4 Ohms."
-published: true
 brands: neat-acoustics
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1663710655
+updated_at: 1674072126
+product_type: speakers
+featured: true
+why_featured: 'Stunning performance and dynamic bass set this speaker apart from anything we carry in this form factor!'
 ---
