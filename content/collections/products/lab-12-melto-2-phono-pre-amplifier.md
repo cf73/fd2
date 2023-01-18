@@ -177,6 +177,7 @@ features_specs:
     type: paragraph
 reviews:
   -
+    id: mqo9bcA9
     review_text: |-
       Sonically this is the easiest to get on with phonostage I’ve heard in our system. It is quiet to the point of silent in operation, allowing me to really get into a recording’s detail, but at the same time it is relaxed, unhurried and natural sounding in its delivery.  There is a definite feeling to music having more space around individual instruments and those instruments sit in the soundstage with a solidity that is uncanny.
       I’ve outlined a few records I listened to during the evaluation process but the melto was completely unfazed at whatever style of music I played through it, being equally at home with Dutch gabber from the early 90s to Miles Davis and everything in-between.
@@ -187,8 +188,9 @@ reviews:
     enabled: true
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1660059190
+updated_at: 1674068498
 product_tagline: 'Fully adjustable Phono Preamplifier'
-pricing: 4490
-published: true
+pricing: 4495
+product_type: source-accessories
+featured: false
 ---
