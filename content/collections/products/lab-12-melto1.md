@@ -16,7 +16,7 @@ blurb:
       -
         type: text
         text: 'An outstanding performance for more than a fair price. In other words…the real deal!'
-pricing: 2690
+pricing: 2695
 images:
   - lab12-melto1-side-matt-black.jpg
   - lab12-melto1-back.jpg
@@ -250,6 +250,7 @@ features_specs:
                 text: 'Five Years Guarantee'
 reviews:
   -
+    id: MHPSoNkx
     review_text: |-
       Melto1 was undoubtedly designed by music lovers for vinyl lovers and it offers the listener the possibility to enjoy the music very easily. It offers a high level of reproduction and sound with all the necessary settings at an affordable price. 
 
@@ -259,6 +260,7 @@ reviews:
     enabled: true
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1663710324
-published: true
+updated_at: 1674068372
+product_type: source-accessories
+featured: false
 ---
