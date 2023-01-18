@@ -154,9 +154,8 @@ reviews:
     type: review
     enabled: true
 brands: neat-acoustics
-updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1673664745
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1674071875
 product_type: speakers
-featured: true
-why_featured: 'Description about why Fidelis Distribution wants you to know about this product...'
+featured: false
 ---
