@@ -4,7 +4,7 @@ published: false
 blueprint: simple_page
 title: About
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1674075871
+updated_at: 1674076028
 blurb: |-
   Welcome to Fidelis Distribution where we bring some of the finest high end audio to our dealers and customers across the United States.
 
@@ -17,5 +17,5 @@ blurb: |-
 
   Our British connection doesn’t end with Harbeth, Fidelis is proud to have added NEAT Acoustics to our portfolio. The NEAT ranges provide us with unique loudspeaker designs incorporating ribbon tweeters and Isobaric woofer designs that deliver stunning bass dynamics. 
 
-  We offer services to our partners such a brand ambassador for Stenheim Loudspeakers/ Switzerland, Stein Music/Germany and  Audio Analogue/Italy.
+  We offer services to our partners such as brand ambassador for Stenheim Loudspeakers/Switzerland, Stein Music/Germany and  Audio Analogue/Italy.
 ---
