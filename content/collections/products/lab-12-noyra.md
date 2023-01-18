@@ -10,7 +10,7 @@ blurb:
       -
         type: text
         text: 'Lab12 Noyra follows on the steps of the great success of the multiple awards winning Lab12 Gordian power conditioner/distributor. With Noyra, we have managed to encapsulate Gordian’s mighty core and DNA in a simpler and more straightforward package.'
-pricing: 1490
+pricing: 1495
 images:
   - lab12-noyra-side-matt-black.jpg
   - lab12-noyra-connections.jpg
@@ -125,6 +125,7 @@ features_specs:
     type: paragraph
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1660059207
-published: true
+updated_at: 1674068790
+product_type: power-treatment
+featured: false
 ---
