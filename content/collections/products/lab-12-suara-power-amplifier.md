@@ -29,8 +29,8 @@ blurb:
       -
         type: text
         text: 'Like all of the Lab12 products, Suara also comes with two colour choices of glass blasting anodizing finish.'
-updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1665503944
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1674068862
 retail_pricing: $4490
 images:
   - lab12-suara-face-matt-black.jpg
@@ -162,6 +162,7 @@ features_specs:
         text: '• Weight: 19.5Kg'
 reviews:
   -
+    id: UUxXSRSC
     review_text: |-
       The pricing on this amplifier is, frankly, stupid. No, that is not really fair, is it? I’m better off saying that the asking price for this amplifier represents a bit of a bargain and I’ve heard valve amplifiers, and solid-state amps for that matter that cost a lot more than this not have the same sense of power and control that the Suana brings to the party.
 
@@ -171,6 +172,7 @@ reviews:
     enabled: true
 brands: lab12
 product_tagline: '2 x 50 Watt Class A Power Amplifier'
-pricing: 4490
+pricing: 4995
 product_type: power-amplifiers
+featured: false
 ---
