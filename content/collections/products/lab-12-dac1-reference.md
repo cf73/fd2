@@ -147,10 +147,10 @@ reviews:
     review_attribution: 'Stuart Smith HiFi Pig'
     type: review
     enabled: true
-updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1673649229
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1674068237
 brands: lab12
-pricing: 3290
+pricing: 3295
 product_tagline: 'Non Oversampling DAC with Tube Output'
 product_type: dacs
 featured: true
