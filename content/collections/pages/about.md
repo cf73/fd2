@@ -1,10 +1,9 @@
 ---
 id: 12f5df16-f215-4730-ab09-9b2ed9de77f1
-published: false
 blueprint: simple_page
 title: About
-updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1674076136
+updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
+updated_at: 1674078074
 blurb: |-
   Welcome to Fidelis Distribution where we bring some of the finest high end audio to our dealers and customers across the United States.
 
