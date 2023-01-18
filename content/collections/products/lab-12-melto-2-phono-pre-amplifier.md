@@ -188,9 +188,9 @@ reviews:
     enabled: true
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1674068498
+updated_at: 1674072226
 product_tagline: 'Fully adjustable Phono Preamplifier'
 pricing: 4495
-product_type: source-accessories
+product_type: pre-amplifiers
 featured: false
 ---
