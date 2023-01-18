@@ -84,7 +84,7 @@ features_specs:
         text: '• Weight: 22Kg'
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1674066315
+updated_at: 1674066323
 images:
   - lab12-integre4-front-1-2-2021.jpg.webp
 reviews:
