@@ -276,6 +276,7 @@ features_specs:
         text: Black
 reviews:
   -
+    id: 8tlJjy0U
     review_text: |-
       It’s very appropriate that the Harbeth Compact 7ES-3 XD speakers are distributed in Australia by Audio Magic, because these are magic-sounding speakers indeed! The midrange is truly miraculous, the level of bass from such a small cabinet/driver combo is magical, and the way the speakers reveal the highest treble sounds without etching it is also clever. 
 
@@ -283,12 +284,13 @@ reviews:
     review_attribution: 'What HiFi'
     type: review
     enabled: true
-updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1670362698
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1674146492
 brands: harbeth
 product_tagline: 'The icon of clarity and detail'
-pricing: 4890
+pricing: 4490
 images:
   - c7es-3-xd-cherry-loudspeaker.jpg
 product_type: speakers
+featured: false
 ---
