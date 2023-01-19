@@ -304,7 +304,7 @@ reviews:
     type: review
     enabled: true
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1674146627
+updated_at: 1674147193
 product_tagline: 'A definitive statement in loudspeaker design - Musical'
 pricing: 7490
 brands: harbeth
