@@ -299,14 +299,16 @@ features_specs:
         text: Black
 reviews:
   -
+    id: J6C4BWIP
     review_text: 'Even with the obvious attractions of the speakers, I still wondered why all the internet adulation. Well, consider the audience. First, the price and lineage are as attractive as the box. Many prospective buyers will be younger, hip to social media, and want highly regarded audiophile gear they can actually afford. Or, at least save for. Many great audiophile products we review in Audiophilia are end of journey, aspirational components. Many years of collecting, saving, selling, trading up, etc. Actual young folks, passionate audiophiles, are thrilled they can get their foot in the door with quality products like the Harbeth Audio P3ESR XD. As such, in my late twenties, when I could manage the ProAc Tablettes (not even Signatures), I was excited for weeks about my high end purchase. However, if the choice was today, Harbeth would be receiving my cheque. Very highly recommended and about the best bargain in high end audio.'
     review_attribution: Audiophilia
     type: review
     enabled: true
-updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1668700154
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1674146655
 brands: harbeth
 product_tagline: 'Amazing sound from the LS35A gold standard'
-pricing: 3290
+pricing: 2990
 product_type: speakers
+featured: false
 ---
