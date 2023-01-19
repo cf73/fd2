@@ -273,14 +273,16 @@ features_specs:
         text: Black
 reviews:
   -
+    id: MyCTeVh6
     review_text: 'I’ve owned a lot of speakers, both big and small, and it’s rare that I find one so engaging and musical, so at home with all types of music. This is a speaker that makes you excited about listening to music, makes you want to hear as much as possible and offers a connection to the artist that you don’t always find easily. The 30.2 XD is not just a speaker that I want to listen to music on, it’s a speaker that I want to live with, so much so, I put my money where my editorial mouth is and sent the distributor a check. Hats off to Shaw and co for producing a world class musical product.'
     review_attribution: Audiophilia
     type: review
     enabled: true
-updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1668700186
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1674146539
 brands: harbeth
 product_tagline: 'A speaker for the critical listener'
-pricing: 6690
+pricing: 6490
 product_type: speakers
+featured: false
 ---
