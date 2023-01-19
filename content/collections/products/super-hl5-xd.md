@@ -298,13 +298,16 @@ features_specs:
         text: Black
 reviews:
   -
+    id: tLAxhyyo
     review_text: 'What I experienced was something far above my expectations. Alan Shaw’s dedication to making the 200mm RADIAL2™ an edge of the art driver has brought to the lover of music a transducer that makes a variety of instruments come to life. It does so with the delicacy and power that one might expect in a far larger, more expensive loudspeaker'
     review_attribution: 'Craig Chase Home Theatre HiFi'
     type: review
     enabled: true
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1660679891
+updated_at: 1674146627
 product_tagline: 'A definitive statement in loudspeaker design - Musical'
-pricing: 7990
-published: true
+pricing: 7490
+brands: harbeth
+product_type: speakers
+featured: false
 ---
