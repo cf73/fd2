@@ -72,6 +72,11 @@ a.underline {
   font-size: 1.2em;
 }
 
+.link {
+  color: #40a9e7;
+  font-weight: 800;
+}
+
 body {
   background-color: #020921;
   overflow-x: hidden;
@@ -132,6 +137,9 @@ body {
   padding: 15px 30px;
   background-color: #EFEFEF;
   color: #505559;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #homehero {
@@ -318,7 +326,7 @@ body {
   transition: all 0.5s;
 }
 
-.brandcard {
+.productCard {
   padding: 18px 20px 12px 20px;
   margin-bottom: 6px;
   border-top: solid thin #505559;
