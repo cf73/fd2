@@ -285,6 +285,10 @@ body {
   margin-top: 160px;
 }
 
+.topspacer_large {
+  margin-top: 218px;
+}
+
 .spacer {
   margin-bottom: 60px;
 }
@@ -327,9 +331,16 @@ body {
 }
 
 .productCard {
-  padding: 18px 20px 12px 20px;
-  margin-bottom: 6px;
-  border-top: solid thin #505559;
+  padding: 18px 20px 30px 20px;
+  margin-bottom: 24px;
+  background-color: white;
+  border-radius: 12px;
+  transition: all 0.5s;
+}
+.productCard:hover {
+  translate: 0 -3px;
+  transition: all 0.5s;
+  box-shadow: rgba(80, 85, 89, 0.1411764706) 0 3px 30px 2px;
 }
 
 .truncate {

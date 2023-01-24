@@ -1,81 +1,94 @@
-<!-- <div style="height: 70vh; width: 100%; z-index: -999; position: relative; background: url({{hero_image}}) center / cover;"></div> -->
-<div style="height: 75vh; width: 100%; position: absolute; top: 0; left: 0; z-index: -9999; opacity: .8; background: url({{hero_image}}); background-position: center; background-size: cover; z-index: -999;"><div class="fadeout"></div></div>
-<style>
+<div style="height: 100%; width: 100%; position: fixed; top: 0; left: 0; z-index: -9999; opacity: .4; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: top; background-size: cover; z-index: -999;"><div class="fadeout"></div></div>
+
+<!-- <style>
     body {
         background-image: none;
         background-color: #EFEFEF;
     }
-</style>
-<div class="container topspacer">
-    <div class="row">
-        <div class="col-lg-12 page-spacer reversetext" style="background-color: rgb(255, 255, 255); border-radius: 3px; margin-top:46vh;">
-            <section id="intro" class="page-spacer">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-10 offset-md-1">
-                                <div class="spacer" style="margin-top: 90px;">
-                                    <img src="{{logo}}" width="50%" alt="{{title}}">
-                                </div>
-                                <h2>{{byline}}</h2>
-                                <div id="brandblurb" class="truncate">
-                                    {{blurb}}
-                                    <div id="expand" class="caption light">+ show more</div>
-                                    <div id="collapse" class="caption light hide">- show less</div>
-                                    <div class="fader"></div>
-                                </div>
+</style> -->
+<div>
+
+    <div class="container" style="padding-top: 30px;">
+        <div class="row">
+            <div class="col-lg-12 page-spacer reversetext" style="background-color: rgba(255, 255, 255, 0.904); border-radius: 3px; margin-top:16vh;">
+                <section id="intro" class="page-spacer">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="spacer_small" style="margin-top: 60px; text-align: center;">
+                                <img src="{{logo}}" width="30%" alt="{{title}}" style="mix-blend-mode: multiply;" class="spacer">
+                                <img src="{{hero_image}}" alt="{{title}}" width="100%" class="spacer" style="border-radius: 7px;">
+                                <h2 style="text-align: center;">{{byline}}</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-8 offset-md-2">
+                            <div id="brandblurb" class="truncate">
+                                {{blurb}}
+                                <div id="expand" class="caption light">+ show more</div>
+                                <div id="collapse" class="caption light hide">- show less</div>
+                                <div class="fader"></div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-        
-            <div class="row">
-                <div class="col-lg-5 offset-lg-1">
-                    <h2 class="spacer_small">Featured <span style="font-weight: 800;">{{title}}</span> products</h2>
-                    {{makers_of}}
-                        {{if makers_of > 1}}
-                            <p class="meta">{{title}}</p>
-                        {{else}}
-                        {{/if}}
-                        <div class="spacer">
-                            {{collection:products :brands:contains="last_segment" :taxonomy:product_type="slug" sort="{pricing}"}}
-                                {{partial:_productCard hero_image="{images:0:url}"}}
-                                    <p class="meta">${{pricing}}</p>
-                                    <p style="height: 2em;">{{product_tagline}}</p>
-                                {{/partial:_productCard}}
-                            {{/collection:products}}
+                </section>
+            
+                <section id="featured-products">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="spacer_small" style="text-align: center;">Featured <span style="font-weight: 800;">{{title}}</span> products</h2>
+                            {{makers_of}}
+                                {{if makers_of > 1}}
+                                    <p class="meta" style="text-align: center;">{{title}}</p>
+                                    <hr>
+                                {{else}}
+                                {{/if}}
+                                
+                                    <div class="swiper productSwiper spacer" style="padding-top: 78px; margin-top: -78px;">
+                                        <div class="swiper-wrapper">                                                
+                                            {{collection:products :brands:contains="last_segment" :taxonomy:product_type="slug" sort="{pricing}"}}
+                                            <div class="swiper-slide">
+                                                {{partial:_productCard hero_image="{images:0:url}"}}
+                                                    <p class="meta">${{pricing}}</p>
+                                                    <p style="height: 3em;">{{product_tagline}}</p>
+                                                {{/partial:_productCard}}
+                                            </div>
+                                            {{/collection:products}}
+                                        </div>
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                            {{/makers_of}}
                         </div>
-                    {{/makers_of}}
-                </div>
-                <div class="col-lg-5">
-                    <section id="in-the-news" class="page-spacer">
-                        <div class="row">
-                            <h2 class="spacer_small">Recent <span style="font-weight: 800;">{{title}}</span> News and Reviews</h2>
-                            {{collection:news_and_reviews is_this_news_or_review_brand-related:contains="{title}" sort="date:desc"}}
-                            <a href="{{url}}">
-                                <div class="row spacer_small news-item_small">
-                                    <div class="col-md-4">
-                                        <div class="news-item_image" style="background-image: url({{image}});"></div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <p class="meta">{{article_type:title}}</p>
-                                        <p style="font-weight: 600; margin-bottom:0;">{{title}}</p>
-                                        {{date}}
-                                    </div>
+                    </div>
+                </section>
+    
+                <section id="recent-news-and-reviews" class="darksection">
+                    <div class="row">
+                        <h2 class="spacer_small" style="text-align: center;">Recent <span style="font-weight: 800;">{{title}}</span> News and Reviews</h2>
+                        {{collection:news_and_reviews is_this_news_or_review_brand-related:contains="{title}" sort="date:desc"}}
+                        <a href="{{url}}">
+                            <div class="row spacer_small news-item_small">
+                                <div class="col-md-4">
+                                    <div class="news-item_image" style="background-image: url({{image}});"></div>
                                 </div>
-                            </a>
-                            {{/collection:news_and_reviews}}
-                        </div>
-                    </section>
-                </div>
+                                <div class="col-md-8">
+                                    <p class="meta">{{article_type:title}}</p>
+                                    <p style="font-weight: 600; margin-bottom:0;">{{title}}</p>
+                                    {{date}}
+                                </div>
+                            </div>
+                        </a>
+                        {{/collection:news_and_reviews}}
+                    </div>
+                </section>
             </div>
         </div>
+        
+    
+        
     </div>
-    
-
-    
 </div>
+
 
 
     {{partial:_dealers sell="{title}"}}
@@ -108,6 +121,18 @@
  <script>
     var swiper = new Swiper(".dealerSwiper", {
       slidesPerView: 2.5,
+      spaceBetween: 30,
+      navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+    var swiper = new Swiper(".productSwiper", {
+      slidesPerView: 3.25,
       spaceBetween: 30,
       navigation: {
           nextEl: ".swiper-button-next",

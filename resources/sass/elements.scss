@@ -119,6 +119,9 @@
 .topspacer {
     margin-top: 160px;
 }
+.topspacer_large {
+    margin-top: 218px;
+}
 .spacer {
     margin-bottom: 60px;
 }
@@ -148,9 +151,16 @@
 }
 .productCard {
     // background-color: white;
-    padding: 18px 20px 12px 20px;
-    margin-bottom: 6px;
-    border-top: solid thin $grey;
+    padding: 18px 20px 30px 20px;
+    margin-bottom: 24px;
+    background-color: white;
+    border-radius: 12px;
+    transition: all .5s;
+    &:hover {
+        translate: 0 -3px;
+        transition: all .5s;
+        box-shadow: #50555924 0 3px 30px 2px;
+    }
 }
 .truncate {
     max-height: 300px;
