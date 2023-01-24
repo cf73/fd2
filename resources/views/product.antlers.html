@@ -1,3 +1,13 @@
+<div style="height: 350px; opacity: .7; width: 100%; text-align: center; position: absolute; top: 0; left: 0; z-index: -9999; background: url({{brands:background_image}}); background-position: center; background-size: cover; z-index: -999;">
+    <!-- <img src="{{logo}}" width="15%" alt="{{title}}" style="mix-blend-mode: plus-lighter; position: relative; top:30%;"> -->
+    <div class="fadeout"></div>
+</div>
+<style>
+    body {
+        background-image: none;
+        background-color: #EFEFEF;
+    }
+</style>
 <div class="container" style="padding-top: 91px; margin-bottom: 120px;">
     <!-- <ul class="breadcrumbs">
         {{ nav:breadcrumbs }}
@@ -14,6 +24,10 @@
             <a href="{{url}}">{{partial:tape line="{brands:title}"}}</a>
             <div class="title">{{title}}</div>
             <p class="meta">${{pricing}}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8 offset-md-2">
             <ul class="nav nav-tabs" role="tablist">
                 <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1"><div class="meta">Description</div></a></li>
                 <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2"><div class="meta">Features/specs</div></a></li>
