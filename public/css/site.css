@@ -74,7 +74,7 @@ a.underline {
 
 .link {
   color: #40a9e7;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 body {
@@ -95,7 +95,7 @@ body {
   border-radius: 3px;
   overflow: hidden;
   min-height: 500px;
-  box-shadow: hsla(220deg, 82%, 2%, 0.47) 0 3px 17px 3px;
+  box-shadow: rgba(80, 85, 89, 0.1411764706) 0 3px 30px 2px;
   transition: all 0.5s;
 }
 .news-item:hover {
@@ -135,11 +135,14 @@ body {
   height: 55%;
   width: 100%;
   padding: 15px 30px;
-  background-color: #EFEFEF;
+  background-color: #f9f9f9;
   color: #505559;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.news-item_text:hover {
+  background-color: white;
 }
 
 #homehero {
@@ -334,7 +337,7 @@ body {
   padding: 18px 20px 30px 20px;
   margin-bottom: 24px;
   background-color: white;
-  border-radius: 12px;
+  border-radius: 3px;
   transition: all 0.5s;
 }
 .productCard:hover {
@@ -351,7 +354,7 @@ body {
 }
 
 .fader {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #EFEFEF 100%);
   height: 200px;
   position: absolute;
   bottom: 0;
