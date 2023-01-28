@@ -1,9 +1,9 @@
-<div style="height: 100%; width: 100%; position: fixed; top: 0; left: 0; z-index: -9999; opacity: .2; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: top; background-size: cover; z-index: -999;"><div class="fadeout"></div></div>
+<!-- <div style="height: 100%; width: 100%; position: fixed; top: 0; left: 0; z-index: -9999; opacity: .2; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: top; background-size: cover; z-index: -999;"><div class="fadeout"></div></div> -->
 
-<section id="news" class="page-spacer" style="margin-top: 15vh;">
+<section id="news" class="page-spacer topspacer_large">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 spacer_small" style="text-align: center;">
+            <div class="col-sm-12 spacer_small">
                 <h1>News & Reviews</h1>
             </div>
         </div>
@@ -11,13 +11,13 @@
             <div class="col-md-8">
                 {{collection:news_and_reviews limit="1" sort="date:desc"}}
                     <a href="{{url}}">
-                        <div style="border: solid thin white; border-radius: 3px; position: relative; display: flex; flex-direction: column; justify-content: end; padding-bottom: 18px; width: 100%; height: 600px; background-image: url({{image}}); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                        <div class="news-item_main" style="background-image: url({{image}});">
                             <div style="padding: 15px 30px; z-index: 99;">
                                 <p class="meta">{{article_type:title}}</p>
                                 <h2 style="margin-bottom:0;">{{title}}</h2>
                                 {{date}}
                             </div>
-                            <div class="fadeout"></div>
+                            <div class="fadeout_bright"></div>
                         </div>
                     </a>
                 {{/collection:news_and_reviews}}

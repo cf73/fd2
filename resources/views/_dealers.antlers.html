@@ -1,20 +1,22 @@
 <section id="dealers" class="darksection">
-    <div class="row">
-        <div class="col-sm-12">
-            <h1 style="text-align: center;" class="spacer">Our <span style="font-weight: 800;">{{sell}}</span> dealers</h1>
-            {{collection:pages title:is="dealers"}}
-                <div style="text-align: center;" class="spacer">{{blurb}}</div>
-            {{/collection:pages}}
-        </div>
-        <div class="col-sm-10 offset-md-1">
-            {{partial:_tape line="East"}}
-                {{partial:_dealerRegion DR="east-coast"}}
-            <hr class="spacer">
-            {{partial:_tape line="Central"}}
-                {{partial:_dealerRegion DR="central"}}
-            <hr class="spacer">
-            {{partial:_tape line="West"}}
-                {{partial:_dealerRegion DR="west-coast"}}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 style="text-align: center;" class="spacer">Our <span style="font-weight: 800;">{{sell}}</span> dealers</h1>
+                {{collection:pages title:is="dealers"}}
+                    <div style="text-align: center;" class="spacer">{{blurb}}</div>
+                {{/collection:pages}}
+            </div>
+            <div class="col-sm-10 offset-md-1">
+                {{partial:_tape line="East"}}
+                    {{partial:_dealerRegion DR="east-coast"}}
+                <hr class="spacer">
+                {{partial:_tape line="Central"}}
+                    {{partial:_dealerRegion DR="central"}}
+                <hr class="spacer">
+                {{partial:_tape line="West"}}
+                    {{partial:_dealerRegion DR="west-coast"}}
+            </div>
         </div>
     </div>
 </section>

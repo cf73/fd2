@@ -7,14 +7,20 @@
                     No other news or reviews for this brand currently.
                 {{else}}
                 <a href="{{url}}">
-                    <div class="row spacer_small news-item_small">
-                        <div class="col-md-4">
-                            <div class="news-item_image" style="background-image: url({{image}});"></div>
-                        </div>
-                        <div class="col-md-8">
-                            <p class="meta">{{article_type:title}}</p>
-                            <p style="font-weight: 600; margin-bottom:0;">{{title}}</p>
-                            {{date}}
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="news-item_small">
+                                <div class="row">
+                                    <div class="col-md-4" style="position: relative;">
+                                        <div class="news-item_image" style="background-image: url({{image}});"></div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p class="meta">{{article_type:title}}</p>
+                                        <p style="font-weight: 600; margin-bottom:0;">{{title}}</p>
+                                        {{date}}
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </a>

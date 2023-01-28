@@ -1,7 +1,7 @@
-<section class="" style="position: relative; padding-bottom: 60px;">
-    <div style="height: 100%; width: 100%; position: absolute; top: 0; left: 0; z-index: -9999; opacity: .4; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: top; background-size: cover; z-index: -999;"><div class="fadeout"></div></div>
-    <div class="container" style="padding-top: 60vh;">
-        <div class="row spacer">
+<section style="position: relative;" class="darkbackground">
+    <div style="height: 100%; width: 100%; position: absolute; top: 0; left: 0; opacity: .4; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: top; background-size: cover;"><div class="fadeout"></div></div>
+    <div class="container" style="padding-top: 50vh; position: relative;">
+        <div class="row">
             <div class="col-md-10 offset-md-1" style="text-align: center;">
                 <!-- {{partial:tape line="30 years of excellence"}} -->
                 <div class="title">{{brand_slogan}}</div>
@@ -9,11 +9,11 @@
             </div>
         </div>
         <div id="brand-partners">
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-sm-12">
                     <p class="meta" style="text-align: center;">Our Brand Partners</p>
                 </div>
-            </div>
+            </div> -->
             <div class="row">
                 {{taxonomy:brands}}
                     <div class="col-md-4" style="text-align: center;">
@@ -145,7 +145,7 @@
       },
     });
     var swiper = new Swiper(".featuredSwiper", {
-      slidesPerView: 4,
+      slidesPerView: 2,
       spaceBetween: 30,
       navigation: {
           nextEl: ".swiper-button-next",
