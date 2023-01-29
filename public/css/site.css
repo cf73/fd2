@@ -61,14 +61,14 @@ h3 {
 }
 
 a {
-  color: #4363f3;
+  color: #bbb7df;
   text-decoration: none;
 }
 a:hover {
   color: #EFEFEF;
 }
 a.underline {
-  border-bottom: solid 3px #40d8e7;
+  border-bottom: solid 3px #bbb7df;
   padding-bottom: 3px;
 }
 
@@ -78,7 +78,7 @@ a.underline {
 }
 
 .link {
-  color: #4363f3;
+  color: #bbb7df;
   font-weight: 600;
 }
 
@@ -100,7 +100,7 @@ body {
 }
 
 .topspacer {
-  margin-top: 160px;
+  margin-top: 184px;
 }
 
 .topspacer_large {
@@ -248,10 +248,15 @@ body {
 }
 
 #logo {
-  position: absolute;
+  position: fixed;
   top: 32px;
   left: 0;
   z-index: 9999;
+}
+
+#dealers {
+  z-index: 10000000000000000000000000000000000000;
+  position: relative;
 }
 
 #nav {
@@ -281,7 +286,7 @@ body {
   color: #414250;
 }
 #nav li .active {
-  color: #40d8e7;
+  color: #bbb7df;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -289,7 +294,11 @@ body {
 }
 
 .highlight {
-  color: #4363f3;
+  color: #bbb7df !important;
+}
+
+.purple {
+  color: #6a77d1 !important;
 }
 
 .nav-link {
@@ -341,7 +350,7 @@ body {
 }
 
 .darksection {
-  background-color: rgba(38, 41, 54, 0.7450980392);
+  background-color: rgba(38, 41, 54, 0.9607843137);
   padding: 60px 0;
   position: relative;
 }
@@ -477,7 +486,7 @@ body {
 
 .tape {
   background-color: rgba(255, 255, 255, 0.86);
-  background-color: #4363f3;
+  background-color: #bbb7df;
   padding: 18px 15px;
   z-index: 9999;
   display: inline-block;
@@ -525,15 +534,15 @@ footer {
 
 .productpageimage {
   position: fixed;
-  top: 0%;
-  left: 0;
+  top: 90px;
+  left: 20px;
   width: 50vw;
-  height: 100vh;
-  opacity: 0.4;
+  height: 86vh;
+  /* opacity: 0.7; */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #e8f0f5;
+  background-color: white;
   background-blend-mode: multiply;
 }
 

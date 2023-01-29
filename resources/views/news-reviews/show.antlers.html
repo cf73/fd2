@@ -3,13 +3,15 @@
 <div class="container page-spacer">
     <div class="row topspacer spacer_large">
         <div class="col-sm-12" style="text-align: center;">
-            <h1>{{parent:title}}</h1>
+            <a href="{{parent}}">
+                <h2>{{parent:title}}</h2>
+            </a>
         </div>
     </div>
     <div class="row">
         <div class="col-lg-7 page-spacer">
             <p class="meta">{{article_type:title}}</p>
-            <h2>{{title}}</h2>
+            <h1 class="highlight">{{title}}</h1>
             <p>{{date}}</p>
             <img src="{{image}}" width="100%" class="spacer_small" style="border-radius: 3px;" alt="{{title}}">
             <div class="row">
@@ -19,7 +21,7 @@
             </div>
         </div>
         <div id="news" class="col-lg-4 offset-md-1 topspacer_small">
-            <p class="spacer_small">Recent <span style="font-weight: 800;">{{is_this_news_or_review_brand-related:0:title}}</span> news and reviews</p>
+            <h2 class="spacer_small">Recent <a href="{{is_this_news_or_review_brand-related:0:url}}"><span class="highlight" style="font-weight: 800;">{{is_this_news_or_review_brand-related:0:title}}</span></a> news and reviews</h2>
             {{collection:news_and_reviews is_this_news_or_review_brand-related:contains="{is_this_news_or_review_brand-related:0:title}" sort="date:desc" :id:not="id"}}
                 {{if no_results}}
                     No other news or reviews for this brand currently.
@@ -42,9 +44,10 @@
                 </a>
                 {{/if}}
             {{/collection:news_and_reviews}}
-            <p class="meta"><a href="/news-reviews" class="underline">See more</a></p>
+            <p class="meta spacer"><a href="/news-reviews" class="underline">See more</a></p>
+            
             <a href="{{is_this_news_or_review_brand-related:0:url}}">
-                <h2>Learn more about {{is_this_news_or_review_brand-related:0:title}}</h2>
+                <h2>Learn more about <span class="highlight">{{is_this_news_or_review_brand-related:0:title}}</span></h2>
             </a>
         </div>
     </div>
