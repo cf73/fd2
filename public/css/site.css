@@ -52,6 +52,10 @@ h3 {
   margin-bottom: 0;
 }
 
+.nav-link .meta {
+  font-weight: 600;
+}
+
 .halflineheight {
   line-height: 21px;
 }
@@ -100,7 +104,7 @@ body {
 }
 
 .topspacer_large {
-  margin-top: 289px;
+  margin-top: 42vh;
 }
 
 .spacer {
@@ -134,10 +138,10 @@ body {
 
 .news-item_small {
   background-color: #414250;
-  padding: 12px 6px;
   border-radius: 3px;
   transition: all 0.5s;
   margin-bottom: 15px;
+  overflow: hidden;
 }
 .news-item_small .news-item_image {
   height: 100%;
@@ -183,17 +187,15 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 45%;
+  height: 65%;
   width: 100%;
-  border-radius: 3px;
-  border-bottom: solid 3px #40d8e7;
 }
 
 .news-item_text {
   position: absolute;
-  top: 45%;
+  top: 65%;
   left: 0;
-  height: 55%;
+  height: 100%;
   width: 100%;
   padding: 15px 30px;
   background-color: #414250;
@@ -253,17 +255,19 @@ body {
 }
 
 #nav {
-  height: 39px;
-  background-color: #40d8e7;
-  border-radius: 3px;
+  height: 63px;
+  background-color: #e8f0f5;
+  /* border-radius: 3px; */
   list-style-type: none;
   display: flex;
   flex-direction: row;
   text-align: right;
   z-index: 9999;
   position: fixed;
-  top: 12px;
-  right: 45px;
+  padding-top: 12px;
+  padding-left: 10px;
+  top: 0;
+  right: 0;
 }
 #nav li {
   display: inline-block;
@@ -274,10 +278,10 @@ body {
   text-decoration: none;
 }
 #nav li a:hover {
-  color: #EFEFEF;
+  color: #414250;
 }
 #nav li .active {
-  color: #EFEFEF;
+  color: #40d8e7;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -289,7 +293,7 @@ body {
 }
 
 .nav-link {
-  color: #4363f3;
+  color: #262936;
 }
 
 .breadcrumbs {
@@ -337,8 +341,9 @@ body {
 }
 
 .darksection {
-  background-color: hsla(220deg, 82%, 2%, 0.47);
+  background-color: rgba(38, 41, 54, 0.7450980392);
   padding: 60px 0;
+  position: relative;
 }
 
 .darkbackground {
@@ -352,6 +357,7 @@ body {
 
 .lightsection {
   background-color: #9da1a0;
+  color: #262936;
   padding: 60px 0;
 }
 .lightsection a {
@@ -407,7 +413,8 @@ body {
 
 .featuredcard {
   border-radius: 3px;
-  background-color: white;
+  background-color: #e8f0f5;
+  background-blend-mode: multiply;
   margin-bottom: 15px;
   width: 100%;
   padding-bottom: 100%;
@@ -418,16 +425,16 @@ body {
 }
 
 .productCard {
-  padding: 18px 20px 30px 20px;
+  padding: 0px 12px 24px 12px;
   margin-bottom: 24px;
-  background-color: white;
+  background-color: #dcdff1;
+  color: #262936;
   border-radius: 3px;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 .productCard:hover {
-  translate: 0 -3px;
-  transition: all 0.5s;
-  box-shadow: rgba(80, 85, 89, 0.1411764706) 0 3px 30px 2px;
+  transition: all 0.3s;
+  background-color: white;
 }
 
 .truncate {
@@ -478,6 +485,10 @@ body {
   color: #020921;
 }
 
+.swiper {
+  padding-bottom: 30px;
+}
+
 .swiper-button-next {
   right: 0;
   top: 30px;
@@ -499,7 +510,7 @@ body {
 }
 
 .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-  bottom: -10px;
+  bottom: 0px;
 }
 
 .tab-pane {
@@ -507,6 +518,29 @@ body {
 }
 
 footer {
-  background-color: #4363f3;
+  background-color: #dcdff1;
   padding: 60px 0;
+  mix-blend-mode: difference;
+}
+
+.productpageimage {
+  position: fixed;
+  top: 0%;
+  left: 0;
+  width: 50vw;
+  height: 100vh;
+  opacity: 0.4;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #e8f0f5;
+  background-blend-mode: multiply;
+}
+
+.productpagerightcol {
+  position: relative;
+  left: 50%;
+  top: 0;
+  padding: 10vw;
+  width: 50%;
 }

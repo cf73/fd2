@@ -1,24 +1,40 @@
+<div style="height: 100%; width: 100%; position: fixed; top: 0; left: 0; z-index: -9999; opacity: .2; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: top; background-size: cover; z-index: -999;"><div class="fadeout"></div></div>
+
 <div class="container page-spacer">
-    <div class="row topspacer">
-        <div class="col-lg-3 topspacer">
-            <h2 class="spacer_small">Recent <span style="font-weight: 800;">{{is_this_news_or_review_brand-related:0:title}}</span> news and reviews</h2>
+    <div class="row topspacer spacer_large">
+        <div class="col-sm-12" style="text-align: center;">
+            <h1>{{parent:title}}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-7 page-spacer">
+            <p class="meta">{{article_type:title}}</p>
+            <h2>{{title}}</h2>
+            <p>{{date}}</p>
+            <img src="{{image}}" width="100%" class="spacer_small" style="border-radius: 3px;" alt="{{title}}">
+            <div class="row">
+                <div class="col-md-10">
+                    {{content}}
+                </div>
+            </div>
+        </div>
+        <div id="news" class="col-lg-4 offset-md-1 topspacer_small">
+            <p class="spacer_small">Recent <span style="font-weight: 800;">{{is_this_news_or_review_brand-related:0:title}}</span> news and reviews</p>
             {{collection:news_and_reviews is_this_news_or_review_brand-related:contains="{is_this_news_or_review_brand-related:0:title}" sort="date:desc" :id:not="id"}}
                 {{if no_results}}
                     No other news or reviews for this brand currently.
                 {{else}}
                 <a href="{{url}}">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="news-item_small">
-                                <div class="row">
-                                    <div class="col-md-4" style="position: relative;">
-                                        <div class="news-item_image" style="background-image: url({{image}});"></div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <p class="meta">{{article_type:title}}</p>
-                                        <p style="font-weight: 600; margin-bottom:0;">{{title}}</p>
-                                        {{date}}
-                                    </div>
+                    <div class="news-item_small">
+                        <div class="row">
+                            <div class="col-md-4" style="position: relative;">
+                                <div class="news-item_image" style="background-image: url({{image}});"></div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="news-item_small_text">
+                                    <p class="meta">{{article_type:title}}</p>
+                                    <p style="font-weight: 600; margin-bottom:0;">{{title}}</p>
+                                    {{date}}
                                 </div>
                             </div>
                         </div>
@@ -30,13 +46,6 @@
             <a href="{{is_this_news_or_review_brand-related:0:url}}">
                 <h2>Learn more about {{is_this_news_or_review_brand-related:0:title}}</h2>
             </a>
-        </div>
-        <div class="col-lg-8 offset-lg-1 page-spacer">
-            <p class="meta">{{article_type:title}}</p>
-            <h1 style="font-weight: 600; margin-bottom:0;">{{title}}</h1>
-            <p>{{date}}</p>
-            <img src="{{image}}" width="100%" class="spacer_small" style="border-radius: 3px;" alt="{{title}}">
-            <p>{{content}}</p>
         </div>
     </div>
 </div>

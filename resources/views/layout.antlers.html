@@ -28,7 +28,7 @@
         <link rel="stylesheet" href="/css/site.css">
     </head>
     <body>
-      <a href="/" id="logo"><img src="/assets/img/logo.svg" style="height: 210px;" alt="Fidelis Distribution Home"></a>
+      <a href="/" id="logo"><img src="/assets/img/logo.svg" style="height: 258px;" alt="Fidelis Distribution Home"></a>
         <!-- <div style="height: 100vh; width: 100%; opacity: .075; background: url({{hero_image}}); background-position: top; background-size: cover; mix-blend-mode: multiply; z-index: -999;"></div> -->
           <ul id="nav" class="navbar-nav me-auto">
               {{ nav include_home="false" }}
@@ -41,6 +41,24 @@
           </ul>
           {{ template_content }}
                 
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".dealerSwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
       
 
     <script src="{{ mix src='/js/site.js' }}"></script>

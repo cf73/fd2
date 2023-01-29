@@ -1,16 +1,6 @@
-<div class="container">
-    <!-- <div class="row topspacer spacer_large">
-        <div class="col-md-8 offset-md-2">
-            <h1 class="title" style="text-align: center;">{{title}}</h1>
-            {{blurb}}
-        </div>
-    </div> -->
-    <div class="row topspacer page-spacer">
-        <div class="col-sm-12">
-            {{partial:dealers}}
-        </div>
-    </div>
-</div>
+<div style="height: 100%; width: 100%; position: fixed; top: 0; left: 0; z-index: -9999; opacity: .2; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: top; background-size: cover; z-index: -999;"><div class="fadeout"></div></div>
+
+<div class="topspacer_large">{{partial:dealers}}</div>
 
 {{partial:footer}}
 
@@ -20,7 +10,7 @@
  <!-- Initialize Swiper -->
  <script>
     var swiper = new Swiper(".dealerSwiper", {
-      slidesPerView: 3.5,
+      slidesPerView: 3.25,
       spaceBetween: 30,
       navigation: {
           nextEl: ".swiper-button-next",
