@@ -1,9 +1,33 @@
 body { 
     background-color: $background;
-    overflow-x: hidden;
     background-image: url("/assets/img/background.svg");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: #ececec;
+    background-color: #f6f7ff;
+    background-color: $dark;
+    background-image: none;
+}
+.topspacer_small {
+    margin-top: 90px;
+}
+.topspacer {
+    margin-top: 184px;
+}
+.topspacer_large {
+    margin-top: 42vh;
+}
+.spacer {
+    margin-bottom: 60px;
+}
+.spacer_small {
+    margin-bottom: 30px;
+}
+.spacer_large {
+    margin-bottom: 120px;
+}
+.page-spacer {
+    margin-bottom: 144px;
 }

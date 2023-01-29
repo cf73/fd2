@@ -1,18 +1,14 @@
-<div style="height: 100%; width: 100%; position: absolute; top: 0; left: 0; z-index: -9999; opacity: .1; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: top; background-size: cover; z-index: -999;"><div class="fadeout"></div></div>
+<div style="height: 100%; width: 100%; position: fixed; top: 0; left: 0; z-index: -9999; opacity: .1; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: top; background-size: cover; z-index: -999;"></div>
 
-<div class="container topspacer page-spacer">
-    <div class="row spacer">
+<div class="container topspacer_large page-spacer">
+    <div class="row">
         <div class="col-sm-6 offset-md-3" style="text-align: center;">
             <h1 class="title">{{title}}</h1>
             <p>{{blurb}}</p>
         </div>
     </div>
     <div id="brand-partners">
-        <div class="row">
-            <div class="col-sm-12">
-                <p class="meta" style="text-align: center;">Our Brand Partners</p>
-            </div>
-        </div>
+        
         <div class="row">
             {{taxonomy:brands}}
                 <div class="col-md-4" style="text-align: center;">

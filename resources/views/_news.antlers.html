@@ -1,23 +1,24 @@
-<section id="news" class="darksection">
-    <div class="container">
+<section id="news" class="spacer">
+    <div class="container topspacer_small">
         <div class="row">
-            <div class="col-sm-12 spacer" style="text-align: center;">
+            <div class="col-sm-12" style="display:flex; flex-direction:row; justify-content:space-between; align-items: baseline;">
                 <h1>News & Reviews</h1>
+                <h2><a href="/news-reviews" class="highlight">See more</a></h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-7">
                 <div class="row spacer_small">
                     <div class="col-sm-12">
                         {{collection:news_and_reviews limit="1" sort="date:desc"}}
                             <a href="{{url}}">
-                                <div style="border: solid thin white; border-radius: 3px; position: relative; display: flex; flex-direction: column; justify-content: end; padding-bottom: 18px; width: 100%; height: 600px; background-image: url({{image}}); background-size: cover; background-repeat: no-repeat; background-position: center;">
-                                    <div style="padding: 15px 30px; z-index: 99;">
+                                <div class="news-item_main" style="background-image: url({{image}}); ">
+                                    <div class="news-item_main_title" style="padding: 15px 30px; z-index: 99;">
                                         <p class="meta">{{article_type:title}}</p>
                                         <h2 style="margin-bottom:0;">{{title}}</h2>
                                         {{date}}
                                     </div>
-                                    <div class="fadeout"></div>
+                                    <div class="fadeout_bright"></div>
                                 </div>
                             </a>
                         {{/collection:news_and_reviews}}
@@ -33,23 +34,26 @@
                     {{/collection:news_and_reviews}}
                 </div>
             </div>
-            <div class="col-md-4">
-                <h2 class="verticalEmphasis spacer_small">...that you can use!</h2>
+            <div class="col-md-5">
+                <!-- <h2 class="verticalEmphasis spacer_small">...that you can use!</h2> -->
                 {{collection:news_and_reviews sort="date:desc" offset="3"}}
                 <a href="{{url}}">
-                    <div class="row spacer_small news-item_small">
-                        <div class="col-md-4">
-                            <div class="news-item_image" style="background-image: url({{image}});"></div>
-                        </div>
-                        <div class="col-md-8">
-                            <p class="meta">{{article_type:title}}</p>
-                            <p style="font-weight: 600; margin-bottom:0;">{{title}}</p>
-                            {{date}}
+                    <div class="news-item_small">
+                        <div class="row">
+                            <div class="col-md-4" style="position: relative;">
+                                <div class="news-item_image" style="background-image: url({{image}});"></div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="news-item_small_text">
+                                    <p class="meta">{{article_type:title}}</p>
+                                    <p style="font-weight: 600; margin-bottom:0;">{{title}}</p>
+                                    {{date}}
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </a>
                 {{/collection:news_and_reviews}}
-                <p class="meta"><a href="/news-reviews" class="underline">See more</a></p>
             </div>
         </div>
     </div>

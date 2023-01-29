@@ -1,76 +1,44 @@
-<div style="height: 350px; opacity: .7; width: 100%; text-align: center; position: absolute; top: 0; left: 0; z-index: -9999; background: url({{brands:background_image}}); background-position: center; background-size: cover; z-index: -999;">
-    <!-- <img src="{{logo}}" width="15%" alt="{{title}}" style="mix-blend-mode: plus-lighter; position: relative; top:30%;"> -->
-    <div class="fadeout"></div>
+<div style="height: 100%; width: 100%; position: fixed; top: 0; left: 0; z-index: -9999; opacity: .4; background: url({{brands:hero_image}}); background-position: top; background-size: cover; z-index: -999; mix-blend-mode: luminosity;"><div class="fadeout"></div></div>
+
+<div class="productpageimage" style="background-image: url('{{images:0:url}}');">
+
 </div>
-<style>
-    body {
-        background-image: none;
-        background-color: #EFEFEF;
-    }
-</style>
-<div class="container" style="padding-top: 91px; margin-bottom: 120px;">
-    <!-- <ul class="breadcrumbs">
-        {{ nav:breadcrumbs }}
-        <li{{ if is_current }} class="current"{{ /if }} style="display: inline-block;">
-            <a href="{{ url }}" style="text-decoration: none;">{{ title }} /&nbsp;</a>
-        </li>
-        {{ /nav:breadcrumbs }}
-    </ul> -->
-    <div class="row">
-        <div class="col-lg-6">
-            <div style="z-index: -999; height: 60vh; width:100%; background-image: url('{{images:0:url}}'); background-size: contain; background-position: center; background-repeat: no-repeat;"></div>
+<div class="rightcol">
+        <!-- <ul class="breadcrumbs">
+            {{ nav:breadcrumbs }}
+            <li{{ if is_current }} class="current"{{ /if }} style="display: inline-block;">
+                <a href="{{ url }}" style="text-decoration: none;">{{ title }} /&nbsp;</a>
+            </li>
+            {{ /nav:breadcrumbs }}
+        </ul> -->
+       
+    <a href="../{{brands:slug}}">{{partial:tape line="{brands:title}"}}</a>
+    <div class="title">{{title}}</div>
+    <p class="meta spacer">${{pricing}}</p>
+    
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1"><div class="meta">Description</div></a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2"><div class="meta">Features/specs</div></a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-3"><div class="meta">Reviews</div></a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane active" role="tabpanel" id="tab-1">
+            <p>{{blurb}}</p>
+            <p>{{description}}</p>
         </div>
-        <div class="col-lg-6">
-            <a href="{{url}}">{{partial:tape line="{brands:title}"}}</a>
-            <div class="title">{{title}}</div>
-            <p class="meta">${{pricing}}</p>
+        <div class="tab-pane" role="tabpanel" id="tab-2">
+            <p>{{features_specs}}</p>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-8 offset-md-2">
-            <ul class="nav nav-tabs" role="tablist">
-                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1"><div class="meta">Description</div></a></li>
-                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2"><div class="meta">Features/specs</div></a></li>
-                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-3"><div class="meta">Reviews</div></a></li>
-            </ul>
-            <div class="tab-content">
-                <div class="tab-pane active" role="tabpanel" id="tab-1">
-                    <p>{{blurb}}</p>
-                    <p>{{description}}</p>
-                </div>
-                <div class="tab-pane" role="tabpanel" id="tab-2">
-                    <p>{{features_specs}}</p>
-                </div>
-                <div class="tab-pane" role="tabpanel" id="tab-3">
-                    {{reviews}}
-                    <p>{{review_text}}</p>
-                    <p class="meta">&mdash; {{review_attribution}}</p>
-                    {{/reviews}}
-                   
-                </div>
-            </div>
+        <div class="tab-pane" role="tabpanel" id="tab-3">
+            {{reviews}}
+            <p>{{review_text}}</p>
+            <p class="meta">&mdash; {{review_attribution}}</p>
+            {{/reviews}}
         </div>
     </div>
 </div>
+
 {{partial:_dealers sell="{brands:title}"}}
 
 {{partial:footer}}
 
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
- <!-- Initialize Swiper -->
- <script>
-    var swiper = new Swiper(".dealerSwiper", {
-      slidesPerView: 2.5,
-      spaceBetween: 30,
-      navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-  </script>
