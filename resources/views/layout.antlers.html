@@ -29,6 +29,18 @@
     </head>
     <body>
       <a href="/" id="logo"><img src="/assets/img/logo.svg" style="height: 258px;" alt="Fidelis Distribution Home"></a>
+      <div id="burgernav"></div>
+      <div id="mobilenavsheet" class="show">
+        <ul id="nav" class="navbar-nav me-auto show">
+          {{ nav include_home="false" }}
+            <li class="nav-item">
+              <a class="nav-link {{ if is_current || is_parent }} active {{ /if }}" href="{{url}}">
+                <p class="meta">{{ title }}</p>
+              </a>
+            </li>
+          {{ /nav }}
+      </ul>
+      </div>
         <!-- <div style="height: 100vh; width: 100%; opacity: .075; background: url({{hero_image}}); background-position: top; background-size: cover; mix-blend-mode: multiply; z-index: -999;"></div> -->
           <ul id="nav" class="navbar-nav me-auto">
               {{ nav include_home="false" }}
