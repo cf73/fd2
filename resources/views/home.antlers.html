@@ -1,10 +1,12 @@
 <section style="position: relative;" class="darkbackground">
     <div style="height: 100%; width: 100%; position: absolute; top: 0; left: 0; opacity: .4; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: top; background-size: cover;"><div class="fadeout"></div></div>
-    <div class="container" style="padding-top: 50vh; position: relative;">
+    <div class="container" style="padding-top: 66vh; position: relative;">
         <div class="row">
-            <div class="col-md-10 offset-md-1" style="text-align: center;">
+            <div class="col-md-12" style="text-align: center;">
                 <!-- {{partial:tape line="30 years of excellence"}} -->
                 <div class="title purple">{{brand_slogan}}</div>
+            </div>
+            <div class="col-md-10 offset-md-1" style="text-align: center;">
                 <p>{{blurb}}</p>
             </div>
         </div>
@@ -67,7 +69,7 @@
         </div> -->
         <div class="row">
             <div class="col-sm-12">
-                <h1 class="spacer">We get mail sometimes</h1>
+                <!-- <h1 class="spacer">We get mail sometimes</h1> -->
                 {{collection:testimonials limit="1"}}
                     <!-- <h2>{{title}}</h2> -->
                     <h2 style="font-style: italic;">{{testimonial}}</h2>
@@ -136,24 +138,29 @@
 
  <!-- Initialize Swiper -->
  <script>
-    var swiper = new Swiper(".dealerSwiper", {
-      slidesPerView: 3.5,
-      spaceBetween: 30,
+    var swiper = new Swiper(".featuredSwiper", {
       navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-    var swiper = new Swiper(".featuredSwiper", {
-      slidesPerView: 2.5,
-      spaceBetween: 30,
-      navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+        grabCursor: true,
+        breakpoints: {
+            540: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            },
+            768: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+            },
+            992: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            },
+            1200: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+            },
         },
     });
   </script>

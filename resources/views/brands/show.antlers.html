@@ -47,10 +47,10 @@
     <section class="lightsection">
         <div class="container">
             <div class="row">
-                <div class="col-md-9">
+                <div class="col-md-12 col-lg-9">
                     <div id="brandblurb">
                         <h1 class="spacer">{{byline}}</h1>
-                        <div style="column-count: 2; column-gap: 60px;">{{blurb}}</div>
+                        <div class="editorial">{{blurb}}</div>
                         <!-- <div id="expand" class="caption light">+ show more</div>
                         <div id="collapse" class="caption light hide">- show less</div> -->
                         <!-- <div class="fader"></div> -->
@@ -109,9 +109,7 @@
  <!-- Initialize Swiper -->
  <script>
     var swiper = new Swiper(".productSwiper", {
-      slidesPerView: 2.25,
       grab: true,
-      spaceBetween: 30,
       navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
@@ -121,5 +119,23 @@
         el: ".swiper-pagination",
         clickable: true,
       },
+      breakpoints: {
+        540: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+        992: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        1200: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+        },
+    },
     });
   </script>
