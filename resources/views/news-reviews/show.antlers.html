@@ -21,7 +21,7 @@
             </div>
         </div>
         <div id="news" class="col-lg-4 offset-md-1 topspacer_small">
-            <h2 class="spacer_small">Recent <a href="{{is_this_news_or_review_brand-related:0:url}}"><span class="highlight" style="font-weight: 800;">{{is_this_news_or_review_brand-related:0:title}}</span></a> news and reviews</h2>
+            <h2 class="spacer_small">Recent {{is_this_news_or_review_brand-related:0:title}} news and reviews</h2>
             {{collection:news_and_reviews is_this_news_or_review_brand-related:contains="{is_this_news_or_review_brand-related:0:title}" sort="date:desc" :id:not="id"}}
                 {{if no_results}}
                     No other news or reviews for this brand currently.

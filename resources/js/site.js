@@ -1,5 +1,5 @@
 $(document).ready(function() {
     $('#burgernav').click(function(){
-        $('#mobilenavsheet').toggleClass('show');
+        $('#mobilenavsheet').toggleClass('hide');
     });
 });

@@ -13,10 +13,12 @@
     } 
 }
 .news-item_small {
-    background-color: $dark_lighter;
+    background-color: $dark_lighter_seethrough;
     border-radius: 3px;
-    transition: all .5s;
+    transition: all .1s;
     // box-shadow: $basic;
+    // box-shadow: #00000040 0px 8px 11px 1px;
+
     margin-bottom: 15px;
     overflow: hidden;
     & .news-item_image {
@@ -25,8 +27,9 @@
     }
     &:hover {
         color: inherit;
+        background-color: $dark_lighter_hover_seethrough;
         // translate: 0 -3px;
-        transition: all .5s;
+        transition: all .1s;
         // box-shadow: $hover;
         & p {
             text-decoration: underline;
@@ -43,14 +46,17 @@
     position: relative;
     height: 100%;
     border-radius: 3px;
+    background-color: $dark_lighter_seethrough;
     overflow: hidden;
     padding-bottom: 120%;
-    // box-shadow: #50555924 0 3px 30px 2px;
-    transition: all .5s;
+    margin-bottom: 24px;
+    // box-shadow: #00000040 0px 8px 11px 1px;
+    transition: all .1s;
     &:hover {
         color: inherit;
+        background-color: $dark_lighter_hover_seethrough;
         // translate: 0 -3px;
-        transition: all .5s;
+        transition: all .1s;
         // box-shadow: #5055594d 0 3px 30px 2px;
         & p {
             text-decoration: underline;
@@ -77,13 +83,9 @@
     height: 100%;
     width: 100%;
     padding: 15px 30px;
-    background-color: $dark_lighter;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    &:hover {
-        background-color: $dark_lighter;
-    }
 }
 .news-item_main {
     border-radius: 3px; 
@@ -98,12 +100,12 @@
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
-    transition: all .5s;
+    transition: all .1s;
     overflow: hidden;
     &:hover {
         color: inherit;
         // translate: 0 -3px;
-        transition: all .5s;
+        transition: all .1s;
         // box-shadow: $hover;
         & p {
             text-decoration: underline;
