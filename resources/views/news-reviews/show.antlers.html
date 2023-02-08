@@ -15,8 +15,32 @@
             <p>{{date}}</p>
             <img src="{{image}}" width="100%" class="spacer_small" style="border-radius: 3px;" alt="{{title}}">
             <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 spacer_small">
                     {{content}}
+                </div>
+                <div class="col-md-10">
+                    {{more_content}}
+                        {{ if type == "text" }}
+        
+                        <div class="text spacer_small">
+                            {{ text }}
+                        </div>
+                
+                        {{ elseif type == "image" }}
+                
+                        <div class="row spacer_small">
+                            {{photo}}
+                            <div class="col">
+                                <figure>
+                                    <img src="{{ url }}" width="100%" style="margin-bottom: 6px;" alt="{{ caption }}" />
+                                    <figcaption style="max-width: 66%;">{{ caption }}</figcaption>
+                                </figure>
+                            </div>
+                            {{/photo}}
+                        </div>
+                
+                        {{ /if }}
+                    {{/more_content}}
                 </div>
             </div>
         </div>

@@ -2,9 +2,15 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-12">
-            <div class="productpageimage topspacer spacer" style="background-image: url('{{images:0:url}}');"></div>
+        <div class="col-lg-8 offset-lg-2 spacer_small topspacer">
+            <a href="../{{brands:slug}}">{{partial:tape line="{brands:title}"}}</a>
+            <div class="title">{{title}}</div>
+            <p class="meta">${{pricing}}</p>
         </div>
+        <div class="col-sm-12 spacer">
+            <img src="{{images:0:url}}" width="100%" height="auto" alt="{{title}}">
+        </div>
+    </div>
         <div class="col-lg-8 offset-lg-2 page-spacer">
                 <!-- <ul class="breadcrumbs">
                     {{ nav:breadcrumbs }}
@@ -13,10 +19,6 @@
                     </li>
                     {{ /nav:breadcrumbs }}
                 </ul> -->
-                
-            <a href="../{{brands:slug}}">{{partial:tape line="{brands:title}"}}</a>
-            <div class="title">{{title}}</div>
-            <p class="meta spacer">${{pricing}}</p>
             
             <ul class="nav nav-tabs" role="tablist">
                 <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1"><div class="meta">Description</div></a></li>

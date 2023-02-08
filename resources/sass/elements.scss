@@ -58,7 +58,7 @@
     @media (min-width: $lg) {
         height: 63px;
         width: auto;
-        // background-color: $bright_mist;
+        background-color: $bright_mist;
         /* border-radius: 3px; */
         list-style-type: none;
         display: flex;
@@ -97,7 +97,7 @@
     color: $purple !important;
 }
 .nav-link {
-    color: $blast;
+    color: $dark;
 }
 .hide {
     display: none !important;
@@ -329,7 +329,10 @@ footer {
 }
 
 .productpageimage {
-    width: 85vw;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    width: 45vw;
     height: 86vh;
     /* opacity: 0.7; */
     // mix-blend-mode: luminosity;
