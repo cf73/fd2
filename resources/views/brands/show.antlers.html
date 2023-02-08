@@ -5,7 +5,7 @@
 </div> -->
     <!-- <img src="{{hero_image}}" alt="{{title}}" width="100%" class="spacer" style="border-radius: 7px;"> -->
 
-<div class="container topspacer">
+<div class="container topspacer_large">
     <section id="intro" class="spacer">
         <div class="row">
             <div class="col-sm-12" style="text-align: center;">
@@ -20,7 +20,7 @@
                 <!-- <h2 class="spacer_small" style="text-align: center;">Featured <span style="font-weight: 800;">{{title}}</span> products</h2> -->
                 {{makers_of}}
                     {{if makers_of > 1}}
-                        <h1>{{title}}</h1>
+                        <h2>{{title}}</h2>
                     {{else}}
                     {{/if}}
                     <div class="swiper productSwiper spacer" style="padding-top: 78px; margin-top: -78px;">
@@ -129,11 +129,11 @@
           spaceBetween: 30,
         },
         992: {
-          slidesPerView: 3,
+          slidesPerView: 2,
           spaceBetween: 30,
         },
         1200: {
-          slidesPerView: 4,
+          slidesPerView: 3,
           spaceBetween: 30,
         },
     },

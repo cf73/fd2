@@ -68,7 +68,7 @@
     @media (min-width: $lg) {
         height: 63px;
         width: auto;
-        background-color: $bright_mist;
+        // background-color: $bright_mist;
         /* border-radius: 3px; */
         list-style-type: none;
         display: flex;
@@ -87,7 +87,8 @@
             & a {
                 text-decoration: none;
                 &:hover {
-                    color: $dark_lighter;
+                    color: $blast;
+                    text-decoration: underline;
                 }
             }
             & .active {
@@ -107,7 +108,10 @@
     color: $purple !important;
 }
 .nav-link {
-    color: $dark;
+    color: $blast;
+    &:hover {
+        color: $blast;
+    }
 }
 .hide {
     display: none !important;
