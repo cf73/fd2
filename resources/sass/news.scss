@@ -3,7 +3,7 @@
         color: $blackmuted;
     }
     & h2 {
-        color: $dark_darker;
+        color: inherit;
     }
     & a {
     color: $bright;
@@ -96,12 +96,18 @@
     justify-content: end; 
     padding-bottom: 18px; 
     width: 100%;
-    padding-bottom: 70%;
+    padding-bottom: 100%;
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
     transition: all .1s;
     overflow: hidden;
+    @media (min-width: $md) {
+        padding-bottom: 60%;
+    }
+    @media (min-width: $lg) {
+        padding-bottom: 70%;
+    }
     &:hover {
         color: inherit;
         // translate: 0 -3px;
@@ -117,6 +123,8 @@
 }
 .news-item_main_title {
     position: absolute;
-    bottom: 30px;
-    color: $dark;
+    bottom: 0px;
+    width: 100%;
+    color: $bright;
+    background-color: $dark-seethrough;
 }

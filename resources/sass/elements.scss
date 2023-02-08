@@ -9,8 +9,11 @@
 #logo {
     position: absolute;
     top: 32px;
-    left: 0;
+    left: calc(50% - 154px);
     z-index: 9;
+    @media (min-width: $lg) {
+        left: 0;
+    }
 }
 #dealers {
     // z-index: 9999999999999999999999999999999999999;
@@ -27,14 +30,19 @@
     z-index: 999;
     top: 12px;
     right: 12px;
-    background-color: $bright;
-    height: 45px;
-    width: 45px;
+    font-size: 48px;
     border-radius: 50%;
+    cursor: pointer;
     @media (min-width: $lg) {
         display: none;
     }
 }
+.selective_show {
+    display: none;
+    @media (min-width: $lg) {
+        display: block;
+    }
+} 
 #mobilenavsheet {
     // display: none;
     position: fixed;
@@ -50,7 +58,9 @@
     justify-content: center;
     align-items: center;
 }
-
+.stacked {
+    display:flex; flex-direction:row; justify-content:space-between; align-items: baseline;
+}
 
 #nav {
     display: none;
