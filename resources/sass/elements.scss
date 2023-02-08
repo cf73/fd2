@@ -253,14 +253,15 @@
     // background-color: white;
     padding: 0px 12px 24px 12px;
     margin-bottom: 24px;
-    background-color: $bright;
+    background-color: white;
     color: $dark;
     border-radius:3px;
+    height: 100%;
     transition: all .3s;
     &:hover {
         // translate: 0 -3px;
         transition: all .3s;
-        background-color: white;
+        background-color: $bright;
         // box-shadow: #50555924 0 3px 30px 2px;
     }
 }
