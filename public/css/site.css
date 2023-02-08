@@ -253,6 +253,7 @@ a.underline {
 .news-item_main_title {
   position: absolute;
   bottom: 30px;
+  color: #262936;
 }
 
 #homehero {
@@ -323,7 +324,6 @@ a.underline {
   #nav {
     height: 63px;
     width: auto;
-    background-color: #e8f0f5;
     /* border-radius: 3px; */
     list-style-type: none;
     display: flex;
@@ -365,7 +365,7 @@ a.underline {
 }
 
 .nav-link {
-  color: #262936;
+  color: #bbb7df;
 }
 
 .hide {
@@ -616,10 +616,7 @@ footer {
 }
 
 .productpageimage {
-  position: absolute;
-  top: 90px;
-  left: 20px;
-  width: 45vw;
+  width: 85vw;
   height: 86vh;
   /* opacity: 0.7; */
   background-size: contain;
