@@ -29,7 +29,7 @@ blurb:
         text: 'The M30.2 XD loudspeaker takes the Harbeth tradition of stunning musical involvement to another performance level.'
 retail_pricing: 'Cherry $6690'
 images:
-  - xd_m30_026-cherry_jh-3.jpg
+  - m30.2-xd-loudspeaker-walnut.jpg
 description:
   -
     type: paragraph
@@ -278,8 +278,8 @@ reviews:
     review_attribution: Audiophilia
     type: review
     enabled: true
-updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1674146539
+updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
+updated_at: 1675491750
 brands: harbeth
 product_tagline: 'A speaker for the critical listener'
 pricing: 6490

@@ -44,7 +44,7 @@ blurb:
         text: 'There are music experiences in life so epic that you wish they never end, with the SHL5plus XD you can relive that moment again, and again.'
 retail_pricing: 'Cherry $7990'
 images:
-  - xd_hl5_plus_002_jh-(1)-2.jpg
+  - shl5plus-xd-loudspeaker-cherry.jpg
 description:
   -
     type: paragraph
@@ -303,8 +303,8 @@ reviews:
     review_attribution: 'Craig Chase Home Theatre HiFi'
     type: review
     enabled: true
-updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1674147193
+updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
+updated_at: 1675491727
 product_tagline: 'A definitive statement in loudspeaker design - Musical'
 pricing: 7490
 brands: harbeth

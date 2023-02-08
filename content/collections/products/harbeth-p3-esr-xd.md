@@ -35,7 +35,7 @@ blurb:
         text: 'Get ready to re-experience your music collection from one of the most groundbreaking speakers ever released by Harbeth.'
 retail_pricing: '$3290 Cherry Finish'
 images:
-  - harbeth-p3esr-hd-rose-wood-1.jpg
+  - p3esr-xd-loudspeaker-front-facing.jpg
 description:
   -
     type: paragraph
@@ -304,8 +304,8 @@ reviews:
     review_attribution: Audiophilia
     type: review
     enabled: true
-updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1674146655
+updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
+updated_at: 1675491708
 brands: harbeth
 product_tagline: 'Amazing sound from the LS35A gold standard'
 pricing: 2990
