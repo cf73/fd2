@@ -1,6 +1,6 @@
 <div class="swiper dealerSwiper spacer" style="padding-top: 78px; margin-top: -78px;">
     <div class="swiper-wrapper">
-        {{collection:dealers dealer_region:is="{DR}"}}
+        {{collection:dealers brands:contains="{slug}" dealer_region:is="{DR}"}}
             <div class="swiper-slide">
                 <h2>{{title}}</h2>
                 <p><span style="font-weight: 800;">{{dealer_address:name}}</span><br>
