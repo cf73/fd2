@@ -1,6 +1,9 @@
 <div class="swiper dealerSwiper spacer" style="padding-top: 78px; margin-top: -78px;">
     <div class="swiper-wrapper">
         {{collection:dealers brands:contains="{slug}" dealer_region:is="{DR}"}}
+            {{if no_results}}
+            No dealers here ... yet!
+            {{else}}
             <div class="swiper-slide">
                 <h2>{{title}}</h2>
                 <p><span style="font-weight: 800;">{{dealer_address:name}}</span><br>
@@ -8,7 +11,10 @@
                 {{ if dealer_address:street2 }}
                     {{dealer_address:street2}} <br>
                 {{ /if }}
+
+                {{if dealer_address:city}}
                 {{dealer_address:city}}, {{dealer_address:state}} <br>
+                {{/if}}
                 {{dealer_address:postCode}}<br>
                 {{ if phone }}
                     Phone: {{phone}}<br>
@@ -20,6 +26,7 @@
                     W: <a href="{{website}}" target="_blank">{{website}}</a></p>
                 {{/if}}
             </div>
+            {{/if}}
         {{/collection:dealers}}
     </div>
     <div class="swiper-button-next"></div>
