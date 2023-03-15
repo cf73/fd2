@@ -39,6 +39,18 @@ body {
   margin-bottom: 144px;
 }
 
+@font-face {
+  font-family: "Avenir";
+  src: url(/fonts/AvenirLTStd-Book.otf?813557df4c7a90b1a4741a14c414bafa) format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Recoleta";
+  src: url(/fonts/RecoletaAlt-Medium.woff?dcd5b8f272d6bb11d414862ef304aacf) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   font-family: aktiv-grotesk, sans-serif;
   font-weight: 400;
@@ -54,6 +66,7 @@ body {
 }
 
 .title {
+  font-family: "Recoleta";
   font-weight: 600;
   font-size: 60px;
   line-height: 60px;
@@ -402,7 +415,7 @@ a.underline {
 }
 
 .purple {
-  color: #6a77d1 !important;
+  color: #bda362 !important;
 }
 
 .nav-link {
@@ -623,14 +636,14 @@ a.underline {
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #6a77d1;
+  background-color: #bda362;
 }
 
 .swiper-button-next {
   right: 0;
   top: 30px;
   left: auto;
-  color: #6a77d1;
+  color: #bda362;
 }
 .swiper-button-next:after {
   font-size: 24px;
@@ -640,7 +653,7 @@ a.underline {
   right: 30px;
   top: 30px;
   left: auto;
-  color: #6a77d1;
+  color: #bda362;
 }
 .swiper-button-prev:after {
   font-size: 24px;

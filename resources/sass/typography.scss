@@ -6,6 +6,19 @@ $mono: interstate-mono, monospace;
 // $sans-black: 'Protipo Wide W05 Black';
 // $sans-blackitalic: 'Protipo Wide W05 Black Italic';
 
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/AvenirLTStd-Book.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Recoleta';
+    src: url('fonts/RecoletaAlt-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 body {
     font-family: $sans;
     font-weight: 400;
@@ -19,6 +32,7 @@ body {
     color: $black;
 }
 .title {
+    font-family: 'Recoleta';
     font-weight: 600;
     font-size: 60px;
     line-height: 60px;
