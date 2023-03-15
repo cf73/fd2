@@ -67,11 +67,15 @@
             </div>
             <div class="row spacer_small">
             {{collection:news_and_reviews is_this_news_or_review_brand-related:contains="{title}" sort="date:desc"}}
+                {{if no_results}}
+                <h2>There are no news items for this brand yet.</h2>
+                {{else}}
                 <div class="col-md-4">
                     <a href="{{url}}">
                         {{partial:newsItem}}
                     </a>
                 </div>
+                {{/if}}
             {{/collection:news_and_reviews}}
             </div>
         </div>

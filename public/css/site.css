@@ -149,9 +149,6 @@ a.underline {
 #news a {
   color: #dcdff1;
 }
-#news:hover {
-  color: #4363f3;
-}
 
 .news-item_small {
   background-color: rgba(65, 66, 80, 0.7215686275);
