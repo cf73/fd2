@@ -12,11 +12,11 @@ dealer_address:
   country: US
   latitude: null
   longitude: null
-email: neillstrickland@gmail.com
+email: info@britishaudioguys.com
 website: 'https://www.britishaudioguys.com'
 brands:
   - harbeth
 dealer_region: west-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1657651140
+updated_at: 1679519671
 ---
