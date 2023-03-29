@@ -1,7 +1,7 @@
 ---
 id: 8d73c070-644c-473f-bf05-77d48366d564
 blueprint: dealers
-title: 'Audio Archer'
+title: 'Archer High Fidelity'
 dealer_address:
   name: 'Jonn Archer'
   street: '115 Park Ave'
@@ -15,7 +15,7 @@ dealer_address:
 email: jon@archerhifi.com
 website: 'https://archerhifi.com'
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1680123939
+updated_at: 1680124016
 brands:
   - harbeth
 dealer_region: east-coast
