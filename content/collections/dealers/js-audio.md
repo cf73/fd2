@@ -1,5 +1,6 @@
 ---
 id: a96b1320-fb77-4383-8d2d-57c7be00e168
+published: false
 blueprint: dealers
 title: 'JS Audio'
 dealer_address:
@@ -18,5 +19,5 @@ brands:
   - harbeth
 dealer_region: east-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1657814723
+updated_at: 1682609709
 ---
