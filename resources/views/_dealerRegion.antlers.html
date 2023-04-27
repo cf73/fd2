@@ -3,22 +3,27 @@
         {{collection:dealers dealer_region:is="{DR}"}}
             <div class="swiper-slide">
                 <h2>{{title}}</h2>
-                <p><span style="font-weight: 800;">{{dealer_address:name}}</span><br>
-                {{dealer_address:street}} <br>
-                {{ if dealer_address:street2 }}
-                    {{dealer_address:street2}} <br>
-                {{ /if }}
-                {{dealer_address:city}}, {{dealer_address:state}} <br>
-                {{dealer_address:postCode}}<br>
-                {{ if phone }}
-                <i class="fa-solid fa-phone"></i> {{phone}}<br>
-                {{/if}}
-                {{ if email }}
-                <i class="fa-solid fa-envelope"></i> <a href="mailto:{{email}}?subject=Inquiry about {{page:title}}">{{email}}</a><br>
-                {{/if}}
-                {{ if website }}
-                <i class="fa-solid fa-laptop"></i> <a href="{{website}}" target="_blank">{{website}}</a></p>
-                {{/if}}
+                <p style="font-weight: 800; margin-bottom: 0;">{{dealer_address:name}}</p>
+                <div style="margin-top: .5em;">
+                    {{dealer_address:street}} <br>
+                    {{ if dealer_address:street2 }}
+                        {{dealer_address:street2}} <br>
+                    {{ /if }}
+                    {{dealer_address:city}}, {{dealer_address:state}} <br>
+                    {{dealer_address:postCode}}<br>
+                </div>
+                
+                <div style="margin-top: .5em;">
+                    {{ if phone }}
+                    <i class="las la-phone"></i> {{phone}}<br>
+                    {{/if}}
+                    {{ if email }}
+                    <i class="las la-envelope"></i> <a href="mailto:{{email}}?subject=Inquiry about {{page:title}}">{{email}}</a><br>
+                    {{/if}}
+                    {{ if website }}
+                    <i class="las la-laptop"></i> <a href="{{website}}" target="_blank">{{website}}</a></p>
+                    {{/if}}
+                </div>
             </div>
         {{/collection:dealers}}
     </div>

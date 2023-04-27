@@ -6,28 +6,27 @@
             {{else}}
             <div class="swiper-slide">
                 <h2>{{title}}</h2>
-                <p><span style="font-weight: 800;">{{dealer_address:name}}</span><br>
-                {{dealer_address:street}} <br>
-                {{ if dealer_address:street2 }}
-                    {{dealer_address:street2}} <br>
-                {{ /if }}
-
-                {{if dealer_address:city}}
-                {{dealer_address:city}}, {{dealer_address:state}} <br>
-                {{/if}}
-                {{dealer_address:postCode}}<br>
-                {{ if phone }}
-                    Phone: {{phone}}<br>
-                {{/if}}
-                {{ if phone }}
-                    P: {{phone}}<br>
-                {{/if}}
-                {{ if email }}
-                    E: <a href="mailto:{{email}}?subject=Inquiry about {{page:title}}">{{email}}</a><br>
-                {{/if}}
-                {{ if website }}
-                    W: <a href="{{website}}" target="_blank">{{website}}</a></p>
-                {{/if}}
+                <p style="font-weight: 800; margin-bottom: 0;">{{dealer_address:name}}</p>
+                <div style="margin-top: .5em;">
+                    {{dealer_address:street}} <br>
+                    {{ if dealer_address:street2 }}
+                        {{dealer_address:street2}} <br>
+                    {{ /if }}
+                    {{dealer_address:city}}, {{dealer_address:state}} <br>
+                    {{dealer_address:postCode}}<br>
+                </div>
+                
+                <div style="margin-top: .5em;">
+                    {{ if phone }}
+                    <i class="las la-phone"></i> {{phone}}<br>
+                    {{/if}}
+                    {{ if email }}
+                    <i class="las la-envelope"></i> <a href="mailto:{{email}}?subject=Inquiry about {{page:title}}">{{email}}</a><br>
+                    {{/if}}
+                    {{ if website }}
+                    <i class="las la-laptop"></i> <a href="{{website}}" target="_blank">{{website}}</a></p>
+                    {{/if}}
+                </div>
             </div>
             {{/if}}
         {{/collection:dealers}}
