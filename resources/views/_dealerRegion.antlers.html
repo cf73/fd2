@@ -11,13 +11,13 @@
                 {{dealer_address:city}}, {{dealer_address:state}} <br>
                 {{dealer_address:postCode}}<br>
                 {{ if phone }}
-                    Phone: {{phone}}<br>
+                <i class="fa-solid fa-phone"></i> {{phone}}<br>
                 {{/if}}
                 {{ if email }}
-                    E: <a href="mailto:{{email}}?subject=Inquiry about {{page:title}}">{{email}}</a><br>
+                <i class="fa-solid fa-envelope"></i> <a href="mailto:{{email}}?subject=Inquiry about {{page:title}}">{{email}}</a><br>
                 {{/if}}
                 {{ if website }}
-                    W: <a href="{{website}}" target="_blank">{{website}}</a></p>
+                <i class="fa-solid fa-laptop"></i> <a href="{{website}}" target="_blank">{{website}}</a></p>
                 {{/if}}
             </div>
         {{/collection:dealers}}
