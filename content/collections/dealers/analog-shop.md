@@ -15,9 +15,9 @@ dealer_address:
 email: analogshoplietz@gmail.com
 website: 'https://www.analogshop.com'
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1663772683
-published: true
+updated_at: 1684256467
 brands:
   - harbeth
 dealer_region: east-coast
+phone: 5857422860
 ---
