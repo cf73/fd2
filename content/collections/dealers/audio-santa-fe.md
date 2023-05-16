@@ -13,10 +13,10 @@ dealer_address:
   latitude: null
   longitude: null
 email: audiosantafe@comcast.net
-published: true
 brands:
   - harbeth
 dealer_region: west-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1663773711
+updated_at: 1684256866
+phone: 8023107332
 ---
