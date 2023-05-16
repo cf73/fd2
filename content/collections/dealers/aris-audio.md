@@ -18,6 +18,6 @@ brands:
   - harbeth
 dealer_region: west-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1663771436
-published: true
+updated_at: 1684256604
+phone: 8016478583
 ---
