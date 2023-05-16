@@ -1,7 +1,7 @@
 ---
 id: 160b0710-c37d-4278-9dee-51aa055c085b
 blueprint: dealers
-title: 'Carytown Audio'
+title: 'Carytown Sound'
 dealer_address:
   name: 'Tim Mullins'
   street: '3101 Ellwood Ave'
@@ -18,5 +18,5 @@ brands:
   - lab12
 dealer_region: east-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1679585426
+updated_at: 1684249509
 ---
