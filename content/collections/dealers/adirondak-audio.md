@@ -1,22 +1,22 @@
 ---
 id: e9217ee0-fbcd-47ff-8c08-b9a646420e26
 blueprint: dealers
-title: 'Adirondak Audio'
+title: 'HiFi Loft'
 dealer_address:
   name: 'Jason Tavaras'
-  street: '1048 State Route 9,'
+  street: '442 West 44th Street'
   street2: null
-  postCode: '12804'
-  city: Queensbury
+  postCode: '10036'
+  city: 'New York'
   state: NY
   country: US
-  latitude: '43.3442858'
-  longitude: '-73.6849138'
+  latitude: '40.760317799999996'
+  longitude: '-73.99352458165755'
 brands:
   - harbeth
 dealer_region: east-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1683146282
+updated_at: 1684256347
 email: jtavares@adkav.com
 website: 'https://adkav.com'
 ---
