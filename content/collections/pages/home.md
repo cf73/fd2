@@ -4,7 +4,7 @@ blueprint: pages
 title: Home
 template: home
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1688174206
+updated_at: 1688174806
 hero_image: coltrane.jpg
 blurb:
   -
@@ -14,7 +14,7 @@ blurb:
         type: text
         text: 'For over 30 years we have sought out the finest audio equipment in the world to bring the thrill and magic of music home. We are proud to offer these industry-leading brands through our network of dealers.'
 brand_partners_blurb: 'We are proud to offer these industry-leading brands through our network of dealers...'
-brand_slogan: 'We help our network of trusted dealers spread the passion of music.'
+brand_slogan: 'We partner with our network of trusted dealers spread the passion of music.'
 services_offered:
   -
     id: D8Mtwai7
