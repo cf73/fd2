@@ -1,6 +1,5 @@
 ---
 id: 6e633259-19a5-4fd4-b648-241db1c160fe
-published: false
 blueprint: musical_hero
 title: 'Sergei Rachmaninoff'
 assets_field: rach.jpg
