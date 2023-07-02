@@ -1,34 +1,33 @@
 <section style="position: relative;" class="darkbackground">
     <div style="height: 100%; width: 100%; position: absolute; top: 0; left: 0; opacity: .4; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: top; background-size: cover;"><div class="fadeout"></div></div>
-    <div class="container" style="padding-top: 66vh; position: relative;">
+    <div class="container" style="padding-top: 36vh; position: relative;">
         <div class="row">
-            <div class="col-md-12" style="text-align: center;">
+            <div class="col-md-12">
                 <!-- {{partial:tape line="30 years of excellence"}} -->
-                <div class="title">{{brand_slogan}}</div>
+                <h1 class="spacer_small light">{{brand_slogan}}</h1>
             </div>
-            <div class="col-md-10 offset-md-1" style="text-align: center;">
-                <p>{{blurb}}</p>
+            <div class="col-md-12 spacer_large">
+                <div class="large light">{{blurb}}</div>
             </div>
-        </div>
-        <div id="brand-partners">
-            <!-- <div class="row">
-                <div class="col-sm-12">
-                    <p class="meta" style="text-align: center;">Our Brand Partners</p>
-                </div>
-            </div> -->
-            <div class="row">
-                {{taxonomy:brands}}
-                    <div class="col-md-4" style="text-align: center;">
-                        <div class="brandlogo">
-                            <a href="{{url}}">
-                                <img src="{{logo}}" width="70%" alt="{{title}}">
-                            </a>
-                        </div>
-                        <!-- <p style="text-align: center; position: relative; z-index: 999;">{{byline}}</p> -->
+            <div id="brand-partners">
+                <h2 class="fatigue ruled">Our brands</h2>
+                <!-- <div class="row">
+                    <div class="col-sm-12">
+                        <p class="meta" style="text-align: center;">Our Brand Partners</p>
                     </div>
-                {{/taxonomy:brands}}
-            </div>
-        </div>
+                </div> -->
+                <div class="row">
+                    {{taxonomy:brands}}
+                        <div class="col-md-3" style="text-align: center;">
+                            <div class="brandlogo">
+                                <a href="{{url}}">
+                                    <img src="{{logo}}" width="70%" alt="{{title}}">
+                                </a>
+                            </div>
+                            <!-- <p style="text-align: center; position: relative; z-index: 999;">{{byline}}</p> -->
+                        </div>
+                    {{/taxonomy:brands}}
+                </div>
             </div>
         </div>
     </div>  
@@ -38,6 +37,29 @@
 
 
 {{partial:news}}
+
+<section id="dealers">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-10 offset-md-1">
+                <h2 class="ruled">Our <span style="font-weight: 800;">{{sell}}</span> dealers</h2>
+                {{collection:pages title:is="dealers"}}
+                    <div class="spacer">{{blurb}}</div>
+                {{/collection:pages}}
+            </div>
+            <div class="col-sm-10 offset-md-1">
+                {{partial:_tape line="East"}}
+                {{partial:_dealerRegion DR="east-coast"}}
+               
+                {{partial:_tape line="Central"}}
+                {{partial:_dealerRegion DR="central"}}
+          
+                {{partial:_tape line="West"}}
+                {{partial:_dealerRegion DR="west-coast"}}
+            </div>
+        </div>
+    </div>
+</section>
 
 {{partial:featured}}
 
@@ -60,48 +82,20 @@
     </div>
 </section>
 
-<section id="testimonials" class="spacer_large">
+<!-- <section id="testimonials" class="spacer_large">
     <div class="container">
-        <!-- <div class="row">
-            <div class="col-sm-12" style="text-align: center;">
-                <h1>What folks say</h1>
-            </div>
-        </div> -->
         <div class="row">
             <div class="col-sm-12">
-                <!-- <h1 class="spacer">We get mail sometimes</h1> -->
                 {{collection:testimonials limit="1"}}
-                    <!-- <h2>{{title}}</h2> -->
                     <h2 style="font-style: italic;">{{testimonial}}</h2>
                     <p class="meta">{{attribution}}</p>
                 {{/collection:testimonials}}
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-<section id="dealers" class="darksection">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-10 offset-md-1">
-                <h1>Our <span style="font-weight: 800;">{{sell}}</span> dealers</h1>
-                {{collection:pages title:is="dealers"}}
-                    <div class="spacer">{{blurb}}</div>
-                {{/collection:pages}}
-            </div>
-            <div class="col-sm-10 offset-md-1">
-                {{partial:_tape line="East"}}
-                {{partial:_dealerRegion DR="east-coast"}}
-               
-                {{partial:_tape line="Central"}}
-                {{partial:_dealerRegion DR="central"}}
-          
-                {{partial:_tape line="West"}}
-                {{partial:_dealerRegion DR="west-coast"}}
-            </div>
-        </div>
-    </div>
-</section>
+
 
 <!-- <section id="dealers" class="darksection">
     <div class="container">
@@ -153,11 +147,11 @@
             spaceBetween: 30,
             },
             992: {
-            slidesPerView: 2.5,
+            slidesPerView: 3.5,
             spaceBetween: 30,
             },
             1200: {
-            slidesPerView: 2.5,
+            slidesPerView: 3.5,
             spaceBetween: 30,
             },
         },

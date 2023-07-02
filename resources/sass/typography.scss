@@ -1,4 +1,5 @@
-$sans: aktiv-grotesk, sans-serif;
+$sans: 'LabilLight', sans-serif;
+$sansRegular: 'LabilRegular', sans-serif;
 $mono: interstate-mono, monospace;
 // $sans-italic: 'Protipo W05 Light Italic';
 // $sans-semibold: 'Protipo W05 Semibold';
@@ -7,95 +8,127 @@ $mono: interstate-mono, monospace;
 // $sans-blackitalic: 'Protipo Wide W05 Black Italic';
 
 @font-face {
-    font-family: 'Avenir';
-    src: url('fonts/AvenirLTStd-Book.otf') format('otf');
+    font-family: 'LabilThin';
+    src: url('/fonts/LabilGroteskTrial-Thin.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LabilLight';
+    src: url('/fonts/LabilGroteskTrial-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LabilRegular';
+    src: url('/fonts/LabilGroteskTrial-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
   }
-  @font-face {
-    font-family: 'Recoleta';
-    src: url('fonts/RecoletaAlt-Medium.woff') format('woff');
+@font-face {
+    font-family: 'LabilMedium';
+    src: url('/fonts/LabilGroteskTrial-Medium.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-  }
+    letter-spacing: 0.02em;
+}
+@font-face {
+    font-family: 'LabilBold';
+    src: url('/fonts/LabilGroteskTrial-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0.02em;
+}
 
 body {
-    font-family: $sans;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 167% */
-    letter-spacing: 0.01em;
-    color: $blackmuted;
+    font-family: 'LabilRegular';
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    color: $dark;
+}
+.dark {
+    color: $dark;
+}
+.light {
+    color: $offwhite;
+}
+.lighter {
+    color: $white;
+}
+.highlight {
+    color: $highlight;
+}
+.fatigue {
+    color: $fatigue;
+}
+.ruled {
+    padding-bottom: .25em;
+    border-bottom: solid 1px;
 }
 .card {
     color: $black;
 }
-.title {
-    font-family: 'Recoleta';
-    font-weight: 600;
+h1 {
+    font-family: 'LabilMedium';
+    font-weight: normal;
     font-size: 60px;
     line-height: 60px;
-    color: $chalkblue;
-    color: $blackmuted;
+    color: $bright;
     @media (min-width: $lg) {
-        font-size: 108px;
-        line-height: 108px;
-    }
-}
-// .super-title {
-//     font-weight: normal;
-//     font-size: 84px;
-//     letter-spacing: -0.04em;
-//     line-height: 108px;
-//     color: $wheatgold;
-// }
-h1 {
-    font-size: 48px;
-    line-height: 48px;
-    font-weight: 600;
-    @media (min-width: $lg) {
+        max-width: 75%;
         font-size: 72px;
         line-height: 72px;
     }
 }
 h2 {
+    font-family: 'LabilMedium';
+    font-weight: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 30px;
     @media (min-width: $lg) {
-        font-size: 30px;
+        font-size: 36px;
         line-height: 36px;
     }
 }
 h3 {
-    font-family: $mono;
-    font-weight: 700;
-    font-size: 24px;
+    font-family: 'LabilBold';
+    font-weight: normal;
+    font-size: 30px;
     line-height: 30px;
-    /* identical to box height, or 125% */
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    margin-bottom: 0;
 }
-.meta {
+h4 {
+    font-family: 'LabilRegular';
+    font-weight: normal;
     font-size: 13px;
-    font-weight: 300;
-    font-family: $mono;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.4em;
     text-transform: uppercase;
 }
-.nav-link .meta {
-    font-weight: 600;
+h5 {
+    font-family: 'LabilRegular';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+.large {
+    font-size: 21px !important;
+    line-height: 33px !important;
+    font-family: 'LabilRegular';
+}
+.nav-link {
+    margin: 0;
+    font-family: 'LabilMedium';
+    color: $bright_mist;
 }
 .halflineheight {
     line-height: 21px;
 }
 a {
-    color: $blast;
+    color: inherit;
     text-decoration: none;
     &:hover {
-        color: $whitesand;
+        color: $highlight;
     }
     &.underline {
         border-bottom: solid 3px $blast;

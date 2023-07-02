@@ -1,9 +1,11 @@
 <section id="news" class="spacer">
     <div class="container topspacer_small">
-        <div class="row">
-            <div class="col-sm-12 stacked">
-                <h1>News & Reviews</h1>
-                <h2 class="selective_show"><a href="/news-reviews" class="highlight">See more</a></h2>
+        <div class="row spacer_small">
+            <div class="col-sm-12">
+                <div class="stacked ruled">
+                    <h2 class="light">News + Reviews</h2>
+                    <h3 class="selective_show"><a href="/news-reviews">See more</a></h3>
+                </div>
             </div>
         </div>
         <div class="row">
@@ -13,10 +15,10 @@
                         {{collection:news_and_reviews limit="1" sort="date:desc"}}
                             <a href="{{url}}">
                                 <div class="news-item_main" style="background-image: url({{image}}); ">
-                                    <div class="news-item_main_title" style="padding: 15px 30px;">
-                                        <p class="meta">{{article_type:title}}</p>
-                                        <h2 style="margin-bottom:0;">{{title}}</h2>
-                                        <p>{{date}}</p>
+                                    <div class="news-item_main_title">
+                                        <h4>{{article_type:title}}</h4>
+                                        <h3>{{title}}</h3>
+                                        <h5>{{date}}</h5>
                                     </div>
                                 </div>
                             </a>
@@ -44,9 +46,9 @@
                             </div>
                             <div class="col-md-8">
                                 <div class="news-item_small_text">
-                                    <p class="meta">{{article_type:title}}</p>
-                                    <p style="font-weight: 600; margin-bottom:0;">{{title}}</p>
-                                    {{date}}
+                                    <h4>{{article_type:title}}</h4>
+                                    <h3>{{title}}</h3>
+                                    <h5>{{date}}</h5>
                                 </div>
                             </div>
                         </div>

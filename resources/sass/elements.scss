@@ -10,14 +10,15 @@
     position: absolute;
     top: 32px;
     left: calc(50% - 154px);
-    z-index: 9;
+    z-index: 99999;
     @media (min-width: $lg) {
         left: 0;
     }
 }
 #dealers {
-    // z-index: 9999999999999999999999999999999999999;
-    // position: relative;
+    background-color: $offwhite;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    overflow: visible;
 }
 .editorial {
     column-count: 1;
@@ -66,33 +67,32 @@
     display: none;
     width: 100%;
     @media (min-width: $lg) {
-        height: 63px;
-        width: auto;
+        backdrop-filter: blur(10px);
+        height: 72px;
+        background-color: $dark-seethrough;
+        width: 100%;
         // background-color: $bright_mist;
         /* border-radius: 3px; */
         list-style-type: none;
         display: flex;
         flex-direction: row;
-        text-align: right;
+        justify-content: end;
+        align-items: center;
         z-index: 9999;
         position: fixed;
-        padding-top: 12px;
-        padding-left: 10px;
         top: 0;
-        right: 0;
         & li {
             display: inline-block;
-            text-transform: uppercase;
             padding: 0px 15px;
             & a {
                 text-decoration: none;
                 &:hover {
-                    color: $blast;
-                    text-decoration: underline;
+                    color: $highlight;
+                    border-bottom: solid 1px;
                 }
             }
             & .active {
-                color: $blast;
+                color: $highlight;
             }
         }
     }
@@ -101,17 +101,8 @@
 .navbar-expand-md .navbar-nav {
     flex-direction: column;
 }
-.highlight {
-    color: $blast !important;
-}
 .purple {
     color: $purple !important;
-}
-.nav-link {
-    color: $blast;
-    &:hover {
-        color: $blast;
-    }
 }
 .hide {
     display: none !important;
@@ -140,9 +131,8 @@
 }
 #brand-partners {
     color: $grey;
-    padding: 0px 60px 90px 60px;
+    padding-bottom: 90px;
     border-radius: 30px;
-    margin-top: -12px;
     & .meta {
         color: $darkcactus;
     }
@@ -153,7 +143,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: .4;
+    opacity: .7;
     transition: all .5s;
     &:hover {
         translate: 0 -3px;
@@ -161,7 +151,7 @@
         opacity: 1;
     }
     @media (min-width: $lg) {
-        height: 10vw;
+        height: 15vw;
     }
 }
 .darksection{
@@ -172,12 +162,14 @@
 .darkbackground {
     // border-bottom-left-radius:50%;
     // border-bottom-right-radius:50%;
-    background-color: $background;
-    background-image: url("/assets/img/background.svg");
+    background-color: $backgrounddark;
+    // background-image: url("/assets/img/background.svg");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding-bottom: 12em;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 .lightsection{
     background-color: $fatigue;
@@ -234,8 +226,9 @@
     height: auto;
 }
 .featuredcard {
-    border-radius: 3px; 
+    border-radius: 13px; 
     background-color: $bright_mist;
+    border: solid 1px $fatigue;
     background-blend-mode: multiply;
     margin-bottom: 15px; 
     width: 100%; 
@@ -244,10 +237,6 @@
     background-repeat: no-repeat; 
     background-position: center;
     transition: all .5s;
-    // &:hover {
-    //     background-size: 110%;
-    //     transition: all .5s;
-    // }
 }
 .productCard {
     // background-color: white;
@@ -309,6 +298,11 @@
 }
 .swiper {
     padding-bottom: 30px;
+}
+.swiper-slide {
+    & p {
+        max-width: 90%;
+    }
 }
 .swiper-pagination-bullet-active {
     background-color: $purple;
