@@ -1,6 +1,5 @@
 ---
 id: 95560f28-bdf3-43cd-92ba-73c5353aacf3
-published: false
 blueprint: musical_hero
 title: 'Stevie Ray Vaughan'
 assets_field: stevie-ray-vaughn-credit-kirk-west-getty-images@1400x1050.jpg
