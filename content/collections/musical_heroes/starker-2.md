@@ -1,5 +1,6 @@
 ---
 id: f87f05c4-53e2-4028-9f00-6628cef897a0
+published: false
 blueprint: musical_hero
 title: 'Starker 2'
 assets_field: janosstarker000.jpg
