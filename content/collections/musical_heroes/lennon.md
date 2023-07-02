@@ -1,5 +1,6 @@
 ---
 id: 079ba96c-2a65-4373-9c77-18a04a383370
+published: false
 blueprint: musical_hero
 title: Lennon
 assets_field: lennon.jpg
