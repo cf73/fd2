@@ -1,5 +1,6 @@
 ---
 id: eb5e319b-ddd9-45c5-b9bf-94f37ed2a0d5
+published: false
 blueprint: musical_hero
 title: Bjork
 assets_field: bjork.jpeg
