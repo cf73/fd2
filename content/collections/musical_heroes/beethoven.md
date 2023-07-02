@@ -1,5 +1,6 @@
 ---
 id: 56a27552-bac8-484e-ab3b-49bde6d3d34b
+published: false
 blueprint: musical_hero
 title: Beethoven
 assets_field: beethoven.jpeg
