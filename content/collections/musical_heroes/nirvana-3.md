@@ -1,5 +1,6 @@
 ---
 id: 50c0edc1-a532-451b-817e-b26ac8e9c243
+published: false
 blueprint: musical_hero
 title: 'Nirvana 3'
 assets_field: rabstol_net_nirvana_14.jpg
