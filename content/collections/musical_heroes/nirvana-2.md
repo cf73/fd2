@@ -1,6 +1,5 @@
 ---
 id: 6c0e3621-6519-4f4d-92d1-00962b4241aa
-published: false
 blueprint: musical_hero
 title: 'Nirvana 2'
 assets_field: nirvana-1991-bw-band-portrait-u-billboard-1548-compressed.jpg
