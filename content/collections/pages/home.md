@@ -4,7 +4,7 @@ blueprint: pages
 title: Home
 template: home
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1688175043
+updated_at: 1688349552
 hero_image: coltrane.jpg
 blurb:
   -
@@ -18,7 +18,7 @@ brand_slogan: 'We partner with our network of trusted dealers to spread the pass
 services_offered:
   -
     id: D8Mtwai7
-    heading: 'Import and Distribution of the World Finest Audio Gear'
+    heading: "Import and Distribution of the World's Finest Audio Gear"
     description: 'We listen critically far and wide to find the best equipment for musical reproduction available. Innovative designs push the envelope, in an unending journey to ever greater sonic perfection.'
     type: service
     enabled: true
