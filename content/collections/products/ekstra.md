@@ -165,8 +165,7 @@ reviews:
     enabled: true
 brands: neat-acoustics
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1688347115
+updated_at: 1688347125
 product_type: speakers
 featured: false
-why_featured: 'Full bodied yet diminutive, with sound to light up any room, bringing balance and beauty to your listening.'
 ---
