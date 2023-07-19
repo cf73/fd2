@@ -1,58 +1,37 @@
-<div style="height: 100%; width: 100%; position: fixed; top: 0; left: 0; z-index: -9999; opacity: .1; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: top; background-size: cover; z-index: -999;"></div>
-
-<div class="container topspacer_large page-spacer">
-    <div class="row">
-        <div class="col-lg-8 offset-lg-2 spacer" style="text-align: center;">
-            <h1>{{title}}</h1>
-            <p>{{blurb}}</p>
+<section style="position: relative; padding-top: 32vh;" class="darkbackground">
+    <div style="height: 100%; width: 100%; position: absolute; top: 0; left: 0; z-index: -9999; opacity: .4; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: center; background-size: cover; z-index: -999;"></div>
+    
+    <div class="container page-spacer">
+        <div class="row">
+            <div class="col-lg-7 spacer">
+                <h1>{{title}}</h1>
+                <div class="large light">{{blurb}}</div>
+            </div>
         </div>
-    </div>
-    <div id="brand-partners">
-        
         <div class="row">
             {{taxonomy:brands}}
-                <div class="col-md-4" style="text-align: center;">
-                    <div class="brandlogo">
-                        <a href="{{url}}">
-                            <img src="{{logo}}" width="70%" alt="{{title}}">
-                        </a>
-                    </div>
-                    <!-- <p style="text-align: center; position: relative; z-index: 999;">{{byline}}</p> -->
+                <div class="col-lg-4" style="padding-bottom: 24px;">
+                    <a href="{{url}}">
+                        <div class="brandcard">
+                            <div class="lightbackground" style="position: absolute; top: 0; left: 0; width: 120%; height: 80%; margin-left: -10%; margin-top: -10%; z-index: 0;">
+                                <div style="position: absolute; top: 0; left: 0; width: 120%; height: 80%; background-image: url({{hero_image}}); background-position: center; background-size: cover; background-repeat: no-repeat; opacity: .3; filter: blur(3px);"></div>
+                            </div>
+                            <div style="position: relative; z-index: 1;">
+                                <h4>{{title}}</h4>
+                                <div class="brandcardlogo">
+                                        <img src="{{logo}}" width="100%" alt="{{title}}">
+                          
+                                </div>
+                                <h2 class="topspacer_small">{{byline}}</h2>
+                                <h5>Makers of:</h5>
+                                {{makers_of}}
+                                    <div class="pill">{{title}}</div>
+                                {{/makers_of}}
+                            </div>
+                        </div>
+                    </a>
                 </div>
             {{/taxonomy:brands}}
-        </div>
+        </div>           
     </div>
-            <!-- {{taxonomy:brands}}
-                <div class="row spacer darksection" style="border-radius: 3px;">
-                    <div class="col-lg-4" style="background-color: white; border-radius: 3px;">
-                        <div class="brandlogo">
-                            <a href="{{url}}">
-                                <img src="{{logo}}" width="70%" alt="{{title}}">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <h3>Products</h3>
-                    </div>
-                    <div class="col-lg-4">
-                            <h3>Recent {{title}} news and reviews:</h3>
-                            {{collection:news_and_reviews is_this_news_or_review_brand-related:contains="{title}"}}
-                            <a href="{{url}}">
-                                <div class="row spacer_small news-item_small">
-                                    <div class="col-md-4">
-                                        <div class="news-item_image" style="background-image: url({{image}});"></div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <p class="meta">{{article_type:title}}</p>
-                                        <p style="font-weight: 600; margin-bottom:0;">{{title}}</p>
-                                        {{date}}
-                                    </div>
-                                </div>
-                            </a>
-                            {{/collection:news_and_reviews}}
-                    </div>
-                </div>
-            {{/taxonomy:brands}} -->    
-</div>
-
-{{partial:footer}}
+</section>

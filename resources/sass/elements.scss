@@ -16,10 +16,25 @@
     }
 }
 #dealers {
-    background-color: $offwhite;
-    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    padding-top: 420px;
     overflow: visible;
 }
+.parent {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+.parent::before {
+    content: "";
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+    z-index: -1;
+    background-color: $offwhite;
+  }
 .editorial {
     column-count: 1;
     @media (min-width: $lg) {
@@ -88,7 +103,6 @@
                 text-decoration: none;
                 &:hover {
                     color: $highlight;
-                    border-bottom: solid 1px;
                 }
             }
             & .active {
@@ -138,7 +152,6 @@
     }
 }
 .brandlogo {
-    height: 30vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -170,6 +183,19 @@
     background-attachment: fixed;
     padding-bottom: 12em;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+.lightbackground {
+    // border-bottom-left-radius:50%;
+    // border-bottom-right-radius:50%;
+    background-color: $highlight;
+    // background-image: url("/assets/img/background.svg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 12em;
+    clip-path: polygon(0 0, 100% 0, 100% 40%, 0 100%);
+    opacity: .3;
 }
 .lightsection{
     background-color: $fatigue;
@@ -225,18 +251,51 @@
 .card {
     height: auto;
 }
+.featuredwrapper {
+    background-color: $white;
+}
 .featuredcard {
     border-radius: 13px; 
     background-color: $bright_mist;
+    &:hover {
+        background-color: #ff6565;
+    }
     border: solid 1px $fatigue;
     background-blend-mode: multiply;
     margin-bottom: 15px; 
     width: 100%; 
     padding-bottom: 100%; 
-    background-size: contain; 
+    background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
     transition: all .5s;
+}
+.brandcard {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 13px;
+    background-color: $bright_mist;
+    // border: solid 1px $fatigue;
+    color: $dark;
+    overflow: hidden;
+    padding: 18px 24px 12px 24px;
+    margin-bottom: 24px;
+}
+.pill {
+    display: inline-block;
+    border-radius: 13px;
+    background-color: $fatigue;
+    padding: 6px 12px;
+    margin-bottom: 9px;
+    margin-right: 8px;
+}
+.brandcardlogo {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    width: 30%;
+    height: 30vw;
 }
 .productCard {
     // background-color: white;
@@ -288,13 +347,12 @@
     transition: all 1s;
 }
 .tape {
-    background-color: rgba(255, 255, 255, 0.86);
-    background-color: $blast;
+    background-color: $fatigue;
     padding: 18px 15px;
     z-index: 9999;
     display: inline-block;
     margin-bottom: 18px;
-    color: $background;
+    color: $dark;
 }
 .swiper {
     padding-bottom: 30px;
@@ -305,13 +363,13 @@
     }
 }
 .swiper-pagination-bullet-active {
-    background-color: $purple;
+    background-color: $highlight;
 }
 .swiper-button-next {
     right: 0;
     top: 30px;
     left: auto;
-    color: $purple;
+    color: $highlight;
     &:after {
         font-size: 24px;
     }
@@ -320,7 +378,7 @@
     right: 30px;
     top: 30px;
     left: auto;
-    color: $purple;
+    color: $highlight;
     &:after {
         font-size: 24px;
     }
@@ -332,9 +390,8 @@
     padding-top: 30px;
 }
 footer {
-    background-color: $bright;
     padding: 60px 0;
-    mix-blend-mode: difference;
+    padding-top: 200px;
 }
 
 .productpageimage {

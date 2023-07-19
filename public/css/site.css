@@ -20,7 +20,7 @@ body {
 }
 
 .topspacer_large {
-  margin-top: 340px;
+  padding-top: 340px;
 }
 
 .spacer {
@@ -84,7 +84,7 @@ body {
 }
 
 .light {
-  color: #fcfcff;
+  color: #dcdff1;
 }
 
 .lighter {
@@ -176,11 +176,13 @@ h5 {
 }
 
 a {
-  color: inherit;
+  color: #ff8a8a;
   text-decoration: none;
 }
 a:hover {
   color: #ff8a8a;
+  border-bottom: solid 1px #e6e4e1;
+  transform: translateY(0.5px);
 }
 a.underline {
   border-bottom: solid 3px #bbb7df;
@@ -193,12 +195,13 @@ a.underline {
 }
 
 .link {
-  color: #bbb7df;
+  color: #ff8a8a;
   font-weight: 600;
 }
 
 #news {
   margin-top: -300px;
+  margin-bottom: -300px;
   position: relative;
 }
 #news h1 {
@@ -353,10 +356,27 @@ a.underline {
 }
 
 #dealers {
-  background-color: #fcfcff;
+  padding-top: 420px;
+  overflow: visible;
+}
+
+.parent {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.parent::before {
+  content: "";
   -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
           clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
-  overflow: visible;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  z-index: -1;
+  background-color: #fcfcff;
 }
 
 .editorial {
@@ -448,7 +468,6 @@ a.underline {
   }
   #nav li a:hover {
     color: #ff8a8a;
-    border-bottom: solid 1px;
   }
   #nav li .active {
     color: #ff8a8a;
@@ -503,7 +522,6 @@ a.underline {
 }
 
 .brandlogo {
-  height: 30vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -537,6 +555,18 @@ a.underline {
   padding-bottom: 12em;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
           clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+
+.lightbackground {
+  background-color: #ff8a8a;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 12em;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 40%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 40%, 0 100%);
+  opacity: 0.3;
 }
 
 .lightsection {
@@ -595,6 +625,10 @@ a.underline {
   height: auto;
 }
 
+.featuredwrapper {
+  background-color: #f6f7ff;
+}
+
 .featuredcard {
   border-radius: 13px;
   background-color: #f4f2ef;
@@ -603,10 +637,42 @@ a.underline {
   margin-bottom: 15px;
   width: 100%;
   padding-bottom: 100%;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   transition: all 0.5s;
+}
+.featuredcard:hover {
+  background-color: #ff6565;
+}
+
+.brandcard {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 13px;
+  background-color: #f4f2ef;
+  color: #272727;
+  overflow: hidden;
+  padding: 18px 24px 12px 24px;
+  margin-bottom: 24px;
+}
+
+.pill {
+  display: inline-block;
+  border-radius: 13px;
+  background-color: #e6e4e1;
+  padding: 6px 12px;
+  margin-bottom: 9px;
+  margin-right: 8px;
+}
+
+.brandcardlogo {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  width: 30%;
+  height: 30vw;
 }
 
 .productCard {
@@ -662,13 +728,12 @@ a.underline {
 }
 
 .tape {
-  background-color: rgba(255, 255, 255, 0.86);
-  background-color: #bbb7df;
+  background-color: #e6e4e1;
   padding: 18px 15px;
   z-index: 9999;
   display: inline-block;
   margin-bottom: 18px;
-  color: #020921;
+  color: #272727;
 }
 
 .swiper {
@@ -680,14 +745,14 @@ a.underline {
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #bda362;
+  background-color: #ff8a8a;
 }
 
 .swiper-button-next {
   right: 0;
   top: 30px;
   left: auto;
-  color: #bda362;
+  color: #ff8a8a;
 }
 .swiper-button-next:after {
   font-size: 24px;
@@ -697,7 +762,7 @@ a.underline {
   right: 30px;
   top: 30px;
   left: auto;
-  color: #bda362;
+  color: #ff8a8a;
 }
 .swiper-button-prev:after {
   font-size: 24px;
@@ -712,9 +777,8 @@ a.underline {
 }
 
 footer {
-  background-color: #dcdff1;
   padding: 60px 0;
-  mix-blend-mode: difference;
+  padding-top: 200px;
 }
 
 .productpageimage {

@@ -51,7 +51,7 @@ body {
     color: $dark;
 }
 .light {
-    color: $offwhite;
+    color: $bright;
 }
 .lighter {
     color: $white;
@@ -125,10 +125,12 @@ h5 {
     line-height: 21px;
 }
 a {
-    color: inherit;
+    color: $highlight;
     text-decoration: none;
     &:hover {
         color: $highlight;
+        border-bottom: solid 1px $fatigue;
+        transform: translateY(0.5px);
     }
     &.underline {
         border-bottom: solid 3px $blast;
@@ -140,6 +142,6 @@ a {
     font-size: 1.2em;
 }
 .link {
-    color: $blast;
+    color: $highlight;
     font-weight: 600;
 }
