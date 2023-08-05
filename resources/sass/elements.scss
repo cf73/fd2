@@ -7,12 +7,12 @@
     height: 45%;
 }
 #logo {
-    position: absolute;
+    position: fixed;
     top: 32px;
-    left: calc(50% - 154px);
+    left: 30px;
     z-index: 99999;
     @media (min-width: $lg) {
-        left: 0;
+        left: 30px;
     }
 }
 #dealers {
@@ -274,10 +274,14 @@
     position: relative;
     height: 100%;
     width: 100%;
-    border-radius: 13px;
-    background-color: $bright_mist;
-    // border: solid 1px $fatigue;
+    text-align: center;
     color: $dark;
+    // border-radius: 13px;
+    // backdrop-filter: blur(10px);
+    // background-color: $dark-seethrough;
+    // border: solid thin $bright_mist;
+    // border: solid 1px $fatigue;
+    // color: $bright;
     overflow: hidden;
     padding: 18px 24px 12px 24px;
     margin-bottom: 24px;
@@ -286,16 +290,17 @@
     display: inline-block;
     border-radius: 13px;
     background-color: $fatigue;
+    color: $dark;
     padding: 6px 12px;
     margin-bottom: 9px;
     margin-right: 8px;
 }
 .brandcardlogo {
-    position: absolute;
-    top: 12px;
-    right: 15px;
-    width: 30%;
-    height: 30vw;
+    position: relative;
+    top: 45px;
+    left: 15px;
+    max-width: 200px;
+    height: 100px;
 }
 .productCard {
     // background-color: white;

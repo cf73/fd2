@@ -181,8 +181,6 @@ a {
 }
 a:hover {
   color: #ff8a8a;
-  border-bottom: solid 1px #e6e4e1;
-  transform: translateY(0.5px);
 }
 a.underline {
   border-bottom: solid 3px #bbb7df;
@@ -344,14 +342,14 @@ a.underline {
 }
 
 #logo {
-  position: absolute;
+  position: fixed;
   top: 32px;
-  left: calc(50% - 154px);
+  left: 30px;
   z-index: 99999;
 }
 @media (min-width: 992px) {
   #logo {
-    left: 0;
+    left: 30px;
   }
 }
 
@@ -650,8 +648,7 @@ a.underline {
   position: relative;
   height: 100%;
   width: 100%;
-  border-radius: 13px;
-  background-color: #f4f2ef;
+  text-align: center;
   color: #272727;
   overflow: hidden;
   padding: 18px 24px 12px 24px;
@@ -662,17 +659,18 @@ a.underline {
   display: inline-block;
   border-radius: 13px;
   background-color: #e6e4e1;
+  color: #272727;
   padding: 6px 12px;
   margin-bottom: 9px;
   margin-right: 8px;
 }
 
 .brandcardlogo {
-  position: absolute;
-  top: 12px;
-  right: 15px;
-  width: 30%;
-  height: 30vw;
+  position: relative;
+  top: 45px;
+  left: 15px;
+  max-width: 200px;
+  height: 100px;
 }
 
 .productCard {

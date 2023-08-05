@@ -129,8 +129,6 @@ a {
     text-decoration: none;
     &:hover {
         color: $highlight;
-        border-bottom: solid 1px $fatigue;
-        transform: translateY(0.5px);
     }
     &.underline {
         border-bottom: solid 3px $blast;

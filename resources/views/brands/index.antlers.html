@@ -1,11 +1,11 @@
-<section style="position: relative; padding-top: 32vh;" class="darkbackground">
-    <div style="height: 100%; width: 100%; position: absolute; top: 0; left: 0; z-index: -9999; opacity: .4; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: center; background-size: cover; z-index: -999;"></div>
+<section style="position: relative; padding-top: 32vh;">
+    <!-- <div style="height: 100%; width: 100%; position: absolute; top: 0; left: 0; z-index: -9999; opacity: .4; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: center; background-size: cover; z-index: -999;"></div> -->
     
     <div class="container page-spacer">
         <div class="row">
-            <div class="col-lg-7 spacer">
-                <h1>{{title}}</h1>
-                <div class="large light">{{blurb}}</div>
+            <div class="col-lg-12 spacer">
+                <!-- <h1>{{title}}</h1> -->
+                <div class="">{{blurb}}</div>
             </div>
         </div>
         <div class="row">
@@ -13,19 +13,20 @@
                 <div class="col-lg-4" style="padding-bottom: 24px;">
                     <a href="{{url}}">
                         <div class="brandcard">
-                            <div class="lightbackground" style="position: absolute; top: 0; left: 0; width: 120%; height: 80%; margin-left: -10%; margin-top: -10%; z-index: 0;">
+                            <!-- <div class="lightbackground" style="position: absolute; top: 0; left: 0; width: 120%; height: 80%; margin-left: -10%; margin-top: -10%; z-index: 0;">
                                 <div style="position: absolute; top: 0; left: 0; width: 120%; height: 80%; background-image: url({{hero_image}}); background-position: center; background-size: cover; background-repeat: no-repeat; opacity: .3; filter: blur(3px);"></div>
-                            </div>
+                            </div> -->
                             <div style="position: relative; z-index: 1;">
-                                <h4>{{title}}</h4>
-                                <div class="brandcardlogo">
-                                        <img src="{{logo}}" width="100%" alt="{{title}}">
+                                <!-- <h4>{{title}}</h4> -->
+                                <div class="brandcardlogo" style="background-image: url({{logo}}); background-size: contain; background-repeat: no-repeat;" >
                           
                                 </div>
                                 <h2 class="topspacer_small">{{byline}}</h2>
                                 <h5>Makers of:</h5>
                                 {{makers_of}}
-                                    <div class="pill">{{title}}</div>
+                                    <ul>
+                                        <li style="list-style-type: none; margin-left: -30px;">{{title}}</li>
+                                    </ul>
                                 {{/makers_of}}
                             </div>
                         </div>
