@@ -1,5 +1,6 @@
 ---
 id: cef703b8-ce63-4318-8e38-57ab10f1eb82
+published: false
 blueprint: musical_hero
 title: 'Max Romeo'
 assets_field: max-romeo.jpeg
