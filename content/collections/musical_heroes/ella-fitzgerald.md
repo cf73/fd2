@@ -1,5 +1,6 @@
 ---
 id: 99b90456-3832-4ea8-8dcb-b3499f36904c
+published: false
 blueprint: musical_hero
 title: 'Ella Fitzgerald'
 assets_field: ella.jpeg
