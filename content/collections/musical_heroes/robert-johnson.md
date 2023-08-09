@@ -1,6 +1,5 @@
 ---
 id: 6f153453-bef5-4220-b92e-307ffcafb255
-published: false
 blueprint: musical_hero
 title: 'Robert Johnson'
 assets_field: robert-johnson.jpeg
