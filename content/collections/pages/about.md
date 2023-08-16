@@ -4,7 +4,7 @@ blueprint: simple_page
 template: about
 title: About
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1692229607
+updated_at: 1692229666
 blurb:
   -
     type: paragraph
@@ -89,5 +89,19 @@ blurb:
     content:
       -
         type: text
-        text: 'We offer services to our partners such as brand ambassador for Stenheim Loudspeakers (Switzerland), Stein Music (Germany) and Audio Analogue (Italy).'
+        text: 'We offer services to our partners such as brand ambassador for Stenheim Loudspeakers (Switzerland), Stein Music (Germany) and '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: /brands/audio-analogue
+              rel: null
+              target: null
+              title: null
+        text: 'Audio Analogue'
+      -
+        type: text
+        text: ' (Italy).'
 ---
