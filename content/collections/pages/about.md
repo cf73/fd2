@@ -4,14 +4,8 @@ blueprint: simple_page
 template: about
 title: About
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1692229666
+updated_at: 1692230181
 blurb:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Welcome to Fidelis Distribution where we bring some of the finest high end audio to our dealers and customers across the United States.'
   -
     type: paragraph
     content:
@@ -104,4 +98,5 @@ blurb:
       -
         type: text
         text: ' (Italy).'
+heading: 'Welcome to Fidelis Distribution. We bring some of the finest high-end audio to our dealers and customers across the United States.'
 ---
