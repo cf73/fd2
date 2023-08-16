@@ -11,6 +11,17 @@ sections:
           validate:
             - required
       -
+        handle: heading
+        field:
+          antlers: false
+          display: Heading
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
         handle: blurb
         field:
           collapse: false
