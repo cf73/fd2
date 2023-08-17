@@ -1,5 +1,6 @@
 ---
 id: 6473344c-ca9d-48e7-a50c-f58616f4c563
+published: false
 blueprint: musical_hero
 title: Coltrane
 assets_field: coltrane.jpg

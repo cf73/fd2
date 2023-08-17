@@ -1,49 +1,48 @@
-<div style="height: 100%; width: 100%; position: fixed; top: 0; left: 0; z-index: -9999; opacity: .1; background: url({{brands:hero_image}}); background-position: top; background-size: cover; z-index: -999; mix-blend-mode: luminosity;"><div class="fadeout"></div></div>
-
-<div class="container">
-    <div class="row topspacer_large page-spacer">
-        <div class="col-lg-6">
-            <img src="{{images:0:url}}" width="100%" height="auto" alt="{{title}}">
-        </div>
-        <div class="col-lg-6">
-            <a href="../{{brands:slug}}">{{partial:tape line="{brands:title}"}}</a>
-            <h1>{{title}}</h1>
-            <p class="meta">${{pricing}}</p>
-            <ul class="nav nav-tabs" role="tablist">
-                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1"><div class="meta">Description</div></a></li>
-                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2"><div class="meta">Specs</div></a></li>
-                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-3"><div class="meta">Reviews</div></a></li>
-            </ul>
-            <div class="tab-content">
-                <div class="tab-pane active" role="tabpanel" id="tab-1">
-                    <p>{{blurb}}</p>
-                    <p>{{description}}</p>
-                </div>
-                <div class="tab-pane" role="tabpanel" id="tab-2">
-                    <p>{{features_specs}}</p>
-                </div>
-                <div class="tab-pane" role="tabpanel" id="tab-3">
-                    {{reviews}}
-                    <p>{{review_text}}</p>
-                    <p class="meta">&mdash; {{review_attribution}}</p>
-                    {{/reviews}}
+<div style="height: 100%; width: 80%; position: absolute; top: 0; left: 10%; z-index: 1; transform: rotate(-5deg); mix-blend-mode: multiply; background: url({{images:0:url}}); background-position: center; background-repeat: no-repeat; background-size: contain;"></div>
+<section class="darksection" style="z-index: 2;">
+    <div class="container">
+        <div class="row topspacer_large page-spacer">
+            <div class="col-lg-6">
+                <a href="../{{brands:slug}}">{{partial:tape line="{brands:title}"}}</a>
+                <h1 class="highlight">{{title}}</h1>
+                <p class="meta light">${{pricing}}</p>
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1"><div class="meta">Description</div></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2"><div class="meta">Specs</div></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-3"><div class="meta">Reviews</div></a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active light" role="tabpanel" id="tab-1">
+                        <p>{{blurb}}</p>
+                        <p>{{description}}</p>
+                    </div>
+                    <div class="tab-pane light" role="tabpanel" id="tab-2">
+                        <p>{{features_specs}}</p>
+                    </div>
+                    <div class="tab-pane light" role="tabpanel" id="tab-3">
+                        {{reviews}}
+                        <p>{{review_text}}</p>
+                        <p class="meta">&mdash; {{review_attribution}}</p>
+                        {{/reviews}}
+                    </div>
                 </div>
             </div>
+           
         </div>
+                    <!-- <ul class="breadcrumbs">
+                        {{ nav:breadcrumbs }}
+                        <li{{ if is_current }} class="current"{{ /if }} style="display: inline-block;">
+                            <a href="{{ url }}" style="text-decoration: none;">{{ title }} /&nbsp;</a>
+                        </li>
+                        {{ /nav:breadcrumbs }}
+                    </ul> -->
+                
+                
     </div>
-                <!-- <ul class="breadcrumbs">
-                    {{ nav:breadcrumbs }}
-                    <li{{ if is_current }} class="current"{{ /if }} style="display: inline-block;">
-                        <a href="{{ url }}" style="text-decoration: none;">{{ title }} /&nbsp;</a>
-                    </li>
-                    {{ /nav:breadcrumbs }}
-                </ul> -->
-            
-            
-</div>
+</section>
+
 
 
 <!-- {{partial:_dealers sell="{brands:title}"}} -->
 
-{{partial:footer}}
 

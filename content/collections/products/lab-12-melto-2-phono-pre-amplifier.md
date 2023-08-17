@@ -187,10 +187,11 @@ reviews:
     type: review
     enabled: true
 brands: lab12
-updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1674072226
+updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
+updated_at: 1688346857
 product_tagline: 'Fully adjustable Phono Preamplifier'
 pricing: 4495
 product_type: pre-amplifiers
-featured: false
+featured: true
+why_featured: 'Earning rave reviews from the most discerning listeners, this all-tube phonostage is simply remarkable: incredibly musical, highly resolving, natural and flowing. A disruptive product that outperforms competitors costing several times as much.'
 ---

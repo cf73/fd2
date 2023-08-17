@@ -1,5 +1,6 @@
 ---
 id: 7a727ceb-790e-4090-b68c-ad5a19c02c0f
+published: false
 blueprint: musical_hero
 title: 'Sarah Vaughan'
 assets_field: r.jpg

@@ -304,10 +304,11 @@ reviews:
     type: review
     enabled: true
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1675491727
+updated_at: 1688347005
 product_tagline: 'A definitive statement in loudspeaker design - Musical'
 pricing: 7490
 brands: harbeth
 product_type: speakers
-featured: false
+featured: true
+why_featured: 'A favorite in the legendary Harbeth lineup for many years, this latest version brings refinements and a modern twist to the classic recipe, delivering a sound that borders on the spiritual and magic, according to reviewers.'
 ---

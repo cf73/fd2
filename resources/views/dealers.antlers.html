@@ -1,13 +1,14 @@
-<div style="height: 100%; width: 100%; position: fixed; top: 0; left: 0; z-index: -9999; opacity: .2; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: top; background-size: cover; z-index: -999;"><div class="fadeout"></div></div>
+<!-- <div style="height: 100%; width: 100%; position: fixed; top: 0; left: 0; z-index: -9999; opacity: .2; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: top; background-size: cover; z-index: -999;"><div class="fadeout"></div></div> -->
 
-<div class="topspacer_large">
-  <section id="dealers" class="darksection">
+<section id="dealers" style="position: relative; padding-top: 32vh;" class="darksection">
+  <div style="height: 100%; width: 100%; position: absolute; top: 0; left: 0; z-index: -9999; opacity: .4; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: center; background-size: cover; z-index: -999;"></div>
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-10 offset-md-1">
-                <h1>Our <span style="font-weight: 800;">{{sell}}</span> dealers</h1>
+                <h1 style="margin-bottom: 1em;">{{heading}}</h1>
                 {{collection:pages title:is="dealers"}}
-                    <div class="spacer">{{blurb}}</div>
+                    <h2 class="light spacer_large">{{blurb}}</h2>
                 {{/collection:pages}}
             </div>
             <div class="col-sm-10 offset-md-1">
@@ -23,9 +24,6 @@
         </div>
     </div>
 </section>
-</div>
-
-{{partial:footer}}
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>

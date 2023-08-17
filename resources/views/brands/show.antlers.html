@@ -1,4 +1,4 @@
-<div style="height: 100%; width: 100%; position: fixed; top: 0; left: 0; z-index: -9999; opacity: .4; background: url({{hero_image}}); background-position: top; background-size: cover; z-index: -999; mix-blend-mode: luminosity;"><div class="fadeout"></div></div>
+<div style="height: 100%; width: 100%; position: fixed; top: 0; left: 0; z-index: -9999; opacity: 1; background: url({{hero_image}}); background-position: top; background-size: cover; z-index: -999;"><div class="fadeout"></div></div>
 <!-- <div style="height: 350px; opacity: .7; width: 100%; text-align: center; position: absolute; top: 0; left: 0; z-index: -9999; background: url({{background_image}}); background-position: center; background-size: cover; z-index: -999;">
      <img src="{{logo}}" width="15%" alt="{{title}}" style="mix-blend-mode: plus-lighter; position: relative; top:30%;"> 
     <div class="fadeout"></div>
@@ -13,62 +13,59 @@
             </div>
         </div>
     </section>
-
-    <section id="featured-products" class="spacer_large">
-        <div class="row">
-            <div class="col-sm-12">
-                <!-- <h2 class="spacer_small" style="text-align: center;">Featured <span style="font-weight: 800;">{{title}}</span> products</h2> -->
-                {{makers_of}}
-                    {{if makers_of > 1}}
-                        <h2>{{title}}</h2>
-                    {{else}}
-                    {{/if}}
-                    <div class="swiper productSwiper spacer" style="padding-top: 78px; margin-top: -78px;">
-                        <div class="swiper-wrapper">                                                
-                            {{collection:products :brands:contains="last_segment" :taxonomy:product_type="slug" sort="{pricing}"}}
-                            <div class="swiper-slide">
-                                {{partial:_productCard hero_image="{images:0:url}"}}
-                                    <p class="meta">${{pricing}}</p>
-                                    <p style="height: 3em;">{{product_tagline}}</p>
-                                {{/partial:_productCard}}
-                            </div>
-                            {{/collection:products}}
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-pagination"></div>
-                        </div>
-                {{/makers_of}}
-            </div>
-        </div>
-    </section>
 </div>
 
-    <section class="lightsection">
-        <div class="container">
+    <section id="dealers" class="darksection" style="backdrop-filter: blur(10px);">
+        {{partial:_dealers sell="{title}"}}
+        <!-- <div class="container spacer_large">
             <div class="row">
                 <div class="col-md-12 col-lg-9">
                     <div id="brandblurb">
                         <h1 class="spacer">{{byline}}</h1>
                         <div class="editorial">{{blurb}}</div>
-                        <!-- <div id="expand" class="caption light">+ show more</div>
-                        <div id="collapse" class="caption light hide">- show less</div> -->
-                        <!-- <div class="fader"></div> -->
+                        <div id="expand" class="caption light">+ show more</div>
+                        <div id="collapse" class="caption light hide">- show less</div>
+                       <div class="fader"></div> 
                     </div>
                 </div>
             </div>
+        </div> -->
+        <div id="featured-products" class="container topspacer spacer_large">
+            <div class="row">
+                <div class="col-sm-12">
+                    <!-- <h2 class="spacer_small" style="text-align: center;">Featured <span style="font-weight: 800;">{{title}}</span> products</h2> -->
+                    {{makers_of}}
+                        
+                            <h2 class="light spacer_small">{{title}}</h2>
+                       
+                       
+                        <div class="swiper productSwiper spacer" style="padding-top: 78px; margin-top: -78px;">
+                            <div class="swiper-wrapper">                                                
+                                {{collection:products :brands:contains="last_segment" :taxonomy:product_type="slug" sort="{pricing}"}}
+                                <div class="swiper-slide">
+                                    {{partial:_productCard hero_image="{images:0:url}"}}
+                                        <p>${{pricing}}</p>
+                                        <p style="height: 3em;">{{product_tagline}}</p>
+                                    {{/partial:_productCard}}
+                                </div>
+                                {{/collection:products}}
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                            </div>
+                    {{/makers_of}}
+                </div>
+            </div>
         </div>
-    </section>
-
-    <section id="news" class="spacer_large">
         <div class="container">
             <div class="row topspacer_small">
-                <h1 class="spacer">Recent <span style="font-weight: 800;">{{title}}</span> News and Reviews</h1>
+                <h2 class="spacer light">Recent <span style="font-weight: 800;">{{title}}</span> News and Reviews</h2>
             </div>
             <div class="row spacer_small">
             {{collection:news_and_reviews is_this_news_or_review_brand-related:contains="{title}" sort="date:desc"}}
                 {{if no_results}}
-                <h2>There are no news items for this brand yet.</h2>
+                <h4 class="light">There are no news items for this brand yet.</h4>
                 {{else}}
                 <div class="col-md-4">
                     <a href="{{url}}">
@@ -79,15 +76,12 @@
             {{/collection:news_and_reviews}}
             </div>
         </div>
-    </section>   
-</div>
+    </section>
 
 
 
-    {{partial:_dealers sell="{title}"}}
 
-    {{partial:footer}}
-
+    
 
     
 <script>
