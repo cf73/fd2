@@ -4,6 +4,13 @@ blueprint: simple_page
 template: dealers
 title: Dealers
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1673971856
-blurb: 'We discover and import the finest audio gear in the world, and distribute it through our retail store and our network of trusted dealers.'
+updated_at: 1692241419
+blurb:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'We discover and import the finest audio gear in the world, and distribute it through our retail store and our network of trusted dealers.'
+heading: 'Rarefied sound, available nationwide.'
 ---
