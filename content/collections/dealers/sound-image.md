@@ -3,7 +3,7 @@ id: 5d3948be-5c71-49d4-8bb9-797909c9c364
 blueprint: dealers
 title: 'Sound Image'
 dealer_address:
-  name: Lawson
+  name: 'Lawson Hale'
   street: '1160 Grimes Bridge Road'
   street2: 'Unit D'
   postCode: '30075'
@@ -19,5 +19,5 @@ brands:
   - lab12
 dealer_region: east-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1692302410
+updated_at: 1692309322
 ---
