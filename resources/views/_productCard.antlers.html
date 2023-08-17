@@ -1,12 +1,10 @@
 <a href="{{url}}" style="color: inherit;">
-    <div class="productCard">
-        <div class="row" style="height: 100%;">
-            <div class="col-sm-12" style="height: 100%;">
-                <div style="padding-bottom: 70%; mix-blend-mode: multiply; width: 100%; background: url({{hero_image}}) center / contain; background-repeat: no-repeat;"></div>
-            </div>
-            <div class="col-sm-12" style="text-align: center; height: 9em; padding: 6px 60px 12px 60px;">
-                <p class="bold">{{title}}</p>
-                <p class="meta">{{slot}}</p>
+    <div class="news-item">
+        <div class="news-item_image" style="background-image: url({{hero_image}});"></div>
+        <div class="news-item_text">
+            <div>
+                <h3 class="spacer_small">{{title}}</h3>
+                {{slot}}
             </div>
         </div>
     </div>

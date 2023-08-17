@@ -1,0 +1,21 @@
+<section id="brand-partners" class="parent spacer_large">
+    <div class="container">
+        <!-- <div class="row">
+            <div class="col-sm-12">
+                <p class="meta" style="text-align: center;">Our Brand Partners</p>
+            </div>
+        </div> -->
+        <div class="row">
+            {{taxonomy:brands}}
+                <div class="col-md-3" style="text-align: center;">
+                    <div class="brandlogo">
+                        <a href="{{url}}">
+                            <img src="{{logo}}" width="70%" alt="{{title}}">
+                        </a>
+                    </div>
+                    <!-- <p style="text-align: center; position: relative; z-index: 999;">{{byline}}</p> -->
+                </div>
+            {{/taxonomy:brands}}
+        </div>
+    </div>
+</section>

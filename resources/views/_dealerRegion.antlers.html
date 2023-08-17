@@ -13,7 +13,7 @@
                     {{dealer_address:postCode}}<br>
                 </div>
                 
-                <div style="margin-top: .5em;">
+                <div style="margin-top: .5em; margin-bottom: .5em;">
                     {{ if phone }}
                     <i class="las la-phone"></i> {{phone}}<br>
                     {{/if}}
@@ -21,9 +21,14 @@
                     <i class="las la-envelope"></i> <a href="mailto:{{email}}?subject=Inquiry about {{page:title}}">{{email}}</a><br>
                     {{/if}}
                     {{ if website }}
-                    <i class="las la-laptop"></i> <a href="{{website}}" target="_blank">{{website}}</a></p>
+                    <i class="las la-laptop"></i> <a href="{{website}}" target="_blank">{{website}}</a>
                     {{/if}}
                 </div>
+                {{brands}}
+                <a href="/brands/{{slug}}">
+                    <div class="pill">{{title}}</div>
+                </a>
+                {{/brands}}
             </div>
         {{/collection:dealers}}
     </div>

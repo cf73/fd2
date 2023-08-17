@@ -15,9 +15,14 @@
         left: 30px;
     }
 }
-#dealers {
+#dealers_home {
     padding-top: 420px;
     overflow: visible;
+}
+#dealers {
+    & .swiper-slide {
+        color: $light;
+    }
 }
 .parent {
     width: 100%;
@@ -158,6 +163,8 @@
     align-items: center;
     opacity: .7;
     transition: all .5s;
+    margin-bottom: 24px;
+    background-color: $dark-seethrough;
     &:hover {
         translate: 0 -3px;
         transition: all .5s;
@@ -171,6 +178,9 @@
     background-color: $dark-seethrough;
     padding: 60px 0;
     position: relative;
+    & .swiper-pagination-bullet {
+        background-color: $light;
+    }
 }
 .darkbackground {
     // border-bottom-left-radius:50%;
@@ -289,8 +299,8 @@
 .pill {
     display: inline-block;
     border-radius: 13px;
-    background-color: $fatigue;
-    color: $dark;
+    background-color: $highlight;
+    color: $light;
     padding: 6px 12px;
     margin-bottom: 9px;
     margin-right: 8px;
@@ -367,6 +377,9 @@
         max-width: 90%;
     }
 }
+// .swiper-slide .news-item {
+//     padding-bottom: 60px;
+// }
 .swiper-pagination-bullet-active {
     background-color: $highlight;
 }
@@ -397,6 +410,7 @@
 footer {
     padding: 60px 0;
     padding-top: 200px;
+    background-color: $light;
 }
 
 .productpageimage {

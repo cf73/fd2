@@ -9,36 +9,14 @@
             <div class="col-md-12 spacer_large">
                 <div class="large light">{{blurb}}</div>
             </div>
-            <div id="brand-partners">
-                <h2 class="fatigue ruled">Our brands</h2>
-                <!-- <div class="row">
-                    <div class="col-sm-12">
-                        <p class="meta" style="text-align: center;">Our Brand Partners</p>
-                    </div>
-                </div> -->
-                <div class="row">
-                    {{taxonomy:brands}}
-                        <div class="col-md-3" style="text-align: center;">
-                            <div class="brandlogo">
-                                <a href="{{url}}">
-                                    <img src="{{logo}}" width="70%" alt="{{title}}">
-                                </a>
-                            </div>
-                            <!-- <p style="text-align: center; position: relative; z-index: 999;">{{byline}}</p> -->
-                        </div>
-                    {{/taxonomy:brands}}
-                </div>
-            </div>
         </div>
     </div>  
     
 </section>
 
-
-
 {{partial:news}}
 
-<section id="dealers" class="parent spacer_large">
+<section id="dealers_home" class="parent spacer_large">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -61,7 +39,16 @@
     </div>
 </section>
 
-{{partial:featured}}
+<!-- {{partial:featured}} -->
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2 class="ruled">Our brands</h2>
+        </div>
+    </div>
+</div>
+
+{{partial:brandpartners}}
 
 <section id="services" class="parent spacer_large" style="position: relative; margin-bottom: -200px;">
     <div class="container-fluid">

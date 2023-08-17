@@ -2,7 +2,7 @@
     <div class="swiper-wrapper">
         {{collection:dealers brands:contains="{slug}" dealer_region:is="{DR}"}}
             {{if no_results}}
-            No dealers here ... yet!
+            <p class="light">No dealers here ... yet!</p>
             {{else}}
             <div class="swiper-slide">
                 <h2>{{title}}</h2>

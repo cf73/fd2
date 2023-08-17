@@ -130,6 +130,10 @@ h2 {
   font-size: 24px;
   line-height: 30px;
 }
+h2 p {
+  margin-bottom: 1em;
+  line-height: 48px;
+}
 @media (min-width: 992px) {
   h2 {
     font-size: 36px;
@@ -271,7 +275,7 @@ a.underline {
   position: absolute;
   top: 65%;
   left: 0;
-  height: 100%;
+  height: 50%;
   width: 100%;
   padding: 18px 24px 12px 24px;
   display: flex;
@@ -353,9 +357,13 @@ a.underline {
   }
 }
 
-#dealers {
+#dealers_home {
   padding-top: 420px;
   overflow: visible;
+}
+
+#dealers .swiper-slide {
+  color: #fdfeff;
 }
 
 .parent {
@@ -526,6 +534,8 @@ a.underline {
   align-items: center;
   opacity: 0.7;
   transition: all 0.5s;
+  margin-bottom: 24px;
+  background-color: rgba(13, 14, 22, 0.72);
 }
 .brandlogo:hover {
   translate: 0 -3px;
@@ -542,6 +552,9 @@ a.underline {
   background-color: rgba(13, 14, 22, 0.72);
   padding: 60px 0;
   position: relative;
+}
+.darksection .swiper-pagination-bullet {
+  background-color: #fdfeff;
 }
 
 .darkbackground {
@@ -658,8 +671,8 @@ a.underline {
 .pill {
   display: inline-block;
   border-radius: 13px;
-  background-color: #e6e4e1;
-  color: #272727;
+  background-color: #ff8a8a;
+  color: #fdfeff;
   padding: 6px 12px;
   margin-bottom: 9px;
   margin-right: 8px;
@@ -777,6 +790,7 @@ a.underline {
 footer {
   padding: 60px 0;
   padding-top: 200px;
+  background-color: #fdfeff;
 }
 
 .productpageimage {
