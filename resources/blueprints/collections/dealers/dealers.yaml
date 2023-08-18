@@ -51,6 +51,20 @@ sections:
           visibility: visible
           always_save: false
       -
+        handle: phone_number_field
+        field:
+          show_country_select: true
+          initial_country: US
+          preferred_countries:
+            - US
+          display: 'Phone Number Field'
+          type: phone_number
+          icon: phone_number
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
         handle: website
         field:
           input_type: text
