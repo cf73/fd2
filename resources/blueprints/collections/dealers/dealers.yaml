@@ -43,13 +43,9 @@ sections:
       -
         handle: phone
         field:
-          show_country_select: true
-          initial_country: US
-          preferred_countries:
-            - US
-          display: 'Phone Number'
-          type: phone_number
-          icon: phone_number
+          display: Phone
+          type: integer
+          icon: integer
           listable: hidden
           instructions_position: above
           visibility: visible
