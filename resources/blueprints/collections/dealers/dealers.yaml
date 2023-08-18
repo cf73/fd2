@@ -47,7 +47,7 @@ sections:
           initial_country: US
           preferred_countries:
             - US
-          display: Phone
+          display: 'Phone Number'
           type: phone_number
           icon: phone_number
           listable: hidden
