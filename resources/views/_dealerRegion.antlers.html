@@ -14,8 +14,8 @@
                 </div>
                 
                 <div style="margin-top: .5em; margin-bottom: .5em;">
-                    {{ if phone }}
-                    <i class="las la-phone"></i> {{phone}}<br>
+                    {{ if phone_number_field }}
+                    <i class="las la-phone"></i> {{phone_number_field | e164_to_national}}<br>
                     {{/if}}
                     {{ if email }}
                     <i class="las la-envelope"></i> <a href="mailto:{{email}}?subject=Inquiry about {{page:title}}">{{email}}</a><br>
