@@ -41,23 +41,13 @@ sections:
           listable: hidden
           instructions_position: above
       -
-        handle: phone
-        field:
-          display: Phone
-          type: integer
-          icon: integer
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
         handle: phone_number_field
         field:
           show_country_select: true
           initial_country: US
           preferred_countries:
             - US
-          display: 'Phone Number Field'
+          display: 'Phone Number'
           type: phone_number
           icon: phone_number
           listable: hidden
