@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a90e22facb695d806fe09de5c4a29499",
+    "content-hash": "8aa4850d6555fd1005a23f7990d75b3f",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -1385,6 +1385,78 @@
             "time": "2022-02-20T15:07:15+00:00"
         },
         {
+            "name": "giggsey/libphonenumber-for-php",
+            "version": "8.13.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/giggsey/libphonenumber-for-php.git",
+                "reference": "23eb0cb4577ec59ed7a89decc332815896085d24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/23eb0cb4577ec59ed7a89decc332815896085d24",
+                "reference": "23eb0cb4577ec59ed7a89decc332815896085d24",
+                "shasum": ""
+            },
+            "require": {
+                "giggsey/locale": "^1.7|^2.0",
+                "php": ">=5.3.2",
+                "symfony/polyfill-mbstring": "^1.17"
+            },
+            "require-dev": {
+                "pear/pear-core-minimal": "^1.9",
+                "pear/pear_exception": "^1.0",
+                "pear/versioncontrol_git": "^0.5",
+                "phing/phing": "^2.7",
+                "php-coveralls/php-coveralls": "^1.0|^2.0",
+                "symfony/console": "^2.8|^3.0|^v4.4|^v5.2",
+                "symfony/phpunit-bridge": "^4.2 || ^5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "8.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "libphonenumber\\": "src/"
+                },
+                "exclude-from-classmap": [
+                    "/src/data/",
+                    "/src/carrier/data/",
+                    "/src/geocoding/data/",
+                    "/src/timezone/data/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Joshua Gigg",
+                    "email": "giggsey@gmail.com",
+                    "homepage": "https://giggsey.com/"
+                }
+            ],
+            "description": "PHP Port of Google's libphonenumber",
+            "homepage": "https://github.com/giggsey/libphonenumber-for-php",
+            "keywords": [
+                "geocoding",
+                "geolocation",
+                "libphonenumber",
+                "mobile",
+                "phonenumber",
+                "validation"
+            ],
+            "support": {
+                "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
+                "source": "https://github.com/giggsey/libphonenumber-for-php"
+            },
+            "time": "2023-08-03T11:09:03+00:00"
+        },
+        {
             "name": "giggsey/locale",
             "version": "2.4",
             "source": {
@@ -2129,6 +2201,58 @@
                 "source": "https://github.com/justinrainbow/json-schema/tree/5.2.12"
             },
             "time": "2022-04-13T08:02:27+00:00"
+        },
+        {
+            "name": "kadegray/statamic-phone-number-fieldtype",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kadegray/statamic-phone-number-fieldtype.git",
+                "reference": "4af7ea17887f0c4ab39e86c3ffa560b556205d51"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kadegray/statamic-phone-number-fieldtype/zipball/4af7ea17887f0c4ab39e86c3ffa560b556205d51",
+                "reference": "4af7ea17887f0c4ab39e86c3ffa560b556205d51",
+                "shasum": ""
+            },
+            "require": {
+                "giggsey/libphonenumber-for-php": "^8.13",
+                "sokil/php-isocodes": "^4.1",
+                "sokil/php-isocodes-db-i18n": "^4.0"
+            },
+            "require-dev": {
+                "statamic/cms": "^3.3"
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Statamic Phone Number Fieldtype",
+                    "description": "Statamic Phone Number Fieldtype is a Statamic addon that is everything you need to store and display Phone Numbers on your site."
+                },
+                "laravel": {
+                    "providers": [
+                        "Kadegray\\StatamicPhoneNumberFieldtype\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kadegray\\StatamicPhoneNumberFieldtype\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Kade Gray"
+                }
+            ],
+            "description": "Statamic Phone Number Fieldtype Addon",
+            "support": {
+                "issues": "https://github.com/kadegray/statamic-phone-number-fieldtype/issues",
+                "source": "https://github.com/kadegray/statamic-phone-number-fieldtype/tree/1.0.3"
+            },
+            "time": "2023-05-20T05:12:37+00:00"
         },
         {
             "name": "laragraph/utils",
@@ -5105,6 +5229,107 @@
                 "source": "https://github.com/Seldaek/signal-handler/tree/2.0.1"
             },
             "time": "2022-07-20T18:31:45+00:00"
+        },
+        {
+            "name": "sokil/php-isocodes",
+            "version": "4.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sokil/php-isocodes.git",
+                "reference": "d0bf2dc9b30a098950d17901d10e2878fdac48d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sokil/php-isocodes/zipball/d0bf2dc9b30a098950d17901d10e2878fdac48d3",
+                "reference": "d0bf2dc9b30a098950d17901d10e2878fdac48d3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "ext-gettext": "*",
+                "infection/infection": ">=0.11.5",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpmd/phpmd": "@stable",
+                "phpunit/phpunit": ">=7.5.20",
+                "sokil/php-isocodes-db-i18n": "^4.0.0",
+                "squizlabs/php_codesniffer": "^3.4",
+                "symfony/translation": "^4.4.17|^5.2",
+                "vimeo/psalm": "^4.3"
+            },
+            "suggest": {
+                "ext-gettext": "Required for gettext translation driver",
+                "phpbench/phpbench": "Required to run benchmarks",
+                "sokil/php-isocodes-db-i18n": "If frequent database updates is not necessary, and database with localization is required.",
+                "sokil/php-isocodes-db-only": "If frequent database updates is not necessary, and only database without localization is required.",
+                "symfony/translation": "Translation driver by Symfont project"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sokil\\IsoCodes\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmytro Sokil",
+                    "email": "dmytro.sokil@gmail.com"
+                }
+            ],
+            "description": "ISO country, subdivision, language, currency and script definitions and their translations. Based on pythons pycountry and Debian's iso-codes.",
+            "support": {
+                "issues": "https://github.com/sokil/php-isocodes/issues",
+                "source": "https://github.com/sokil/php-isocodes/tree/4.2.0"
+            },
+            "time": "2023-06-11T19:01:11+00:00"
+        },
+        {
+            "name": "sokil/php-isocodes-db-i18n",
+            "version": "4.0.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sokil/php-isocodes-db-i18n.git",
+                "reference": "ad6208aa526084ee4b013d53b3e7967b93b0c41b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sokil/php-isocodes-db-i18n/zipball/ad6208aa526084ee4b013d53b3e7967b93b0c41b",
+                "reference": "ad6208aa526084ee4b013d53b3e7967b93b0c41b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5",
+                "sokil/php-isocodes": "^4.1.1"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmytro Sokil",
+                    "email": "dmytro.sokil@gmail.com"
+                }
+            ],
+            "description": "Database and internationalisation filed for ISO country, subdivision, language, currency and script definitions and their translations. Based on pythons pycountry and Debian's iso-codes.",
+            "support": {
+                "issues": "https://github.com/sokil/php-isocodes-db-i18n/issues",
+                "source": "https://github.com/sokil/php-isocodes-db-i18n/tree/4.0.15"
+            },
+            "time": "2023-08-04T17:58:01+00:00"
         },
         {
             "name": "spatie/blink",
