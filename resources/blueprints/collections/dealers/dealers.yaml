@@ -31,14 +31,6 @@ sections:
           listable: hidden
           instructions_position: above
       -
-        handle: phone
-        field:
-          display: Phone
-          type: integer
-          icon: integer
-          listable: hidden
-          instructions_position: above
-      -
         handle: email
         field:
           input_type: text
@@ -49,6 +41,20 @@ sections:
           listable: hidden
           instructions_position: above
       -
+        handle: phone
+        field:
+          show_country_select: true
+          initial_country: US
+          preferred_countries:
+            - US
+          display: Phone
+          type: phone_number
+          icon: phone_number
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
         handle: website
         field:
           input_type: text
@@ -58,20 +64,6 @@ sections:
           icon: text
           listable: hidden
           instructions_position: above
-      -
-        handle: phone_number_field
-        field:
-          show_country_select: true
-          initial_country: US
-          preferred_countries:
-            - US
-          display: 'Phone Number Field'
-          type: phone_number
-          icon: phone_number
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
   sidebar:
     display: Sidebar
     fields:
