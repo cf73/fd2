@@ -171,5 +171,7 @@ brands: audio-analogue
 product_type: integrated-amplifiers
 featured: false
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1694131028
+updated_at: 1694131074
+pricing: 10500
+introtext: 'Extraordinary driving skills, accompanied by a unique musicality and refinement not common for so “muscular” amps'
 ---
