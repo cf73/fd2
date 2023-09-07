@@ -217,5 +217,6 @@ brands: audio-analogue
 product_type: integrated-amplifiers
 featured: false
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1694130459
+updated_at: 1694130479
+pricing: 4750
 ---
