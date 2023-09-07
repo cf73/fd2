@@ -2,19 +2,8 @@
 id: 9feb2599-43e0-4376-b4a8-932758a7be41
 blueprint: products
 title: 'Compact 7ES3 XD'
-blurb:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'ESSENTIAL NEUTRALITY AND NATURAL TONAL BALANCE'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Allow sensational music moments to come to life at the comfort of your home with the multi-award winning, medium-sized C7ES-3 XD loudspeaker. Acclaimed for its accurate three-dimensional sound, this speaker will impress even the most religious demands of an audiophile.'
+retail_pricing: '$4890 Cherry'
+description:
   -
     type: paragraph
     content:
@@ -27,13 +16,16 @@ blurb:
       -
         type: text
         text: 'No other loudspeaker communicates the emotional power of the artist so eloquently.'
-retail_pricing: '$4890 Cherry'
-description:
+  -
+    type: paragraph
   -
     type: paragraph
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: Finishes
   -
     type: paragraph
@@ -48,23 +40,35 @@ description:
         type: text
         text: '*Not all finishes are available in all countries'
   -
-    type: paragraph
+    type: bullet_list
     content:
       -
-        type: text
-        text: CHERRY
-  -
-    type: paragraph
-    content:
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: CHERRY
       -
-        type: text
-        text: 'TAMO ASH'
-  -
-    type: paragraph
-    content:
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'TAMO ASH'
       -
-        type: text
-        text: WALNUT
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: WALNUT
   -
     type: paragraph
     content:
@@ -285,7 +289,7 @@ reviews:
     type: review
     enabled: true
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1675491659
+updated_at: 1694100179
 brands: harbeth
 product_tagline: 'The icon of clarity and detail'
 pricing: 4490
@@ -293,4 +297,8 @@ images:
   - c7es-3-xd-cherry-loudspeaker-1675491652.jpg
 product_type: speakers
 featured: false
+introtext: |-
+  ESSENTIAL NEUTRALITY AND NATURAL TONAL BALANCE
+
+  Allow sensational music moments to come to life at the comfort of your home with the multi-award winning, medium-sized C7ES-3 XD loudspeaker. Acclaimed for its accurate three-dimensional sound, this speaker will impress even the most religious demands of an audiophile.
 ---
