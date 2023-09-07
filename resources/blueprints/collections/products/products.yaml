@@ -59,7 +59,7 @@ sections:
       -
         handle: introtext
         field:
-          character_limit: '400'
+          character_limit: '500'
           antlers: false
           display: Introtext
           type: textarea
