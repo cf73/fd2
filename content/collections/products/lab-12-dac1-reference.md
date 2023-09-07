@@ -2,18 +2,6 @@
 id: 6b461bad-240e-4c99-886d-f1c37bc19eef
 blueprint: products
 title: 'DAC1 Reference'
-blurb:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'With the ever-expanding market of digital audio, both files and online streaming services, more and more people are discovering the world of digital audio. Furthermore, in the past few years many of the most demanding music lovers and audiophiles have discovered the unique sound of non-oversampling DACs to make the most of their digital audio sources.'
-      -
-        type: hard_break
-      -
-        type: text
-        text: 'The biggest challenge for any DAC is the sound and not the ‘’numbers’’. Digital by default sounds very different when compared to analog and we at Lab12 have spent countless hours striving for the perfect voicing that resembles the very best qualities of analog. We couldn’t be more proud of our newest creation Dac1 reference'
 retail_pricing: $3290
 images:
   - lab12-dac1-reference-face-matt-black.jpg
@@ -148,11 +136,12 @@ reviews:
     type: review
     enabled: true
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1688347099
+updated_at: 1694100253
 brands: lab12
 pricing: 3295
 product_tagline: 'Non Oversampling DAC with Tube Output'
 product_type: dacs
 featured: false
 why_featured: "We think this is an excellent entry point to the world of high-end digital. And it pairs beautifully with Lab12's tube amp offerings."
+introtext: 'With the ever-expanding market of digital audio, both files and online streaming services, more and more people are discovering the world of digital audio. Furthermore, in the past few years many of the most demanding music lovers and audiophiles have discovered the unique sound of non-oversampling DACs to make the most of their digital audio sources. The biggest challenge for any DAC is the sound and not the ‘’numbers’’. Digital by default sounds very different when compared to analog and we at Lab12 have spent countless hours striving for the perfect voicing that resembles the very best qualities of analog. We couldn’t be more proud of our newest creation Dac1 reference'
 ---
