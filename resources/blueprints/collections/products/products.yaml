@@ -57,6 +57,18 @@ sections:
           instructions_position: above
           visibility: visible
       -
+        handle: introtext
+        field:
+          character_limit: '400'
+          antlers: false
+          display: Introtext
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
         handle: brochure
         field:
           mode: list
