@@ -3,18 +3,6 @@ id: e793be4c-63a0-43dd-931c-7e15c5a8679e
 blueprint: products
 title: Alpha
 product_tagline: 'Neat’s loudspeakers have long been renowned for creating big sounds from compact and elegant enclosures.'
-blurb:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'The original Iota loudspeaker has been a huge and continuing success since its appearance in 2011, and the idea of a low-down floor standing version has been mooted ever since. All that was necessary for the new model was to retain the exceptional abilities of the Iota and build on these in a floor-standing configuration.'
-      -
-        type: hard_break
-      -
-        type: text
-        text: 'This is easier said than done, of course. But the Iota ALPHA delivers completely on target'
 pricing: 2395
 description:
   -
@@ -101,6 +89,7 @@ features_specs:
         text: "\_86dB/2.83v"
 reviews:
   -
+    id: Z3EytUUB
     review_text: |-
       Such was the success of the little Iota Alpha’s that I didn’t even feel I had to ‘look down’ at them – they projected the sound so well as to make them virtually invisible, below my sightline. Yes, for around the same money you can source a pair of significantly larger speakers, but that’s totally missing the point of this design. These are the perfect loudspeakers for my sitting room A/V set-up. Full marks to Bob Surgeoner. Now, where’s my cheque book?
       http://neatacoustics.com/wordpress/wp-content/uploads/2017/02/The-Ear-Neat-Iota-ALPHA.pdf
@@ -109,8 +98,10 @@ reviews:
     enabled: true
 brands: neat-acoustics
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1665427338
+updated_at: 1694100106
 images:
   - iota_alpha-group1-1663710143.jpg
 product_type: speakers
+introtext: 'The original Iota loudspeaker has been a huge and continuing success since its appearance in 2011, and the idea of a low-down floor standing version has been mooted ever since. All that was necessary for the new model was to retain the exceptional abilities of the Iota and build on these in a floor-standing configuration. This is easier said than done, of course. But the Iota ALPHA delivers completely on target.'
+featured: false
 ---
