@@ -10,6 +10,18 @@ sections:
           validate:
             - required
       -
+        handle: author
+        field:
+          input_type: text
+          antlers: false
+          display: Author
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
         handle: content
         field:
           collapse: false
