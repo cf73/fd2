@@ -5,7 +5,7 @@
 </div> -->
     <!-- <img src="{{hero_image}}" alt="{{title}}" width="100%" class="spacer" style="border-radius: 7px;"> -->
 
-<div class="container topspacer_large">
+<div class="container" style="padding-top: 66vh;">
     <section id="intro" class="spacer">
         <div class="row">
             <div class="col-sm-12" style="text-align: center;">
@@ -30,24 +30,28 @@
                 </div>
             </div>
         </div> -->
-        <div id="featured-products" class="container topspacer spacer_large">
+        <div id="featured-products" class="container spacer_large">
             <div class="row">
                 <div class="col-sm-12">
                     <!-- <h2 class="spacer_small" style="text-align: center;">Featured <span style="font-weight: 800;">{{title}}</span> products</h2> -->
                     {{makers_of}}
                         
-                            <h2 class="light spacer_small">{{title}}</h2>
+                            <h1 class="light spacer_small">{{title}}</h1>
                        
                        
                         <div class="swiper productSwiper spacer" style="padding-top: 78px; margin-top: -78px;">
                             <div class="swiper-wrapper">                                                
                                 {{collection:products :brands:contains="last_segment" :taxonomy:product_type="slug" sort="{pricing}"}}
-                                <div class="swiper-slide">
-                                    {{partial:_productCard hero_image="{images:0:url}"}}
-                                        <p>${{pricing}}</p>
-                                        <p style="height: 3em;">{{product_tagline}}</p>
-                                    {{/partial:_productCard}}
-                                </div>
+                                    {{if no_results}}
+                                        <p class="light">No products in this category have been added yet, but please enquire.</p>                             
+                                    {{else}}
+                                        <div class="swiper-slide">
+                                            {{partial:_productCard hero_image="{images:0:url}"}}
+                                                <p>${{pricing format_number="2|.|,"}}</p>
+                                                <p style="height: 3em;">{{product_tagline}}</p>
+                                            {{/partial:_productCard}}
+                                        </div>
+                                    {{/if}}
                                 {{/collection:products}}
                             </div>
                             <div class="swiper-button-next"></div>
@@ -60,12 +64,16 @@
         </div>
         <div class="container">
             <div class="row topspacer_small">
-                <h2 class="spacer light">Recent <span style="font-weight: 800;">{{title}}</span> News and Reviews</h2>
+                <div class="col-sm-12">
+                    <h1 class="spacer light">Recent <span style="font-weight: 800;">{{title}}</span> News + Reviews</h1>
+                </div>
             </div>
             <div class="row spacer_small">
             {{collection:news_and_reviews is_this_news_or_review_brand-related:contains="{title}" sort="date:desc"}}
                 {{if no_results}}
-                <h4 class="light">There are no news items for this brand yet.</h4>
+                <div class="col-sm-12">
+                    <p class="light">There are no news items for this brand yet.</p>
+                </div>
                 {{else}}
                 <div class="col-md-4">
                     <a href="{{url}}">
