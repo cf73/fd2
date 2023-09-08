@@ -163,5 +163,6 @@ brands: audio-analogue
 product_type: power-amplifiers
 featured: false
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1694131632
+updated_at: 1694131651
+pricing: 13850
 ---
