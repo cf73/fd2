@@ -1,5 +1,5 @@
 <section style="position: relative;">
-    <!-- <div style="height: 100vh; width: 100%; position: absolute; top: 0; left: 0; z-index: -9999; opacity: 1; filter: blur(16px); background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: top; background-size: cover; z-index: -999;"><div class="fadeout"></div></div> -->
+    <div style="height: 110vh; width: 110%; position: fixed; top: -5vh; left: -5%; z-index: -9999; opacity: 1; filter: blur(16px); background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: top; background-size: cover; z-index: -999;"><div class="fadeout"></div></div>
 
     <div class="container page-spacer">
     <!-- <div class="row topspacer spacer_large">
@@ -11,12 +11,12 @@
     </div> -->
     <div class="row topspacer">
         <div class="col-lg-7 spacer_small">
-            <h4 class="">{{article_type:title}}</h4>
-            <h1 class="dark">{{title}}</h1>
-            <h5 class=" spacer_small">{{date}}</h5>
+            <h4 class="light">{{article_type:title}}</h4>
+            <h1 class="">{{title}}</h1>
+            <h5 class="light spacer_small">{{date}}</h5>
             <img src="{{image}}" width="100%" class="spacer_small" style="border-radius: 3px;" alt="{{title}}">
             <div class="row">
-                <div class="col-md-10 offset-md-2 spacer_small ">
+                <div class="col-md-10 offset-md-2 spacer_small light">
                     {{content}}
                 </div>
                 <div class="col-md-10">
@@ -46,10 +46,10 @@
             </div>
         </div>
         <div id="news" class="col-lg-4 offset-md-1 topspacer_large">
-            <h2 class="spacer_small ">Recent {{is_this_news_or_review_brand-related:0:title}} news and reviews</h2>
+            <h2 class="spacer_small light">Recent {{is_this_news_or_review_brand-related:0:title}} news and reviews</h2>
             {{collection:news_and_reviews is_this_news_or_review_brand-related:contains="{is_this_news_or_review_brand-related:0:title}" sort="date:desc" :id:not="id"}}
                 {{if no_results}}
-                    No other news or reviews for this brand currently.
+                    <p class="spacer light">No other news or reviews for this brand currently.</p>
                 {{else}}
                 <a href="{{url}}">
                     <div class="news-item_small">
