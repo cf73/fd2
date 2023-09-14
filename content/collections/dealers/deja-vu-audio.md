@@ -19,6 +19,6 @@ brands:
   - harbeth
 dealer_region: east-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1694712203
+updated_at: 1694712258
 phone_number_field: '+17037349391'
 ---
