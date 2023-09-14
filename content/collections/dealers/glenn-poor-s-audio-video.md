@@ -18,5 +18,6 @@ brands:
   - harbeth
 dealer_region: central
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1657657471
+updated_at: 1694712881
+phone_number_field: '+12173565456'
 ---
