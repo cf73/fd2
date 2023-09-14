@@ -8,7 +8,7 @@ dealer_address:
   street2: null
   postCode: '19803'
   city: Wilmington
-  state: null
+  state: Delaware
   country: US
   latitude: '39.7936248'
   longitude: '-75.5469007'
@@ -18,5 +18,6 @@ brands:
   - harbeth
 dealer_region: east-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1657816254
+updated_at: 1694716029
+phone_number_field: '+13024786050'
 ---
