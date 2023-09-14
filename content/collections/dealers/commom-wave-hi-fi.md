@@ -1,7 +1,7 @@
 ---
 id: d4543ac2-ce7d-4f0d-abce-a8ed2880cecb
 blueprint: dealers
-title: 'Commom Wave Hi Fi'
+title: 'Common Wave Hi Fi'
 dealer_address:
   name: 'Wesley Katzir'
   street: '1451 E 4th St Suite 106'
@@ -19,6 +19,6 @@ brands:
   - heretic
 dealer_region: west-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1694711786
+updated_at: 1694711841
 phone_number_field: '+12132774434'
 ---
