@@ -19,5 +19,6 @@ brands:
   - lab12
 dealer_region: central
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1657748466
+updated_at: 1694719044
+phone_number_field: '+13036536341'
 ---
