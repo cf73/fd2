@@ -17,5 +17,7 @@ brands:
   - harbeth
 dealer_region: west-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1657742059
+updated_at: 1694717201
+phone_number_field: '+15032222599'
+website: 'https://pearlaudiovideo.com'
 ---
