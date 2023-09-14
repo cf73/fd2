@@ -16,7 +16,8 @@ brands:
   - harbeth
 dealer_region: west-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1657741036
+updated_at: 1694712653
 email: generubinaudio@earthlink.net
 website: 'https://generubinaudio.com/'
+phone_number_field: '+18053402270'
 ---
