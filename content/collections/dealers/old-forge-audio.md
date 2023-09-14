@@ -18,5 +18,6 @@ brands:
   - lab12
 dealer_region: east-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1678125612
+updated_at: 1694715926
+phone_number_field: '+18603361723'
 ---
