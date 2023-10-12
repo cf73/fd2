@@ -8,14 +8,16 @@ blurb:
     type: paragraph
     content:
       -
+        type: hard_break
+      -
         type: text
-        text: 'COMBINING ELEMENTS FROM THE MINISTRA AND THE PRESTIGE ULTIMATUM XLS MODEL, THE MAJISTRA IS A 2-WAY BOOKSHELF DESIGN INCORPORATING A 60MM TRUE RIBBON TWEETER, AND TWO 170MM BASS/MIDRANGE DRIVE UNITS.'
+        text: 'Combining elements from the MINISTRA and the prestige ULTIMATUM XLS Model, the Majistra is a 2-way bookshelf design incorporating a 60mm true ribbon tweeter, and two 170mm bass/midrange drive units.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'FOR A FULL RANGE LOUDSPEAKER, THE MAJISTRA HAS A VERY SMALL FOOTPRINT AND CAN BE EASILY ACCOMMODATED IN COMPACT SPACES. COMBINING STUNNING BASS POWER WITH DELICACY, IT DELIVERS A COMPREHENSIVE DEPICTION OF ALL TYPES OF MUSIC'
+        text: 'For a full range loudspeaker, the MAJISTRA has a very small footprint and can be easily accommodated in compact spaces. Combining stunning bass power with delicacy, it delivers a comprehensive depiction of all types of music.'
 pricing: 4995
 images:
   - majistra_angle.jpg
@@ -151,8 +153,8 @@ features_specs:
         type: text
         text: "\_4 Ohms."
 brands: neat-acoustics
-updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1688347147
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1697142759
 product_type: speakers
 featured: false
 ---
