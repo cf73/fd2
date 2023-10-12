@@ -18,8 +18,6 @@ images:
 description:
   -
     type: paragraph
-  -
-    type: paragraph
     content:
       -
         type: text
@@ -126,14 +124,16 @@ features_specs:
         text: 'Shipping weight per pair: 7Kg.'
 reviews:
   -
+    id: XfKCZOxQ
     review_text: '"The Iota is one serious little loudspeaker and ideal for connoisseurs with seriously limited space."'
     review_attribution: 'Absolute Sound'
     type: review
     enabled: true
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1663709870
+updated_at: 1697142269
 brands: neat-acoustics
 product_tagline: 'The IOTA delivers a spectacular audio performance from an impossibly small cabinet.'
 pricing: 1395
-published: true
+product_type: speakers
+featured: false
 ---
