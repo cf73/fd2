@@ -1,7 +1,7 @@
 ---
 id: e793be4c-63a0-43dd-931c-7e15c5a8679e
 blueprint: products
-title: Alpha
+title: 'Iota -Alpha'
 product_tagline: 'Neat’s loudspeakers have long been renowned for creating big sounds from compact and elegant enclosures.'
 pricing: 2395
 description:
@@ -97,11 +97,30 @@ reviews:
     type: review
     enabled: true
 brands: neat-acoustics
-updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1694100106
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1697141528
 images:
   - iota_alpha-group1-1663710143.jpg
 product_type: speakers
 introtext: 'The original Iota loudspeaker has been a huge and continuing success since its appearance in 2011, and the idea of a low-down floor standing version has been mooted ever since. All that was necessary for the new model was to retain the exceptional abilities of the Iota and build on these in a floor-standing configuration. This is easier said than done, of course. But the Iota ALPHA delivers completely on target.'
 featured: false
+blurb:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Neat’s loudspeakers have long been renowned for creating big sounds from compact and elegant enclosures. However, the Iota ALPHA succeeds in stretching this concept well beyond the limits of what might be expected.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'The original Iota loudspeaker has been a huge and continuing success since its appearance in 2011, and the idea of a low-down floor standing version has been mooted ever since. All that was necessary for the new model was to retain the exceptional abilities of the Iota and build on these in a floor-standing configuration.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'This is easier said than done, of course. But the Iota ALPHA delivers completely on target.'
 ---
