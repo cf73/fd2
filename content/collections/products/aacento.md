@@ -88,7 +88,7 @@ features_specs:
             content:
               -
                 type: text
-                text: 'Input impedance: 47 kΩ'
+                text: 'Input impedance: 47 kΩ'
       -
         type: list_item
         content:
@@ -97,7 +97,7 @@ features_specs:
             content:
               -
                 type: text
-                text: 'Power on 8Ω load: 100W @ 1% THD + N'
+                text: 'Power on 8Ω load: 100W @ 1% THD + N'
       -
         type: list_item
         content:
@@ -106,7 +106,7 @@ features_specs:
             content:
               -
                 type: text
-                text: 'Power on 4Ω load: 200W @ 1% THD + N'
+                text: 'Power on 4Ω load: 200W @ 1% THD + N'
       -
         type: list_item
         content:
@@ -115,7 +115,7 @@ features_specs:
             content:
               -
                 type: text
-                text: 'Power on 2Ω load: 300W @ 1% THD + N'
+                text: 'Power on 2Ω load: 300W @ 1% THD + N'
       -
         type: list_item
         content:
@@ -124,7 +124,7 @@ features_specs:
             content:
               -
                 type: text
-                text: 'Headphones Output Power: (pure class A) 16Ω500mW'
+                text: 'Headphones Output Power: (pure class A) 16Ω500mW'
       -
         type: list_item
         content:
@@ -133,7 +133,7 @@ features_specs:
             content:
               -
                 type: text
-                text: 'Headphones Output Power: (pure class A) 32Ω1W'
+                text: 'Headphones Output Power: (pure class A) 32Ω1W'
       -
         type: list_item
         content:
@@ -142,7 +142,7 @@ features_specs:
             content:
               -
                 type: text
-                text: 'Headphones Output Power: (pure class A) 300Ω120mW'
+                text: 'Headphones Output Power: (pure class A) 300Ω120mW'
       -
         type: list_item
         content:
@@ -151,7 +151,7 @@ features_specs:
             content:
               -
                 type: text
-                text: 'Sensitivity: (8Ω output nominal power)600mVRMS'
+                text: 'Sensitivity: (8Ω output nominal power)600mVRMS'
       -
         type: list_item
         content:
@@ -169,7 +169,7 @@ features_specs:
             content:
               -
                 type: text
-                text: 'Output resistance: (2Ω nominal power and 1kHz) 0.4Ω'
+                text: 'Output resistance: (2Ω nominal power and 1kHz) 0.4Ω'
       -
         type: list_item
         content:
@@ -216,7 +216,7 @@ reviews:
 brands: audio-analogue
 product_type: integrated-amplifiers
 featured: false
-updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1694130479
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1697137297
 pricing: 4750
 ---
