@@ -4,7 +4,7 @@ blueprint: pages
 title: Home
 template: home
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1688349552
+updated_at: 1704740160
 hero_image: coltrane.jpg
 blurb:
   -
@@ -12,7 +12,7 @@ blurb:
     content:
       -
         type: text
-        text: "A leading importer and distributor of the world's finest audio equipment for over 30 years, Fidelis Distribution is proud to represent industry-leading brands, and to distribute these through our nationwide dealer network. Together, we ensure that the spiritual passion of music continues to reach new generations of listeners."
+        text: "A leading importer and distributor of the world's finest audio equipment for over 30 years, Fidelis Distribution is proud to represent industry-leading brands, and to distribute these through our nationwide dealer network."
 brand_partners_blurb: 'We are proud to offer these industry-leading brands through our network of dealers...'
 brand_slogan: 'We partner with our network of trusted dealers to spread the passion of music.'
 services_offered:
