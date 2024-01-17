@@ -1,21 +1,18 @@
-<section id="brand-partners" class="parent spacer_large">
-    <div class="container">
-        <!-- <div class="row">
-            <div class="col-sm-12">
-                <p class="meta" style="text-align: center;">Our Brand Partners</p>
-            </div>
-        </div> -->
-        <div class="row">
+<section id="brand-partners" class="bg-night">
+    <div class="container mx-auto text-center px-4 py-40">
+        <div class="space-y-6">
+            <h2 class="text-warmwhite">Our Brand-Partners</h2>
+            <p class="text-warmwhite text-2xl">We’re proud to import and distribute some of the world’s finest home audio products from these select manufacturers.</p>
+        </div>
+        <div class="grid grid-cols-3">
             {{taxonomy:brands}}
-                <div class="col-md-3" style="text-align: center;">
-                    <div class="brandlogo">
-                        <a href="{{url}}">
-                            <img src="{{logo}}" width="70%" alt="{{title}}">
-                        </a>
-                    </div>
-                    <!-- <p style="text-align: center; position: relative; z-index: 999;">{{byline}}</p> -->
-                </div>
-            {{/taxonomy:brands}}
+            <div class="p-20 brandlogo">
+                <a href="{{url}}">
+                    <div class="h-60 bg-no-repeat bg-contain bg-center" style="background-image: url('{{logo}}');"></div>
+                </a>
+            </div>
+        {{/taxonomy:brands}}
         </div>
     </div>
+    
 </section>

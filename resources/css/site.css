@@ -1,50 +1,15 @@
-.card {
-  color: #505050; }
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
-h1 {
-  font-family: Poppins;
-  font-size: 72px;
-  font-weight: 500;
-  line-height: 90px;
-  letter-spacing: 0.01em;
-  text-align: left; }
-
-h3 {
-  font-family: Poppins;
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 42px;
-  letter-spacing: 0.01em;
-  text-align: left; }
-
-p {
-  font-family: Poppins;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 27px;
-  letter-spacing: 0.015em;
-  text-align: left;
-  color: #505050; }
-  p .halflineheight {
-    line-height: 21px; }
-
-body {
-  background-color: #D9D9D9;
-  color: #505050; }
-
-#nav {
-  position: fixed;
-  height: 60px;
-  list-style-type: none; }
-  #nav li {
-    display: inline-block;
-    text-transform: uppercase;
-    padding: 6px 12px; }
-    #nav li a {
-      text-decoration: none;
-      color: #FFF; }
-    #nav li .current {
-      color: #505050 !important;
-      text-decoration: underline; }
-
-/*# sourceMappingURL=site.css.map */
+@layer base {
+    h1 {
+      @apply text-6xl;
+      @apply font-bold;
+    }
+    h2 {
+      @apply text-4xl;
+      @apply font-bold;
+    }
+    /* ... */
+  }                                                                 

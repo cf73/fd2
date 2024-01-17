@@ -1,20 +1,8 @@
-<section style="position: relative;" class="darkbackground">
-    <div style="height: 100%; width: 100%; position: absolute; top: 0; left: 0; opacity: .4; background: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}}); background-position: top; background-size: cover;"><div class="fadeout"></div></div>
-    <div class="container" style="padding-top: 36vh; position: relative;">
-        <div class="row">
-            <div class="col-md-12">
-                <!-- {{partial:tape line="30 years of excellence"}} -->
-                <h1 class="spacer_small light">{{brand_slogan}}</h1>
-            </div>
-            <div class="col-md-12 spacer_large">
-                <div class="large light">{{blurb}}</div>
-            </div>
-        </div>
-    </div>  
-    
-</section>
+{{partial:hero}}
 
 {{partial:news}}
+
+{{partial:brandpartners}}
 
 <section id="dealers_home" class="parent spacer_large">
     <div class="container">
@@ -39,16 +27,8 @@
     </div>
 </section>
 
-<!-- {{partial:featured}} -->
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <h1 class="dark spacer_small">Our brands</h1>
-        </div>
-    </div>
-</div>
 
-{{partial:brandpartners}}
+
 
 <section id="services" class="parent spacer_large" style="position: relative; margin-bottom: -200px;">
     <div class="container-fluid">
@@ -110,34 +90,4 @@
 
 
 
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
- <!-- Initialize Swiper -->
- <script>
-    var swiper = new Swiper(".featuredSwiper", {
-      navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        grabCursor: true,
-        breakpoints: {
-            540: {
-            slidesPerView: 1,
-            spaceBetween: 30,
-            },
-            768: {
-            slidesPerView: 2,
-            spaceBetween: 30,
-            },
-            992: {
-            slidesPerView: 3.5,
-            spaceBetween: 30,
-            },
-            1200: {
-            slidesPerView: 3.5,
-            spaceBetween: 30,
-            },
-        },
-    });
-  </script>

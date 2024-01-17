@@ -1,0 +1,15 @@
+<section id="hero-section" class="fixed top-0 h-[90vh] overflow-hidden bg-night w-full flex items-center">
+    <div id="CD" class="h-[110vh] w-[110vh] absolute right-8 opacity-50 rounded-full bg-no-repeat bg-cover bg-center"
+             style="background-image: url({{collection:musical_heroes sort='random' limit='1'}}{{assets_field}}{{/collection:musical_heroes}});">
+        </div>
+    <div id="herotext" class="container mx-auto px-4 mt-72">
+        <div class="space-y-8 z-10 relative">
+            <h1 class="text-warmwhite leading-tight">{{brand_slogan}}</h1>
+            <div class="text-warmwhite text-xl leading-normal">{{blurb}}</div>
+            <div class="flex flex-row space-x-4">
+                <button class="bg-highlight px-8 py-4 rounded font-bold text-2xl">Find a Dealer</button>
+                <button class="border-solid border-2 border-highlight backdrop-blur-md text-highlight px-8 py-4 rounded font-bold text-2xl">Sign Up for our Newsletter</button>
+            </div>
+        </div>
+    </div>
+</section>

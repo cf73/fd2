@@ -1,60 +1,35 @@
-<section id="news">
-    <div class="container topspacer_small">
-        <div class="row spacer_small">
-            <div class="col-sm-12">
-                <div class="stacked ruled">
-                    <h2 class="light">News + Reviews</h2>
-                    <!-- <h3 class="selective_show"><a href="/news-reviews">See more</a></h3> -->
-                </div>
-            </div>
+<section id="news-section" class="bg-slate text-warmwhite relative mt-[90vh]">
+    <div class="container mx-auto px-4 py-40 text-center space-y-8">
+        <div class="space-y-6">
+            <h2>News + Reviews</h2>
+            <p class="text-warmwhite text-2xl">The word on the street on our brand-partners’ industry-leading products</p>
         </div>
-        <div class="row">
-            <div class="col-lg-7">
-                <div class="row spacer_small">
-                    <div class="col-sm-12">
-                        {{collection:news_and_reviews limit="1" sort="date:desc"}}
-                            <a href="{{url}}">
-                                <div class="news-item_main" style="background-image: url({{image}}); ">
-                                    <div class="news-item_main_title">
-                                        <h4>{{article_type:title}}</h4>
-                                        <h3>{{title}}</h3>
-                                        <h5>{{date}}</h5>
-                                    </div>
+        
+        <div class="swiper newsSwiper space-y-8">
+            <div class="swiper-wrapper">
+                {{collection:news_and_reviews sort="date:desc"}}
+                    {{if no_results}}
+                    <p>No news items ... yet!</p>
+                    {{else}}
+                    <div class="swiper-slide">
+                        <a href="{{url}}">
+                            <div style="background-image: url({{image}});" class="h-96 bg-cover bg-center bg-no-repeat"></div>
+                            <div class="bg-night px-8 py-8 pt-6 space-y-6">
+                                <div class="flex flex-row justify-between">
+                                    <div class="rounded-2xl bg-grey text-slate px-4 py-1 text-sm tracking-wider">{{article_type:title}}</div>
+                                    {{date}}
                                 </div>
-                            </a>
-                        {{/collection:news_and_reviews}}
-                    </div>
-                </div>
-                <div class="row">
-                    {{collection:news_and_reviews sort="date:desc" offset="1" limit="2"}}
-                        <div class="col-md-6 spacer">
-                            <a href="{{url}}">
-                                {{partial:newsItem}}
-                            </a>
-                        </div>
-                    {{/collection:news_and_reviews}}
-                </div>
-            </div>
-            <div class="col-lg-5">
-                <!-- <h2 class="verticalEmphasis spacer_small">...that you can use!</h2> -->
-                {{collection:news_and_reviews sort="date:desc" offset="3"}}
-                <a href="{{url}}">
-                    <div class="news-item_small">
-                        <div class="row">
-                            <div class="col-md-4" style="position: relative;">
-                                <div class="news-item_image" style="background-image: url({{image}});"></div>
+                                <h3 class="text-left text-2xl font-bold leading-snug">{{title}}</h3>
                             </div>
-                            <div class="col-md-8">
-                                <div class="news-item_small_text">
-                                    <h4>{{article_type:title}}</h4>
-                                    <h3>{{title}}</h3>
-                                    <h5>{{date}}</h5>
-                                </div>
-                            </div>
-                        </div>
+                        </a>
                     </div>
-                </a>
+                    {{/if}}
                 {{/collection:news_and_reviews}}
+            </div>
+            <div class="flex flex-row bg-red h-20 mx-auto items-center relative">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </div>
     </div>

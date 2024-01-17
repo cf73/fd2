@@ -6,7 +6,19 @@ module.exports = {
     './content/**/*.md'
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ['Urbanist', 'sans-serif'],
+    },
+    
+    extend: {
+      colors: {
+        night: '#151515',
+        slate: '#222122',
+        warmwhite: '#FCF2E6',
+        grey: '#E7E2E0;',
+        highlight: '#FA9947',
+      },
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),
