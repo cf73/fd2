@@ -41,36 +41,13 @@
       {{partial:footer}}
 
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+      
 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
 
-      <script>
-        gsap.from('.brandlogo',{duration: 1.5, opacity: 0, y: 150, stagger: 0.25});
-    
-        gsap.to('#CD', {
-          scrollTrigger: {
-            trigger: "#news-section",
-            start: "top 90%",
-            end: "top 0%",
-            toggleActions: "restart pause reverse pause",
-            scrub: true,
-          },
-          rotation: 288,
-          transformOrigin: "center center",
-       
-          opacity: 1
-        });
-        gsap.to('#herotext', {
-          scrollTrigger: {
-            trigger: "#news-section",
-            start: "top 90%",
-            end: "top 80%",
-            toggleActions: "restart pause reverse pause",
-            scrub: true,
-          },
-          opacity: 0
-        });
+      <script src="js/gsap.js">
+        
       </script>
 
     <!-- Swiper JS -->
