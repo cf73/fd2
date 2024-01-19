@@ -3,7 +3,7 @@ id: cc0794ca-69bc-4580-8e20-7247e8636444
 blueprint: dealers
 title: 'Music Room'
 dealer_address:
-  name: 'Larson Baird'
+  name: 'Nick Lucini'
   street: '410 Jones Ct'
   street2: null
   postCode: '80516'
@@ -20,6 +20,6 @@ brands:
   - tontraeger
 dealer_region: west-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1694715525
+updated_at: 1705689948
 phone_number_field: '+18883267490'
 ---
