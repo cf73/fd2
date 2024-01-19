@@ -4,10 +4,10 @@ blueprint: dealers
 title: 'Analog Shop'
 dealer_address:
   name: 'Robert Lietz'
-  street: '24 Dorset Drive'
+  street: '57 EastMain Street'
   street2: null
   postCode: '14424'
-  city: Canandaigua
+  city: Victor
   state: 'New York'
   country: US
   latitude: '42.894807998698845'
@@ -15,7 +15,7 @@ dealer_address:
 email: analogshoplietz@gmail.com
 website: 'https://www.analogshop.com'
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1694710760
+updated_at: 1705702883
 brands:
   - harbeth
 dealer_region: east-coast
