@@ -15,8 +15,6 @@ dealer_address:
   longitude: '-98.524644'
 email: jsaudio@jsaudio.com
 website: 'http://jsaudio.com'
-brands:
-  - harbeth
 dealer_region: east-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
 updated_at: 1682609709

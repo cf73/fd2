@@ -13,10 +13,8 @@ dealer_address:
   latitude: '41.75655682939689'
   longitude: '-72.92015594967933'
 email: Donherring@earthlink.net
-brands:
-  - harbeth
 dealer_region: east-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1694713051
-phone_number_field: '+18452945936'
+updated_at: 1711467778
+phone_number_field: '+18455511037'
 ---

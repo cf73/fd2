@@ -14,8 +14,6 @@ dealer_address:
   longitude: '-75.5469007'
 email: brian@overtureav.com
 website: 'https://www.overtureav.com'
-brands:
-  - harbeth
 dealer_region: east-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
 updated_at: 1694716029

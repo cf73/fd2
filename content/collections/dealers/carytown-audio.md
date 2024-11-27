@@ -14,11 +14,10 @@ dealer_address:
   longitude: '-77.47972607782614'
 email: tim@carytownsound.com
 brands:
-  - harbeth
   - lab12
-  - heretic
+  - falcon-acoustics
 dealer_region: east-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1694711723
+updated_at: 1722970311
 phone_number_field: '+18043356548'
 ---

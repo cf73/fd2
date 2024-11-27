@@ -14,8 +14,6 @@ dealer_address:
   longitude: '-97.61521096178107'
 email: ross@acousticsounds.com
 website: 'https://store.acousticsounds.com'
-brands:
-  - harbeth
 dealer_region: central
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
 updated_at: 1694710734

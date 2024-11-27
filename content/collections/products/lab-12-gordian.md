@@ -21,7 +21,7 @@ description:
         type: text
         text: 'The first and foremost important thing that is too often overlooked in high-end audio is the proper distribution and provision of a clean and unadulterated power supply.'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: 'Every single component in high-end audio system depends on a pure and potent power source, where the seamless transfer of electric energy flow is, of course, mandatory. Only in this way can a system serve the complete auditory range without affecting any particular frequency or introducing ground loops.'
@@ -33,72 +33,72 @@ features_specs:
         type: text
         text: '• EU, US, UK, Swiss outlets version'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• 230V/50Hz, 115V/60Hz version'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• OLED display'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Adaptive EMI RFI filtering'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Adaptive Common and differential filters'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Adaptive Power Factor correction'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Overvoltage protection'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• FFT analysis'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• DC voltage analysis'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• THD analysis'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Power consumption analysis'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• AC voltage, current analysis'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Sleep mode system'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• 5mm Aluminum face panel'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Five Years Guarantee'
@@ -109,37 +109,37 @@ features_specs:
         type: text
         text: '• Number of outlets: 6'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• High filtered outlets power (1-4) : 1000W'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Low filtered outlets power (1-2) : 3500W'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Mains inlet: 20A IEC C20'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Mains voltage: 230V / 50Hz (115V / 60Hz)'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Available Colours: Matt Black, Frozen Silver'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Dimension (WxHxD): 43x11x29 cm'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Weight: 8 Kg'
@@ -157,8 +157,8 @@ reviews:
     enabled: true
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1674068221
-pricing: 2495
+updated_at: 1715018860
+pricing: 2500
 product_type: power-treatment
 featured: true
 why_featured: "The basis of any system at any price is good power, and Lab12's Gordion delivers system-wide benefits at a very powerful price."

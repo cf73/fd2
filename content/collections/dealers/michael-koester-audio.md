@@ -15,7 +15,6 @@ dealer_address:
 email: michaelkingdom@gmail.com
 phone_number_field: '+19412511000'
 brands:
-  - harbeth
   - tontraeger
 dealer_region: east-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3

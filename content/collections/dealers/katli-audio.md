@@ -15,8 +15,6 @@ dealer_address:
   longitude: '-117.75208111797528'
 email: Fred@katli.com
 website: 'https://www.katli.com'
-brands:
-  - harbeth
 dealer_region: west-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
 updated_at: 1694714736

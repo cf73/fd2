@@ -15,7 +15,6 @@ dealer_address:
 email: mark@northenaudio.com
 website: 'https://www.northernaudio.com'
 brands:
-  - harbeth
   - lab12
   - tontraeger
 dealer_region: east-coast

@@ -15,12 +15,12 @@ description:
         type: text
         text: 'In this new DAC, which is based on the same core and philosophy as the successful and multi- awarded Lab12 Dac1 Special Edition, we pushed the limits even more in all stages, such as power supply stages, digital inputs crucial paths and receivers, jitter reduction etc, in order to reach the closest approach to the original analog sound.'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: 'Dac1 reference uses eight multibit Philips DAC chips in a complex parallel configuration right after an efficient layout digital receiver stage, allied with two dual triodes tubes in output stage. Each and every part has been selected for its sonic value that brings identifiable and coherent benefits to the final sound you will hear. The result is one of a kind emotional and transparent sonic performance.'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: 'As all Lab12 products, Dac1 reference also comes with two colour choices of glass blasting anodizing finish.'
@@ -32,52 +32,52 @@ features_specs:
         type: text
         text: '• Power: 210 – 240VAC 50Hz (110 – 120VAC 60Hz)'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Power consumption: 70 VA max'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Inputs: 2x SPDIF (Coaxial RCA), 1x USB2, 1x spdif (Optical Toslink)'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Outputs: 2x RCA, 2x XLR unbalanced (balanced version available)'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Frequency response: 20Hz to 20 KHz + 0dB/-1dB'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• THD: lower than 0.15%'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Rated output level: 2.5Vrms'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Tube complement: 2x 6922 dual triode'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Available Colours: Matt Black, Frozen Silver'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Dimensions (WxHxD): 43x11x29 cm'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Weight: 7.5 Kg'
@@ -88,37 +88,37 @@ features_specs:
         type: text
         text: '• Input Sampling Rate up to 24bit/192 kHz'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Non Oversampling mode'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• 8x Multibit Philips DACs network'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• 2x Dual Triodes tubes I/V analog output stage'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• 6 Separate Regulated Power Supplies'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Analog retro Nissei VU meters'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• 6mm Aluminum face panel'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Five Years Guarantee'
@@ -135,10 +135,10 @@ reviews:
     review_attribution: 'Stuart Smith HiFi Pig'
     type: review
     enabled: true
-updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1694100253
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1715018834
 brands: lab12
-pricing: 3295
+pricing: 3300
 product_tagline: 'Non Oversampling DAC with Tube Output'
 product_type: dacs
 featured: false

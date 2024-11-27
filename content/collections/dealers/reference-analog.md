@@ -15,7 +15,6 @@ dealer_address:
 email: info@referenceanalog.com
 website: 'https://www.referenceanalog.com/'
 brands:
-  - harbeth
   - tontraeger
 dealer_region: central
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3

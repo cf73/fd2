@@ -15,7 +15,6 @@ dealer_address:
 email: mgarner@tweekgeek.com
 website: 'https://www.tweekgeek.com'
 brands:
-  - harbeth
   - lab12
 dealer_region: central
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3

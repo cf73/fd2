@@ -14,8 +14,6 @@ dealer_address:
   longitude: '-111.700904'
 email: arisaudio@comcast.net
 website: 'https://www.arisaudio.com'
-brands:
-  - harbeth
 dealer_region: west-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
 updated_at: 1694710835

@@ -14,8 +14,6 @@ dealer_address:
   longitude: '-87.67332285'
 email: decibelaudioinc@gmail.com
 website: 'https://www.decibelaudio.com'
-brands:
-  - harbeth
 dealer_region: central
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
 updated_at: 1694712123

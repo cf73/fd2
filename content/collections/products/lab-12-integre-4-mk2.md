@@ -33,58 +33,58 @@ features_specs:
         type: text
         text: '• Power: 230VAC 50Hz (115VAC 60Hz)'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Power consumption: 350 VA max'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Output power: 75 Watt per channel (KT170)'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Frequency response: 15 Hz – 60 KHz (-1dB)'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Input impedance: 50K ohm'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Recommended speakers: 4-8 ohm'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Tubes complement: 4x 6n1p dual triodes, 4x KT170 power pentodes'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Inputs: (5) 5x unbalanced line stereo RCA connectors, 1x unbalanced line stereo XLR connectors'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Available Colours: Matt Black, Frozen Silver'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Dimensions (WxHxD): 43x19x29 cm'
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: '• Weight: 22Kg'
 brands: lab12
-updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1688682624
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1715018946
 images:
   - lab12-integre4-front-1-2-2021.jpg.webp
 reviews:
@@ -100,7 +100,7 @@ reviews:
     type: review
     enabled: true
 product_tagline: 'Audiophile Integrated Amplifier'
-pricing: 6495
+pricing: 6600
 product_type: integrated-amplifiers
 featured: true
 why_featured: 'This Integrated just raises the bar for the Integre to a new level!'

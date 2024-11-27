@@ -15,7 +15,6 @@ dealer_address:
 email: asinger@soundbysinger.com
 website: 'https://www.soundbysinger.com/'
 brands:
-  - harbeth
   - lab12
   - neat-acoustics
 dealer_region: east-coast

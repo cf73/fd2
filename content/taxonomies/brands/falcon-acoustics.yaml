@@ -1,0 +1,22 @@
+title: 'Falcon Acoustics'
+hero_image: falcon-m-series-760-x-1370.jpg
+byline: 'Welcome to Falcon Loudspeakers, Based in Oxford England, all our loudspeakers continue to be hand made in Oxford'
+makers_of:
+  - speakers
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1720556442
+blueprint: brands
+blurb:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Falcon Acoustics has been associated with the BBC LS3/5A for many years, our award-winning BBC Falcon Acoustics Gold Badge LS3/5a is widely acknowledged as the best production LS3/5A ever made! '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'The all-new Falcon Acoustics M Series offers legendary Italian cabinetry, extraordinary imaging, superb British sound and a build quality normally not found in products in this price range.'
+logo: falcon-logo.png

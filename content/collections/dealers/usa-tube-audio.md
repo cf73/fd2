@@ -16,9 +16,9 @@ email: Charlie@usatubeaudio.com
 phone_number_field: '+14802058898'
 website: 'https://www.usatubeaudio.com'
 brands:
-  - harbeth
   - lab12
   - tontraeger
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1694719748
+updated_at: 1715871242
+dealer_region: west-coast
 ---

@@ -3,8 +3,8 @@ id: home
 blueprint: pages
 title: Home
 template: home
-updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
-updated_at: 1704740160
+updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
+updated_at: 1721233975
 hero_image: coltrane.jpg
 blurb:
   -
@@ -36,8 +36,8 @@ services_offered:
     enabled: true
   -
     id: nA9kJUwa
-    heading: 'Over 30 Years of Experience'
-    description: "We're not Amazon or Walmart; our audio credentials and pedigree run deep. As the industry and technologies have evolved, we've kept right at the cutting edge, keeping the flame of true Music burning for many thousands of listeners."
+    heading: 'Over 35 Years of Experience'
+    description: "We're not a typical store that simply sells boxes, our audio credentials and pedigree run deep. As the industry and technologies have evolved, we've kept right at the cutting edge, keeping the flame of true Music burning for many thousands of listeners."
     type: service
     enabled: true
 ---

@@ -4,7 +4,7 @@ blueprint: dealers
 title: 'Analog Shop'
 dealer_address:
   name: 'Robert Lietz'
-  street: '57 EastMain Street'
+  street: '57 East Main Street'
   street2: null
   postCode: '14564'
   city: Victor
@@ -15,9 +15,7 @@ dealer_address:
 email: analogshoplietz@gmail.com
 website: 'https://www.analogshop.com'
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1705702912
-brands:
-  - harbeth
+updated_at: 1715024100
 dealer_region: east-coast
 phone_number_field: '+15857422860'
 ---

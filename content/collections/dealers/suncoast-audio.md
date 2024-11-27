@@ -14,8 +14,6 @@ dealer_address:
   longitude: null
 email: mike@suncoastaudio.com
 website: 'https://www.suncoastaudio.com/'
-brands:
-  - harbeth
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
 updated_at: 1657748151
 ---

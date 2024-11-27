@@ -14,9 +14,6 @@ dealer_address:
   longitude: null
 email: wesley@commonwave.net
 website: 'https://www.commonwave.net'
-brands:
-  - harbeth
-  - heretic
 dealer_region: west-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
 updated_at: 1694711841

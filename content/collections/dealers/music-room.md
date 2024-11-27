@@ -15,7 +15,6 @@ dealer_address:
 email: '410 Jones Ct, Erie, Co 80516'
 website: 'https://tmraudio.com'
 brands:
-  - harbeth
   - lab12
   - tontraeger
 dealer_region: west-coast

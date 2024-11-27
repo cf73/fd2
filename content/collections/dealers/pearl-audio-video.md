@@ -15,7 +15,6 @@ dealer_address:
   longitude: '-122.6819766'
 email: john@pearlaudiovideo.com
 brands:
-  - harbeth
   - tontraeger
 dealer_region: west-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3

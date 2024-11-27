@@ -15,7 +15,6 @@ dealer_address:
 email: veniceaudio@me.com
 website: 'http://veniceaudio.com/va/venice_audio___two_channel_home_audio_systems.html'
 brands:
-  - harbeth
   - tontraeger
 dealer_region: west-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3

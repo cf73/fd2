@@ -15,7 +15,6 @@ dealer_address:
 email: DelveAudio@icloud.com
 website: 'https://www.delveaudio.com'
 brands:
-  - harbeth
   - lab12
 dealer_region: east-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3

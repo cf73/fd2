@@ -1,5 +1,6 @@
 ---
 id: e2cd9fa9-2d91-4699-b9e7-3a41b2a4cca0
+published: false
 blueprint: products
 title: ABsolute
 product_tagline: 'The most ambitious project of Audio Analogue after over 25 years of history'

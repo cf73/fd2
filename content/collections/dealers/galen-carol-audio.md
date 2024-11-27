@@ -16,7 +16,6 @@ email: galen@gcaudio.com
 phone_number_field: '+12108059927'
 website: 'https://www.gcaudio.com'
 brands:
-  - harbeth
   - tontraeger
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
 updated_at: 1694714627

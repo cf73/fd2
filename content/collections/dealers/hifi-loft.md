@@ -12,8 +12,6 @@ dealer_address:
   country: US
   latitude: '40.760317799999996'
   longitude: '-73.99352458165755'
-brands:
-  - harbeth
 dealer_region: east-coast
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
 updated_at: 1694713113

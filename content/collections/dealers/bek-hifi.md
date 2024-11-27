@@ -14,8 +14,6 @@ dealer_address:
   longitude: '-75.47034630612245'
 email: barry.konigsberg@rcn.com
 website: 'http://www.bekhifi.com'
-brands:
-  - harbeth
 dealer_region: east-coast
 updated_by: 9689cde4-d9c4-4a0a-a0f0-e088ff46ca01
 updated_at: 1692391462

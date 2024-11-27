@@ -16,7 +16,7 @@ blurb:
       -
         type: text
         text: 'An outstanding performance for more than a fair price. In other words…the real deal!'
-pricing: 2695
+pricing: 2700
 images:
   - lab12-melto1-side-matt-black.jpg
   - lab12-melto1-back.jpg
@@ -43,10 +43,10 @@ description:
     type: paragraph
 features_specs:
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -55,7 +55,7 @@ features_specs:
                 type: text
                 text: 'Power: 230VAC 50Hz (115VAC 60Hz)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -64,7 +64,7 @@ features_specs:
                 type: text
                 text: 'Power consumption: 80 VA max'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -73,7 +73,7 @@ features_specs:
                 type: text
                 text: 'Gain MM: 41dB'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -82,7 +82,7 @@ features_specs:
                 type: text
                 text: 'Gain MC: 66 dB'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -91,7 +91,7 @@ features_specs:
                 type: text
                 text: 'Input impedance: adjustable (32 ohm – 100Kohm)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -100,7 +100,7 @@ features_specs:
                 type: text
                 text: 'Input capacitance: adjustable (0-300pF)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -109,7 +109,7 @@ features_specs:
                 type: text
                 text: 'De-emphasis curve: RIAA'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -118,7 +118,7 @@ features_specs:
                 type: text
                 text: 'Tube complement: 2x 6N1P-EV dual triode, 2x 6n2p-EV dual triode'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -127,7 +127,7 @@ features_specs:
                 type: text
                 text: 'Input: line stereo (RCA connectors)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -136,7 +136,7 @@ features_specs:
                 type: text
                 text: 'Output: line stereo (RCA connectors)'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -145,7 +145,7 @@ features_specs:
                 type: text
                 text: 'Available Colours: Matt Black'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -154,7 +154,7 @@ features_specs:
                 type: text
                 text: 'Dimensions (WxHxD): 43x11x29 cm'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -165,10 +165,10 @@ features_specs:
   -
     type: paragraph
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -177,7 +177,7 @@ features_specs:
                 type: text
                 text: 'MM/MC cartridge type'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -186,7 +186,7 @@ features_specs:
                 type: text
                 text: 'Full Tube Design'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -195,7 +195,7 @@ features_specs:
                 type: text
                 text: 'Full adjustable settings: Cartridge type, Impedance, Capacitance'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -204,7 +204,7 @@ features_specs:
                 type: text
                 text: 'Toroidal power transformer'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -213,7 +213,7 @@ features_specs:
                 type: text
                 text: 'No feedback design'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -222,7 +222,7 @@ features_specs:
                 type: text
                 text: 'SRSG® implementation'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -231,7 +231,7 @@ features_specs:
                 type: text
                 text: 'Fine symmetry® implementation'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -240,7 +240,7 @@ features_specs:
                 type: text
                 text: '5mm Aluminum face panel'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -260,7 +260,7 @@ reviews:
     enabled: true
 brands: lab12
 updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
-updated_at: 1674072207
+updated_at: 1715018990
 product_type: pre-amplifiers
 featured: false
 ---

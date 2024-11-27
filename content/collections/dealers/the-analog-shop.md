@@ -18,6 +18,5 @@ updated_by: 1e5fda92-5ac2-4abb-b403-8041edf0b4c3
 updated_at: 1694718206
 phone_number_field: '+15857422860'
 brands:
-  - harbeth
   - tontraeger
 ---
